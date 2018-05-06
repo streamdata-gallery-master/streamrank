@@ -39,16 +39,16 @@ paths:
 definitions: []
 x-collection-name: Pinboard
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: "0.42"
+  polling_size_download_average: "248.8"
+  streaming_total_time_average: "0.27"
+  streaming_size_download_average: "143.6"
+  change_yes: "4"
+  change_no: "1"
+  time_percentage: "35"
+  size_percentage: "42"
+  change_percentage: "80"
+  last_run: "2018-05-05"
+  days_run: "0"
+  minute_run: "0"
 ---
