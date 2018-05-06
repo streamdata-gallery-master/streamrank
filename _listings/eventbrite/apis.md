@@ -23,8 +23,8 @@ tags:
 - Events
 - Events
 - API LIfeycle
-created: "2018-05-05"
-modified: "2018-05-05"
+created: "2018-05-06"
+modified: "2018-05-06"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/eventbrite/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -46,7 +46,7 @@ apis:
   - API LIfeycle
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/eventbrite/organizers-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/eventbrite/events-id-attendees-get.md
 x-common:
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/eventbrite/apidescription?format=internal&ver=1351170233000
