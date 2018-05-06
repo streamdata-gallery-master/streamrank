@@ -62,16 +62,16 @@ paths:
 definitions: []
 x-collection-name: Reddit
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: "0.8"
+  polling_size_download_average: "413017.3"
+  streaming_total_time_average: "0.48"
+  streaming_size_download_average: "208446.11"
+  change_yes: "101"
+  change_no: "101"
+  time_percentage: "40"
+  size_percentage: "50"
+  change_percentage: "50"
+  last_run: "2018-05-06"
+  days_run: "1"
+  minute_run: "0"
 ---
