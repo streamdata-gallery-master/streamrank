@@ -1,0 +1,25 @@
+<section class="filterTags" data-filter-tags="">
+   <div class="filterTags__container">
+
+     <form>
+     <strong>Filter By:</strong>
+     <select name="filter" id="tagfilter">
+     {% assign topics = site.data.topics | sort: 'label' %}
+     {% for topic in topics %}}
+         <option value="https://streamdata-gallery.github.io/apis/{{ topic.slug }}/apis/"{% if topic.slug == tag_slug %} selected{% endif %}>{{ topic.label }}</option>
+    {% endfor %}
+     </select>
+     <input type="button" onclick="filterbytag();" name="filter_by" value="Go" />
+   </form>
+
+   <script>
+    function filterbytag()
+      {
+      url = document.getElementById('tagfilter').value;
+      //alert(url);
+      location.href = url;
+      }
+   </script>
+
+   </div>
+</section>

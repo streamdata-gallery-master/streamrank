@@ -1,0 +1,49 @@
+---
+layout: default
+title: Streamdata.io API Gallery Twitter Handles
+---
+
+<style>
+  .topiccenter {
+      margin: auto;
+      width: 50%;
+      border: 0px solid #FFF;
+      padding: 10px;
+  }
+  .topiccenter ul{
+    width:760px;
+    overflow:hidden;
+  }
+  .topiccenter ul li{
+    line-height:1.5em;
+    float:left;
+    display:inline;
+  }
+  #double li  { width:50%;}
+  #triple li  { width:33.333%; }
+  #quad li    { width:25%; }
+  #six li     { width:16.666%; }
+</style>
+
+<section style="border: 0px solid #FFF; padding: 1px; margin: 1px;" id="twitterlist">
+
+<div class="shortMasthead  shortMasthead--extra-top-padding ">
+  <h1 class="shortMasthead__headline enterAnimation enterAnimation--active" data-enter-animation="">{{ page.title }}</h1>
+</div>
+
+<div id="twitterList">
+
+  <div class="topiccenter">
+    <h1>Twitter @Handles by Entity</h1>
+    {% assign organizations = site.data.twitter | sort: 'label' %}
+    <ul id="double" style="padding-top: 10px; padding-left: 20px;">
+      {% for organization in organizations %}
+        {% assign handle = organization.twitter_url | replace: 'https://twitter.com/','' %}
+        <li>&rarr; {{ organization.label }} (<a href="{{ organization.twitter_url }}" target="_blank">@{{ handle }}</a>)</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
+
+</section>

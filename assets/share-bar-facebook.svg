@@ -1,0 +1,12 @@
+<svg width="14" height="25" viewBox="0 0 14 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Faacebook</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-834 123)">
+<g id="Faacebook">
+<use xlink:href="#path0_fill" transform="translate(834 -123)" fill="#CED7DC"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 9.08713 25L 9.08713 13.5964L 13.2149 13.5964L 13.8328 9.15212L 9.08713 9.15212L 9.08713 6.31466C 9.08713 5.02794 9.47238 4.15111 11.4622 4.15111L 14 4.15001L 14 0.175101C 13.561 0.121037 12.0546 0 10.302 0C 6.64306 0 4.1382 2.07109 4.1382 5.87464L 4.1382 9.15212L 0 9.15212L 0 13.5964L 4.1382 13.5964L 4.1382 25L 9.08713 25Z"/>
+</defs>
+</svg>
