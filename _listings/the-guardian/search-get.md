@@ -30,15 +30,15 @@ definitions: []
 x-collection-name: The Guardian
 x-streamrank:
   polling_total_time_average: "0.56"
-  polling_size_download_average: "2070.25"
+  polling_size_download_average: "2071.42"
   streaming_total_time_average: "0.31"
-  streaming_size_download_average: "1035.33"
-  change_yes: "217"
+  streaming_size_download_average: "1036.81"
+  change_yes: "218"
   change_no: "3225"
   time_percentage: "44"
   size_percentage: "50"
   change_percentage: "6"
-  last_run: "2018-02-20"
-  days_run: "4"
+  last_run: "2018-05-06"
+  days_run: "20"
   minute_run: "0"
 ---
