@@ -62,15 +62,15 @@ definitions: []
 x-collection-name: News API
 x-streamrank:
   polling_total_time_average: "0.2"
-  polling_size_download_average: "12416.53"
+  polling_size_download_average: "12421.88"
   streaming_total_time_average: "0.12"
-  streaming_size_download_average: "6221.95"
-  change_yes: "800"
-  change_no: "6298"
+  streaming_size_download_average: "6224.3"
+  change_yes: "943"
+  change_no: "6440"
   time_percentage: "41"
   size_percentage: "50"
-  change_percentage: "11"
-  last_run: "2018-02-21"
-  days_run: "5"
+  change_percentage: "13"
+  last_run: "2018-05-06"
+  days_run: "20"
   minute_run: "0"
 ---
