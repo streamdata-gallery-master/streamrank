@@ -563,16 +563,16 @@ definitions:
         type: string
 x-collection-name: Twitter
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: "0.15"
+  polling_size_download_average: "87374.32"
+  streaming_total_time_average: "0.08"
+  streaming_size_download_average: "43945.5"
+  change_yes: "4"
+  change_no: "167"
+  time_percentage: "45"
+  size_percentage: "50"
+  change_percentage: "2"
+  last_run: "2018-05-06"
+  days_run: "1"
+  minute_run: "0"
 ---
