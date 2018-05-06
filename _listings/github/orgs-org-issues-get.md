@@ -1663,16 +1663,16 @@ definitions:
         type: get
 x-collection-name: GitHub
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: "0.09"
+  polling_size_download_average: "65.33"
+  streaming_total_time_average: "0.07"
+  streaming_size_download_average: "64.67"
+  change_yes: "3"
+  change_no: "0"
+  time_percentage: "30"
+  size_percentage: "1"
+  change_percentage: "100"
+  last_run: "2018-05-04"
+  days_run: "0"
+  minute_run: "0"
 ---
