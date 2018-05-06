@@ -31,22 +31,7 @@ apis:
   - Email
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/gmail/userid-history-get.md
-- name: Gmail
-  description: The Gmail API is a RESTful API that can be used to access Gmail mailboxes
-    and send mail
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//gmail/v1/users
-  tags:
-  - Stack Network
-  - Stack
-  - Productivity
-  - Google APIs
-  - Email
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/gmail/userid-history-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/gmail/userid-watch-post.md
 x-common:
 - type: x-auth-scopes
   url: https://developers.google.com/gmail/api/auth/scopes
