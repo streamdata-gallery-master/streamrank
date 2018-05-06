@@ -50,16 +50,16 @@ paths:
 definitions: []
 x-collection-name: Disqus
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: "0.1"
+  polling_size_download_average: "89"
+  streaming_total_time_average: "0.05"
+  streaming_size_download_average: "48.5"
+  change_yes: "2"
+  change_no: "0"
+  time_percentage: "49"
+  size_percentage: "46"
+  change_percentage: "100"
+  last_run: "2018-05-04"
+  days_run: "0"
+  minute_run: "0"
 ---
