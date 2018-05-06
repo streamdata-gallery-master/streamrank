@@ -1,172 +1,22 @@
 ---
 layout: default
-title: Streamdata.io API Gallery
+title: Streamdata.io API Gallery - StreamRank
 ---
 
-<style>
-  .topiccenter {
-      margin: auto;
-      width: 50%;
-      border: 0px solid #FFF;
-      padding: 10px;
-  }
-  .topiccenter ul{
-    width:760px;
-    overflow:hidden;
-  }
-  .topiccenter ul li{
-    line-height:1.5em;
-    float:left;
-    display:inline;
-  }
-  #double li  { width:50%;}
-  #triple li  { width:33.333%; }
-  #quad li    { width:25%; }
-  #six li     { width:16.666%; }
-</style>
-
-<script>
-  function displayLayout($topiccloud,$topiclist,$orgcloud,$orglist)
-    {
-    document.getElementById("topicTagCloud").style.display=$topiccloud;
-    document.getElementById("topicList").style.display=$topiclist;
-    document.getElementById("orgTagCloud").style.display=$orgcloud;
-    document.getElementById("orgList").style.display=$orglist;
-    }
-</script>
-
-{% assign path_count = 0 %}
-{% assign topics = site.data.topics | sort: 'label' %}
-{% for topic in topics %}
-  {% assign path_count = path_count | plus: topic.paths %}
-{% endfor %}
-
-{% assign topic_count = 0 %}
-{% assign topics = site.data.topics | sort: 'label' %}
-{% for topic in topics %}
-  {% assign topic_count = topic_count | plus: 1 %}
-{% endfor %}
-
-{% assign org_count = 0 %}
-{% assign organizations = site.data.organizations | sort: 'label' %}
-{% for organization in organizations %}
-  {% assign org_count = org_count | plus: 1 %}
-{% endfor %}
+{% assign listing_object = site.listings %}
+{% assign tag_slug = "listings" %}
 
 <div class="shortMasthead  shortMasthead--extra-top-padding ">
-  <h1 class="shortMasthead__headline enterAnimation enterAnimation--active" data-enter-animation="">{{ page.title }}</h1>
-  <p align="center"><strong>{{ org_count }} entities with {{ path_count }} API paths spanning {{ topic_count }} topics</strong></p>
+     {% include api-listing-feature.html %}
 </div>
 
-<table border="0" style="margin-bottom:25px;" align="center">
-  <tr>
-    <td colspan="3" align="center">
-      <a href="#" onclick="displayLayout('','none','none','none');"><strong>Topic Tag Cloud</strong></a> | <a href="#" onclick="displayLayout('none','','none','none');"><strong>Topics List</strong></a> | <a href="#" onclick="displayLayout('none','none','','none');"><strong>Entity Tag Cloud</strong></a> | <a href="#" onclick="displayLayout('none','none','none','');"><strong>Entity List</strong></a>
-    </td>
-  </tr>
-</table>
+<section class="taggedLinkCards">
 
-<section style="border: 0px solid #FFF; padding: 1px; margin: 1px;" id="topicTagCloud">
+   {% include api-tag-filter.html %}
 
-  {% assign topics = site.data.topics | sort: 'label' %}
-  <div id="topiccloud" class="wordcloud">
-    {% for topic in topics %}
-      {% if topic.paths > 2000 %}
-        {% assign path_value = 10 %}
-      {% endif %}
-      {% if topic.paths > 1500 and topic.paths < 2000 %}
-        {% assign path_value = 9 %}
-      {% endif %}
-      {% if topic.paths > 1000 and topic.paths < %}
-        {% assign path_value = 8 %}
-      {% endif %}
-      {% if topic.paths > 750 and topic.paths < 1000 %}
-        {% assign path_value = 7 %}
-      {% endif %}
-      {% if topic.paths > 500 and topic.paths < 750 %}
-        {% assign path_value = 6 %}
-      {% endif %}
-      {% if topic.paths > 250 and topic.paths < 500 %}
-        {% assign path_value = 5 %}
-      {% endif %}
-      {% if topic.paths > 100 and topic.paths < 250 %}
-        {% assign path_value = 4 %}
-      {% endif %}
-      {% if topic.paths < 100 %}
-        {% assign path_value = 3 %}
-      {% endif %}
-      <span data-weight="{{ path_value }}">
-        <a href="{{ topic.url }}" target="_blank">{{ topic.label }}</a>
-      </span>
-    {% endfor %}
-  </div>
+   {% include api-listing.html %}
 
 </section>
-
-<div id="topicList" style="display: none;">
-
-  <div class="topiccenter">
-    <h1>APIs by Topics</h1>
-    <ul id="triple" style="padding-top: 10px; padding-left: 20px;">
-      {% for topic in topics %}
-        <li>&rarr; <a href="{{ topic.url }}" target="_blank">{{ topic.label }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-</div>
-
-<section style="border: 1px solid #FFF; padding: 1px; margin: 1px;" id="orgTagCloud">
-
-  {% assign organizations = site.data.organizations | sort: 'label' %}
-  <div id="organizationcloud" class="wordcloud">
-    {% for organization in organizations %}
-      {% if organization.paths > 2000 %}
-        {% assign path_value = 10 %}
-      {% endif %}
-      {% if organization.paths > 1500 and organization.paths < 2000 %}
-        {% assign path_value = 9 %}
-      {% endif %}
-      {% if organization.paths > 1000 and organization.paths < %}
-        {% assign path_value = 8 %}
-      {% endif %}
-      {% if organization.paths > 750 and organization.paths < 1000 %}
-        {% assign path_value = 7 %}
-      {% endif %}
-      {% if organization.paths > 500 and organization.paths < 750 %}
-        {% assign path_value = 6 %}
-      {% endif %}
-      {% if organization.paths > 250 and organization.paths < 500 %}
-        {% assign path_value = 5 %}
-      {% endif %}
-      {% if organization.paths > 100 and organization.paths < 250 %}
-        {% assign path_value = 4 %}
-      {% endif %}
-      {% if organization.paths < 100 %}
-        {% assign path_value = 3 %}
-      {% endif %}
-      <span data-weight="{{ path_value }}">
-        <a href="{{ organization.url }}" target="_blank">{{ organization.label }}</a>
-      </span>
-    {% endfor %}
-  </div>
-
-</section>
-
-<div id="orgList" style="display: none;">
-
-  <div class="topiccenter">
-    <h1>APIs by Entity</h1>
-    {% assign organizations = site.data.organizations | sort: 'label' %}
-    <ul id="double" style="padding-top: 10px; padding-left: 20px;">
-      {% for organization in organizations %}
-        <li>&rarr; <a href="{{ organization.url }}" target="_blank">{{ organization.label }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-</div>
-
 <div class="submitApi__overflowContainer" data-submit-api="">
    <div class="submitApi submitApi--left-hand-image">
 
@@ -174,53 +24,3 @@ title: Streamdata.io API Gallery
 
    </div>
 </div>
-
-<script>
-
-$(document).ready(function(){
-    $("#topiccloud").awesomeCloud({
-      "size" : {
-        "grid" : 14, // word spacing, smaller is more tightly packed
-        "factor" : 20, // font resize factor, 0 means automatic
-        "normalize" : false // reduces outliers for more attractive output
-      },
-      "color" : {
-        "background" : "rgba(255,255,255,0)", // background color, transparent by default
-        "start" : "#20f", // color of the smallest font, if options.color = "gradient""
-        "end" : "rgb(200,0,0)" // color of the largest font, if options.color = "gradient"
-      },
-      "options" : {
-        "color" : "random-dark", // random-light, random-dark, gradient
-        "rotationRatio" : 0, // 0 is all horizontal, 1 is all vertical
-        "printMultiplier" : 3, // set to 3 for nice printer output; higher numbers take longer
-        "sort" : "highest" // highest, lowest or random
-      },
-      "font" : "'Times New Roman'", //  the CSS font-family string
-      "shape" : "square" // circle, square, star or a theta function describing a shape
-    });
-});
-
-$(document).ready(function(){
-    $("#organizationcloud").awesomeCloud({
-      "size" : {
-        "grid" : 14, // word spacing, smaller is more tightly packed
-        "factor" : 20, // font resize factor, 0 means automatic
-        "normalize" : false // reduces outliers for more attractive output
-      },
-      "color" : {
-        "background" : "rgba(255,255,255,0)", // background color, transparent by default
-        "start" : "#20f", // color of the smallest font, if options.color = "gradient""
-        "end" : "rgb(200,0,0)" // color of the largest font, if options.color = "gradient"
-      },
-      "options" : {
-        "color" : "random-dark", // random-light, random-dark, gradient
-        "rotationRatio" : 0, // 0 is all horizontal, 1 is all vertical
-        "printMultiplier" : 3, // set to 3 for nice printer output; higher numbers take longer
-        "sort" : "highest" // highest, lowest or random
-      },
-      "font" : "'Times New Roman'", //  the CSS font-family string
-      "shape" : "square" // circle, square, star or a theta function describing a shape
-    });
-    document.getElementById("orgTagCloud").style.display='none';
-});
-</script>
