@@ -16,14 +16,7 @@
 
 {% if stream_rank.time_percentage != 0 and stream_rank.size_percentage != 0 and stream_rank.change_percentage != 0 %}
   {% if stream_rank.change_percentage == '200' %}
-    <section class="APIDetailStats">
-       <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
-       <div class="APIDetailStats__row">
-          <div class="APIDetailStats__statContainer">
-            <p align="center"><strong>Variable StreamRank</strong></p>
-          </div>
-       </div>
-    </section>
+
   {% else %}
   <section class="APIDetailStats">
      <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
@@ -179,64 +172,68 @@
 </section>
 
 {% if stream_rank.time_percentage != 0 and stream_rank.size_percentage != 0 and stream_rank.change_percentage != 0 %}
-<section class="APISpecs">
-   <div class="APISpecs__container">
-      <div class="APISpecs__column">
-         <h2 class="APISpecs__header">API Specifications</h2>
-         <div class="APISpecs__row">
-            <div class="APISpecs__rowHeader">
-               <div class="APISpecs__rowHeaderCopy">Average Download Size</div>
-            </div>
-            <div class="APISpecs__rowStats">
-               <div class="APISpecs__rowStatsCopy">
-                  <p><strong>{{ stream_rank.polling_size_download_average }} Kb</strong></p>
-               </div>
-            </div>
-         </div>
-         <div class="APISpecs__row">
-            <div class="APISpecs__rowHeader">
-               <div class="APISpecs__rowHeaderCopy">Average Download Time</div>
-            </div>
-            <div class="APISpecs__rowStats">
-               <div class="APISpecs__rowStatsCopy">
-                  <p><strong>{{ stream_rank.polling_total_time_average }} second(s)</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="APISpecs__column">
-         <h2 class="APISpecs__header">Test Conditions</h2>
-         <div class="APISpecs__row">
-            <div class="APISpecs__rowHeader">
-               <div class="APISpecs__rowHeaderCopy">Date of test</div>
-            </div>
-            <div class="APISpecs__rowStats">
-               <div class="APISpecs__rowStatsCopy"
-                  <p><strong>{{ stream_rank.last_run | date: %b %y" }}</strong></p>
-               </div>
-            </div>
-         </div>
-         <div class="APISpecs__row">
-            <div class="APISpecs__rowHeader">
-               <div class="APISpecs__rowHeaderCopy">Duration of test</div>
-            </div>
-            <div class="APISpecs__rowStats">
-               <div class="APISpecs__rowStatsCopy">
-                  <p><strong>{{ stream_rank.days_run }} days</strong></p>
-               </div>
-            </div>
-         </div>
-         <div class="APISpecs__row">
-            <div class="APISpecs__rowHeader">
-               <div class="APISpecs__rowHeaderCopy">Polling frequency used for test</div>
-            </div>
-            <div class="APISpecs__rowStats">
-               <div class="APISpecs__rowStatsCopy">
-                  <p><strong>60 second(s)</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+  {% if stream_rank.change_percentage == '200' %}
+
+  {% else %}
+  <section class="APISpecs">
+     <div class="APISpecs__container">
+        <div class="APISpecs__column">
+           <h2 class="APISpecs__header">API Specifications</h2>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Average Download Size</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong>{{ stream_rank.polling_size_download_average }} Kb</strong></p>
+                 </div>
+              </div>
+           </div>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Average Download Time</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong>{{ stream_rank.polling_total_time_average }} second(s)</strong></p>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="APISpecs__column">
+           <h2 class="APISpecs__header">Test Conditions</h2>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Date of test</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy"
+                    <p><strong>{{ stream_rank.last_run | date: %b %y" }}</strong></p>
+                 </div>
+              </div>
+           </div>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Duration of test</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong>{{ stream_rank.days_run }} days</strong></p>
+                 </div>
+              </div>
+           </div>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Polling frequency used for test</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong>60 second(s)</strong></p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </section>
+  {% endif %}
 {% endif %}
