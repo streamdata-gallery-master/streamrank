@@ -43,6 +43,7 @@
          {% assign change_percentage = item.x-streamrank.change_percentage %}
 
          {% if verb == 'get' %}
+          {% if change_percentage > 5 %}
            <div class="taggedLinkCard taggedLinkCard--red" data-platform="html5">
               <div class="taggedLinkCard__container enterAnimation enterAnimation--active" data-enter-animation="">
                  <div class="taggedLinkCard__upper" style="background-color:#FFF;">
@@ -58,6 +59,7 @@
               </div>
            </div>
          {% endif %}
+       {% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
