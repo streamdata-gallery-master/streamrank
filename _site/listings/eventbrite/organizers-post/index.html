@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+      <meta name="theme-color" content="#01c1d5">
+
+      <link rel="stylesheet" href="http://template.api.gallery.streamdata.io/assets/style.css">
+      <link href="http://template.api.gallery.streamdata.io/assets/font.css" rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="180x180" href="http://template.api.gallery.streamdata.io/assets/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="http://template.api.gallery.streamdata.io/assets/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="http://template.api.gallery.streamdata.io/assets/favicon-16x16.png">
+      <link rel="manifest" href="http://template.api.gallery.streamdata.io/assets/manifest.json">
+      <link rel="mask-icon" href="http://template.api.gallery.streamdata.io/assets/safari-pinned-tab.svg" color="#ff4040">
+      <meta name="theme-color" content="#ffffff">
+
+      <title>Streamdata.io API Gallery</title>
+
+      <!-- This site is optimized with the Yoast SEO plugin v6.2 - https://yoa.st/1yg?utm_content=6.2 -->
+      <meta name="description" content="Have a look at some APIs and see how they&#39;ve benefitted from our realtime data streaming such as BitcoinAverage.com, New York CitiBike, GitHub Events, The Guardian, and more.">
+      <link rel="canonical" href="https://streamdata.io/developers/api-gallery/">
+
+      <meta property="og:locale" content="en_US">
+      <meta property="og:type" content="article">
+      <meta property="og:title" content="API Gallery to evaluate API polling versus event-driven streaming">
+      <meta property="og:description" content="Have a look at some APIs and see how they&#39;ve benefitted from our realtime data streaming such as BitcoinAverage.com, New York CitiBike, GitHub Events, The Guardian, and more.">
+      <meta property="og:url" content="https://streamdata.io/developers/api-gallery/">
+      <meta property="og:site_name" content="Streamdata.io">
+
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:description" content="Have a look at some APIs and see how they&#39;ve benefitted from our realtime data streaming such as BitcoinAverage.com, New York CitiBike, GitHub Events, The Guardian, and more.">
+      <meta name="twitter:title" content="API Gallery to evaluate API polling versus event-driven streaming">
+
+      <script type="text/javascript">
+         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http://template.api.gallery.streamdata.io/assets/wp-emoji-release.min.js?ver=4.9.4"}};
+         !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+      </script><script src="http://template.api.gallery.streamdata.io/assets/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+
+      <style type="text/css">
+         img.wp-smiley,
+         img.emoji {
+         display: inline !important;
+         border: none !important;
+         box-shadow: none !important;
+         height: 1em !important;
+         width: 1em !important;
+         margin: 0 .07em !important;
+         vertical-align: -0.1em !important;
+         background: none !important;
+         padding: 0 !important;
+         }
+      </style>
+      <link rel="stylesheet" id="contact-form-7-css" href="http://template.api.gallery.streamdata.io/assets/styles.css" type="text/css" media="all">
+      <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/jquery.js"></script>
+      <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/jquery-migrate.min.js"></script>
+      <script type="text/javascript">
+         /* <![CDATA[ */
+         var cssTarget = "img.style-svg";
+         var ForceInlineSVGActive = "false";
+         /* ]]> */
+      </script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  		<script src="/assets/jquery.awesomeCloud-0.2.min.js"></script>
+
+      <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/svgs-inline-min.js"></script>
+      <link rel="https://api.w.org/" href="https://streamdata.io/wp-json/">
+      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://streamdata.io/xmlrpc.php?rsd">
+      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://streamdata.io/wp-includes/wlwmanifest.xml">
+      <meta name="generator" content="WordPress 4.9.4">
+      <link rel="shortlink" href="https://streamdata.io/?p=570">
+      <link rel="alternate" type="application/json+oembed" href="https://streamdata.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstreamdata.io%2Fdevelopers%2Fapi-gallery%2F">
+      <link rel="alternate" type="text/xml+oembed" href="https://streamdata.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstreamdata.io%2Fdevelopers%2Fapi-gallery%2F&amp;format=xml">
+
+      <style type="text/css">
+  			.wordcloud {
+  				border: 0px solid #FFF;
+  				height: 8in;
+  				margin: 5px auto;
+  				padding: 0;
+  				page-break-after: always;
+  				page-break-inside: avoid;
+  				width: 90%;
+  			}
+  		</style>
+
+   </head>
+
+  <body class="page  page--cover   page--top " style="background-image: url('http://template.api.gallery.streamdata.io/assets/demos-background.png')" data-feedly-extension-follow-feed="1.0.3">
+
+  
+      <header class="header header--fixed header--notBottom header--pinned header--top">
+         <div class="header__container">
+            <a href="https://streamdata.io/developers/api-gallery/#" class="header__hamburger">
+               <div class="header__hamburgerContainer">
+                  <span class="header__hamburgerBar header__hamburgerBar--top"></span>
+                  <span class="header__hamburgerBar header__hamburgerBar--middle"></span>
+                  <span class="header__hamburgerBar header__hamburgerBar--bottom"></span>
+               </div>
+            </a>
+            <a class="header__logo" href="https://streamdata.io/"><img src="http://template.api.gallery.streamdata.io/assets/streamdata-logo.svg" alt="Streamdata.io Logo"></a>
+            <nav class="header__primaryNav">
+               <ul class="header__primaryNavList">
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/product/">
+                        Product
+                        <svg class="header__primaryNavLinkArrow">
+                           <use xlink:href="/assets/symbol-defs.svg#chevron-down"></use>
+                        </svg>
+                     </a>
+                     <div class="header__primaryNavSubListContainer">
+                        <ul class="header__primaryNavSubList">
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/product/data-providers/">
+                              Data Providers
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/product/devices-desktop/">
+                              Devices &amp; Desktop
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/product/machine-learning/">
+                              Machine Learning
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/developers/">
+                        Developers
+                        <svg class="header__primaryNavLinkArrow">
+                           <use xlink:href="/assets/symbol-defs.svg#chevron-down"></use>
+                        </svg>
+                     </a>
+                     <div class="header__primaryNavSubListContainer">
+                        <ul class="header__primaryNavSubList">
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/developers/docs/">
+                              Docs
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/developers/demos/">
+                              Demos
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/developers/getting-started/">
+                              Getting Started
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="http://api.gallery.streamdata.io">
+                              API Gallery
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/pricing/">
+                     Pricing
+                     </a>
+                  </li>
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/blog/">
+                     Blog
+                     </a>
+                  </li>
+               </ul>
+               <div class="header__mobile-cta">
+                  <div><a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/login" class="header__mobile-cta__login">Login</a></div>
+                  <div><a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/register" class="header__mobile-cta__signup">Sign up</a></div>
+               </div>
+               <a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/login" class="header__login">
+                  <svg class="header__login-icon">
+                     <use xlink:href="/assets/symbol-defs.svg#avatar"></use>
+                  </svg>
+               </a>
+               <a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/register" class="header__button button button--gradient">
+                  <div class="button__content">Get Started</div>
+               </a>
+            </nav>
+         </div>
+      </header>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="APIDetailHeader  APIDetailHeader--extra-top-padding ">
+   <div class="APIDetailHeader__container">
+      <div class="APIDetailHeader__left">
+         <img src="https://avatars2.githubusercontent.com/u/369874?v=4" alt="Eventbrite" class="APIDetailHeader__image">
+      </div>
+      <div class="APIDetailHeader__right">
+         <h1 class="APIDetailHeader__title">Eventbrite - Add Organizers</h1>
+         <h2 class="APIDetailHeader__subtitle">Makes a new organizer</h2>
+         <div class="APIDetailHeader__dateContainer">
+            <p class="APIDetailHeader__dateCallout">Posted on:</p>
+            <p class="APIDetailHeader__date">2018-05-06</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+  
+  <section class="APIDetailStats">
+     <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
+     <div class="APIDetailStats__row">
+        <div class="APIDetailStats__statContainer">
+           <p class="APIDetailStats__stat">%</p>
+           <p class="APIDetailStats__copy">Processor Savings</p>
+        </div>
+        <div class="APIDetailStats__statContainer">
+           <p class="APIDetailStats__stat">%</p>
+           <p class="APIDetailStats__copy">Bandwidth Savings</p>
+        </div>
+        <div class="APIDetailStats__statContainer">
+           <p class="APIDetailStats__stat">%</p>
+           <p class="APIDetailStats__copy">Data Change</p>
+        </div>
+     </div>
+  </section>
+  
+
+
+<section class="APIDescription">
+   <div class="APIDesciption__container">
+      <h2 class="APIDescription__header">API Description</h2>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">API</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p>Add Organizers</p>
+            </div>
+         </div>
+      </div>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">Provider</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p>Eventbrite</p>
+            </div>
+         </div>
+      </div>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">API decription</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p>Makes a new organizer</p>
+            </div>
+         </div>
+      </div>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">API URL</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="http://www.eventbriteapi.com/v3/organizers/" target="_blank" rel="noopener">http://www.eventbriteapi.com/v3/organizers/</a></p>
+            </div>
+         </div>
+      </div>
+
+      
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">Sign Up Page</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="https://www.eventbrite.com/signup/?referrer=%2F%3Fshow_onboarding%3D1&user_type=prebuyer&user_type_sig=AH_ElWGNJ_zHaAxwjzt5jiCRmvPvNBsy6w" target="_blank" rel="noopener">https://www.eventbrite.com/signup/?referrer=%2F%3Fshow_onboarding%3D1&user_type=prebuyer&user_type_sig=AH_ElWGNJ_zHaAxwjzt5jiCRmvPvNBsy6w</a></p>
+            </div>
+         </div>
+      </div>
+      
+
+      
+
+      
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">Twitter</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="https://twitter.com/EventbriteAPI" target="_blank" rel="noopener">https://twitter.com/EventbriteAPI</a></p>
+            </div>
+         </div>
+      </div>
+      
+
+      
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">Github</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="https://github.com/eventbrite" target="_blank" rel="noopener">https://github.com/eventbrite</a></p>
+            </div>
+         </div>
+      </div>
+      
+
+      
+
+      <p class="APIDescription__instructions">Curl command through Streamdata.io</p>
+   </div>
+   <div class="APIDescription__browserWindow">
+      <div class="APIDescription__browserWindowTitlteBar">
+         <div class="APIDescription__browserWindowControls">
+            <svg class="APIDescrption__browserWindowControl APIDescrption__browserWindowClose">
+               <circle cx="6" cy="6" r="3" fill="#D0021B"></circle>
+            </svg>
+            <svg class="APIDescrption__browserWindowControl APIDescrption__browserWindowMinimize">
+               <circle cx="6" cy="6" r="3" fill="#F8E71C"></circle>
+            </svg>
+            <svg class="APIDescrption__browserWindowControl APIDescrption__browserWindowExpand">
+               <circle cx="6" cy="6" r="3" fill="#7ED321"></circle>
+            </svg>
+         </div>
+      </div>
+      <div class="APIDescrpition__browserWindowMain">
+         <p class="APIDescription__browserWindowMainCopy">
+            curl -v "https://streamdata.motwin.net/http://www.eventbriteapi.com/v3/organizers/?X-Sd-Token={streamdata_token}&organizer.description.html={field_value}&organizer.facebook={field_value}&organizer.instagram={field_value}&organizer.logo.id={field_value}&organizer.long_description.html={field_value}&organizer.name={field_value}&organizer.twitter={field_value}&organizer.website={field_value}"
+         </p>
+      </div>
+   </div>
+</section>
+
+
+  
+  <section class="APISpecs">
+     <div class="APISpecs__container">
+        <div class="APISpecs__column">
+           <h2 class="APISpecs__header">API Specifications</h2>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Average Download Size</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong> Kb</strong></p>
+                 </div>
+              </div>
+           </div>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Average Download Time</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong> second(s)</strong></p>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="APISpecs__column">
+           <h2 class="APISpecs__header">Test Conditions</h2>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Date of test</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy"
+                    <p><strong></strong></p>
+                 </div>
+              </div>
+           </div>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Duration of test</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong> days</strong></p>
+                 </div>
+              </div>
+           </div>
+           <div class="APISpecs__row">
+              <div class="APISpecs__rowHeader">
+                 <div class="APISpecs__rowHeaderCopy">Polling frequency used for test</div>
+              </div>
+              <div class="APISpecs__rowStats">
+                 <div class="APISpecs__rowStatsCopy">
+                    <p><strong>60 second(s)</strong></p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </section>
+  
+
+
+
+  <footer class="footer">
+   <div class="footer__container">
+      <div class="footer__newsletter">
+         <p class="footer__newsletterTitle">Sign up to our newsletter for news, updates, and Japanese emojis!</p>
+         <form class="footer__newsletterForm" validate="" action="https://go.pardot.com/l/272652/2018-02-07/2fv23" method="POST">
+            <div class="form__inline footer__newsletterInput">
+               <input class="form__input" required="" name="email" type="text" placeholder="Email...">
+               <button class="button button--thin button--gradient button--noBorder" type="submit">
+                  <div class="button__content">Subscribe</div>
+               </button>
+            </div>
+         </form>
+      </div>
+      <h4 class="footer__title">Simpler data streaming for greater everything.</h4>
+      <nav class="footer__primaryNav">
+         <ul class="footer__primaryNavList">
+            <li class="footer__primaryNavListItem">
+               <a class="footer__primaryNavLink " href="https://streamdata.io/product/">
+               Product
+               </a>
+               <ul class="footer__primaryNavSubList ">
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/product/data-providers/">
+                     Data Providers
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/product/devices-desktop/">
+                     Devices &amp; Desktop
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/product/machine-learning/">
+                     Machine Learning
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="footer__primaryNavListItem">
+               <a class="footer__primaryNavLink " href="https://streamdata.io/developers/">
+               Developers
+               </a>
+               <ul class="footer__primaryNavSubList footer__primaryNavSubList--twoColumn">
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/getting-started/">
+                     Getting Started
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/api-gallery/">
+                     API Gallery
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/demos/">
+                     Demos
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/docs/">
+                     Docs
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdataio.github.io/streamdataio-js/">
+                     SDK Docs
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="footer__primaryNavListItem">
+               <a class="footer__primaryNavLink " href="https://streamdata.io/about-us/">
+               Company
+               </a>
+               <ul class="footer__primaryNavSubList footer__primaryNavSubList--twoColumn">
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/about-us/">
+                     About Us
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/pricing/">
+                     Pricing
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/blog/">
+                     Blog
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/partners/">
+                     Partners
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/terms-conditions/">
+                     Terms Of Service
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/privacy-policy/">
+                     Privacy Policy
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/contact/">
+                     Contact Us
+                     </a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div class="footer__bottom">
+         <script type="text/javascript" src="/assets/se-v2.js"></script>
+         <span class="siteStatus" data-site-status="">
+            <svg class="siteStatus__icon">
+               <circle cx="6" cy="6" r="5" stroke="#417505" stroke-width="2" fill="#7ED321"></circle>
+            </svg>
+            <a href="https://status.streamdata.io/"><span class="siteStatus__message status-none">All Systems Operational</span></a>
+         </span>
+         <span class="footer__social">
+         <a href="https://twitter.com/streamdataio" target="_blank"><img class="footer__socialItem" src="/assets/share-bar-twitter.svg" title="Twitter" alt=""></a>
+         <a href="https://github.com/streamdataio" target="_blank"><img class="footer__socialItem" src="/assets/share-bar-github.svg" title="GitHub" alt=""></a>
+         <a href="https://www.linkedin.com/company/streamdata-io" target="_blank"><img class="footer__socialItem" src="/assets/share-bar-linkedIn.svg" title="LinkedIn" alt=""></a>
+         </span>
+      </div>
+   </div>
+   <div class="footer__sub">
+      <div class="footer__subContainer">
+         <a class="footer__subLogo" href="https://streamdata.io/"><img src="/assets/streamdata-logo-white.svg" alt="streamdata.io logo"></a>
+         <p class="footer__subCopyright">
+            © 2018 Streamdata.io All rights reserved
+         </p>
+      </div>
+   </div>
+</footer>
+
+
+  <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/scripts.js"></script>
+  <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/wp-embed.min.js"></script>
+  <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/se-v2.js"></script>
+  <script defer="" src="http://template.api.gallery.streamdata.io/assets/svgxuse.js"></script>
+  <script src="http://template.api.gallery.streamdata.io/assets/vendor.js"></script>
+  <script src="http://template.api.gallery.streamdata.io/assets/bundle.js"></script>
+</body>
+</html>

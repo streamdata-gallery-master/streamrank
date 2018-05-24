@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+      <meta name="theme-color" content="#01c1d5">
+
+      <link rel="stylesheet" href="http://template.api.gallery.streamdata.io/assets/style.css">
+      <link href="http://template.api.gallery.streamdata.io/assets/font.css" rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="180x180" href="http://template.api.gallery.streamdata.io/assets/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="http://template.api.gallery.streamdata.io/assets/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="http://template.api.gallery.streamdata.io/assets/favicon-16x16.png">
+      <link rel="manifest" href="http://template.api.gallery.streamdata.io/assets/manifest.json">
+      <link rel="mask-icon" href="http://template.api.gallery.streamdata.io/assets/safari-pinned-tab.svg" color="#ff4040">
+      <meta name="theme-color" content="#ffffff">
+
+      <title>Streamdata.io API Gallery</title>
+
+      <!-- This site is optimized with the Yoast SEO plugin v6.2 - https://yoa.st/1yg?utm_content=6.2 -->
+      <meta name="description" content="Have a look at some APIs and see how they&#39;ve benefitted from our realtime data streaming such as BitcoinAverage.com, New York CitiBike, GitHub Events, The Guardian, and more.">
+      <link rel="canonical" href="https://streamdata.io/developers/api-gallery/">
+
+      <meta property="og:locale" content="en_US">
+      <meta property="og:type" content="article">
+      <meta property="og:title" content="API Gallery to evaluate API polling versus event-driven streaming">
+      <meta property="og:description" content="Have a look at some APIs and see how they&#39;ve benefitted from our realtime data streaming such as BitcoinAverage.com, New York CitiBike, GitHub Events, The Guardian, and more.">
+      <meta property="og:url" content="https://streamdata.io/developers/api-gallery/">
+      <meta property="og:site_name" content="Streamdata.io">
+
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:description" content="Have a look at some APIs and see how they&#39;ve benefitted from our realtime data streaming such as BitcoinAverage.com, New York CitiBike, GitHub Events, The Guardian, and more.">
+      <meta name="twitter:title" content="API Gallery to evaluate API polling versus event-driven streaming">
+
+      <script type="text/javascript">
+         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http://template.api.gallery.streamdata.io/assets/wp-emoji-release.min.js?ver=4.9.4"}};
+         !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+      </script><script src="http://template.api.gallery.streamdata.io/assets/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+
+      <style type="text/css">
+         img.wp-smiley,
+         img.emoji {
+         display: inline !important;
+         border: none !important;
+         box-shadow: none !important;
+         height: 1em !important;
+         width: 1em !important;
+         margin: 0 .07em !important;
+         vertical-align: -0.1em !important;
+         background: none !important;
+         padding: 0 !important;
+         }
+      </style>
+      <link rel="stylesheet" id="contact-form-7-css" href="http://template.api.gallery.streamdata.io/assets/styles.css" type="text/css" media="all">
+      <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/jquery.js"></script>
+      <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/jquery-migrate.min.js"></script>
+      <script type="text/javascript">
+         /* <![CDATA[ */
+         var cssTarget = "img.style-svg";
+         var ForceInlineSVGActive = "false";
+         /* ]]> */
+      </script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  		<script src="/assets/jquery.awesomeCloud-0.2.min.js"></script>
+
+      <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/svgs-inline-min.js"></script>
+      <link rel="https://api.w.org/" href="https://streamdata.io/wp-json/">
+      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://streamdata.io/xmlrpc.php?rsd">
+      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://streamdata.io/wp-includes/wlwmanifest.xml">
+      <meta name="generator" content="WordPress 4.9.4">
+      <link rel="shortlink" href="https://streamdata.io/?p=570">
+      <link rel="alternate" type="application/json+oembed" href="https://streamdata.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstreamdata.io%2Fdevelopers%2Fapi-gallery%2F">
+      <link rel="alternate" type="text/xml+oembed" href="https://streamdata.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstreamdata.io%2Fdevelopers%2Fapi-gallery%2F&amp;format=xml">
+
+      <style type="text/css">
+  			.wordcloud {
+  				border: 0px solid #FFF;
+  				height: 8in;
+  				margin: 5px auto;
+  				padding: 0;
+  				page-break-after: always;
+  				page-break-inside: avoid;
+  				width: 90%;
+  			}
+  		</style>
+
+   </head>
+
+  <body class="page  page--cover   page--top " style="background-image: url('http://template.api.gallery.streamdata.io/assets/demos-background.png')" data-feedly-extension-follow-feed="1.0.3">
+
+  
+      <header class="header header--fixed header--notBottom header--pinned header--top">
+         <div class="header__container">
+            <a href="https://streamdata.io/developers/api-gallery/#" class="header__hamburger">
+               <div class="header__hamburgerContainer">
+                  <span class="header__hamburgerBar header__hamburgerBar--top"></span>
+                  <span class="header__hamburgerBar header__hamburgerBar--middle"></span>
+                  <span class="header__hamburgerBar header__hamburgerBar--bottom"></span>
+               </div>
+            </a>
+            <a class="header__logo" href="https://streamdata.io/"><img src="http://template.api.gallery.streamdata.io/assets/streamdata-logo.svg" alt="Streamdata.io Logo"></a>
+            <nav class="header__primaryNav">
+               <ul class="header__primaryNavList">
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/product/">
+                        Product
+                        <svg class="header__primaryNavLinkArrow">
+                           <use xlink:href="/assets/symbol-defs.svg#chevron-down"></use>
+                        </svg>
+                     </a>
+                     <div class="header__primaryNavSubListContainer">
+                        <ul class="header__primaryNavSubList">
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/product/data-providers/">
+                              Data Providers
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/product/devices-desktop/">
+                              Devices &amp; Desktop
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/product/machine-learning/">
+                              Machine Learning
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/developers/">
+                        Developers
+                        <svg class="header__primaryNavLinkArrow">
+                           <use xlink:href="/assets/symbol-defs.svg#chevron-down"></use>
+                        </svg>
+                     </a>
+                     <div class="header__primaryNavSubListContainer">
+                        <ul class="header__primaryNavSubList">
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/developers/docs/">
+                              Docs
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/developers/demos/">
+                              Demos
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="https://streamdata.io/developers/getting-started/">
+                              Getting Started
+                              </a>
+                           </li>
+                           <li class="header__primaryNavSubListItem">
+                              <a class="header__primaryNavSubLink" href="http://api.gallery.streamdata.io">
+                              API Gallery
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/pricing/">
+                     Pricing
+                     </a>
+                  </li>
+                  <li class="header__primaryNavListItem">
+                     <a class="header__primaryNavLink " href="https://streamdata.io/blog/">
+                     Blog
+                     </a>
+                  </li>
+               </ul>
+               <div class="header__mobile-cta">
+                  <div><a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/login" class="header__mobile-cta__login">Login</a></div>
+                  <div><a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/register" class="header__mobile-cta__signup">Sign up</a></div>
+               </div>
+               <a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/login" class="header__login">
+                  <svg class="header__login-icon">
+                     <use xlink:href="/assets/symbol-defs.svg#avatar"></use>
+                  </svg>
+               </a>
+               <a href="https://portal.streamdata.io/?_ga=2.9625269.1899764506.1516547906-820332238.1511881229#/register" class="header__button button button--gradient">
+                  <div class="button__content">Get Started</div>
+               </a>
+            </nav>
+         </div>
+      </header>
+
+  <style>
+  .topiccenter {
+      margin: auto;
+      width: 50%;
+      border: 0px solid #FFF;
+      padding: 10px;
+  }
+  .topiccenter ul{
+    width:760px;
+    overflow:hidden;
+  }
+  .topiccenter ul li{
+    line-height:1.5em;
+    float:left;
+    display:inline;
+  }
+  #double li  { width:50%;}
+  #triple li  { width:33.333%; }
+  #quad li    { width:25%; }
+  #six li     { width:16.666%; }
+</style>
+
+<section style="border: 0px solid #FFF; padding: 1px; margin: 1px;" id="twitterlist">
+
+<div class="shortMasthead  shortMasthead--extra-top-padding ">
+  <h1 class="shortMasthead__headline enterAnimation enterAnimation--active" data-enter-animation="">Streamdata.io API Gallery Twitter Handles</h1>
+</div>
+
+<div id="twitterList">
+
+  <div class="topiccenter">
+    <h1>Twitter @Handles by Entity</h1>
+    
+    <ul id="double" style="padding-top: 10px; padding-left: 20px;">
+      
+        
+        <li>&rarr; API Science (<a href="https://twitter.com/APIScience" target="_blank">@APIScience</a>)</li>
+      
+        
+        <li>&rarr; APImetrics (<a href="https://twitter.com/apimetricstats" target="_blank">@apimetricstats</a>)</li>
+      
+        
+        <li>&rarr; ARIN (<a href="https://twitter.com/TeamARIN" target="_blank">@TeamARIN</a>)</li>
+      
+        
+        <li>&rarr; AXA Assistance (<a href="https://twitter.com/AXA_Assistance" target="_blank">@AXA_Assistance</a>)</li>
+      
+        
+        <li>&rarr; Accelerated Mobile Pages (AMP) URL (<a href="https://twitter.com/amphtml" target="_blank">@amphtml</a>)</li>
+      
+        
+        <li>&rarr; Akamai (<a href="https://twitter.com/Akamai" target="_blank">@Akamai</a>)</li>
+      
+        
+        <li>&rarr; Allied Irish Bank (<a href="https://twitter.com/AIBGB" target="_blank">@AIBGB</a>)</li>
+      
+        
+        <li>&rarr; Amadeus (<a href="https://twitter.com/amadeusinnov" target="_blank">@amadeusinnov</a>)</li>
+      
+        
+        <li>&rarr; AngelList (<a href="https://twitter.com/angellist" target="_blank">@angellist</a>)</li>
+      
+        
+        <li>&rarr; BMC Software (<a href="https://twitter.com/bmcsoftware" target="_blank">@bmcsoftware</a>)</li>
+      
+        
+        <li>&rarr; Bank of Ireland (<a href="https://twitter.com/talktoBOI" target="_blank">@talktoBOI</a>)</li>
+      
+        
+        <li>&rarr; Bank of Scotland (<a href="https://twitter.com/AskBankOfScot" target="_blank">@AskBankOfScot</a>)</li>
+      
+        
+        <li>&rarr; BetterDoctor (<a href="https://twitter.com/betterdoctor" target="_blank">@betterdoctor</a>)</li>
+      
+        
+        <li>&rarr; Bitbucket (<a href="https://twitter.com/bitbucket" target="_blank">@bitbucket</a>)</li>
+      
+        
+        <li>&rarr; Blockchain Info (<a href="https://twitter.com/blockchain" target="_blank">@blockchain</a>)</li>
+      
+        
+        <li>&rarr; Blogger (<a href="https://twitter.com/Blogger" target="_blank">@Blogger</a>)</li>
+      
+        
+        <li>&rarr; Box (<a href="https://twitter.com/BoxPlatform" target="_blank">@BoxPlatform</a>)</li>
+      
+        
+        <li>&rarr; Capital One DevExchange (<a href="https://twitter.com/CapitalOneDevEx" target="_blank">@CapitalOneDevEx</a>)</li>
+      
+        
+        <li>&rarr; CircleCI (<a href="https://twitter.com/circleci" target="_blank">@circleci</a>)</li>
+      
+        
+        <li>&rarr; CloudFlare (<a href="https://twitter.com/CloudFlare" target="_blank">@CloudFlare</a>)</li>
+      
+        
+        <li>&rarr; DNS Check (<a href="https://twitter.com/dns_check" target="_blank">@dns_check</a>)</li>
+      
+        
+        <li>&rarr; Data.Gov (<a href="https://twitter.com/usdatagov" target="_blank">@usdatagov</a>)</li>
+      
+        
+        <li>&rarr; DataDog (<a href="https://twitter.com/datadoghq" target="_blank">@datadoghq</a>)</li>
+      
+        
+        <li>&rarr; Disqus (<a href="https://twitter.com/disqus" target="_blank">@disqus</a>)</li>
+      
+        
+        <li>&rarr; Dyn (<a href="https://twitter.com/Dyn" target="_blank">@Dyn</a>)</li>
+      
+        
+        <li>&rarr; Eventbrite (<a href="https://twitter.com/EventbriteAPI" target="_blank">@EventbriteAPI</a>)</li>
+      
+        
+        <li>&rarr; Expedia (<a href="https://twitter.com/ExpediaEAN" target="_blank">@ExpediaEAN</a>)</li>
+      
+        
+        <li>&rarr; Facebook (<a href="https://twitter.com/facebook" target="_blank">@facebook</a>)</li>
+      
+        
+        <li>&rarr; FedBizOpps (FBOpen) (<a href="https://twitter.com/fbopen" target="_blank">@fbopen</a>)</li>
+      
+        
+        <li>&rarr; Firebase (<a href="https://twitter.com/firebase" target="_blank">@firebase</a>)</li>
+      
+        
+        <li>&rarr; First Trust Bank (<a href="https://twitter.com/firsttrustbank" target="_blank">@firsttrustbank</a>)</li>
+      
+        
+        <li>&rarr; Flickr (<a href="https://twitter.com/flickr" target="_blank">@flickr</a>)</li>
+      
+        
+        <li>&rarr; Freesound.org (<a href="https://twitter.com/freesounddev?lang=en" target="_blank">@freesounddev?lang=en</a>)</li>
+      
+        
+        <li>&rarr; G Suite (<a href="https://twitter.com/gsuitedevs" target="_blank">@gsuitedevs</a>)</li>
+      
+        
+        <li>&rarr; Getty Images (<a href="https://twitter.com/GettyImages" target="_blank">@GettyImages</a>)</li>
+      
+        
+        <li>&rarr; Giphy (<a href="https://twitter.com/giphy" target="_blank">@giphy</a>)</li>
+      
+        
+        <li>&rarr; GitHub (<a href="https://twitter.com/github" target="_blank">@github</a>)</li>
+      
+        
+        <li>&rarr; Gmail (<a href="https://twitter.com/gmail" target="_blank">@gmail</a>)</li>
+      
+        
+        <li>&rarr; Go.USA.Gov (<a href="https://twitter.com/gousagov" target="_blank">@gousagov</a>)</li>
+      
+        
+        <li>&rarr; Google Adsense (<a href="https://twitter.com/AdSense" target="_blank">@AdSense</a>)</li>
+      
+        
+        <li>&rarr; Google Analytics (<a href="https://twitter.com/googleanalytics" target="_blank">@googleanalytics</a>)</li>
+      
+        
+        <li>&rarr; Google Custom Search (<a href="https://twitter.com/googlecse" target="_blank">@googlecse</a>)</li>
+      
+        
+        <li>&rarr; Google Fonts (<a href="https://twitter.com/googlefonts" target="_blank">@googlefonts</a>)</li>
+      
+        
+        <li>&rarr; Google Play (<a href="https://twitter.com/GooglePlay" target="_blank">@GooglePlay</a>)</li>
+      
+        
+        <li>&rarr; HSBC (<a href="https://twitter.com/HSBC" target="_blank">@HSBC</a>)</li>
+      
+        
+        <li>&rarr; Heroku (<a href="https://twitter.com/HerokuDevCenter" target="_blank">@HerokuDevCenter</a>)</li>
+      
+        
+        <li>&rarr; IEX (<a href="https://twitter.com/IEX" target="_blank">@IEX</a>)</li>
+      
+        
+        <li>&rarr; Instagram (<a href="https://twitter.com/instagram" target="_blank">@instagram</a>)</li>
+      
+        
+        <li>&rarr; Intrinio (<a href="https://twitter.com/intrinio" target="_blank">@intrinio</a>)</li>
+      
+        
+        <li>&rarr; Knoema (<a href="https://twitter.com/knoema" target="_blank">@knoema</a>)</li>
+      
+        
+        <li>&rarr; LinkedIn (<a href="https://twitter.com/LinkedIn" target="_blank">@LinkedIn</a>)</li>
+      
+        
+        <li>&rarr; Lyft (<a href="https://twitter.com/lyft" target="_blank">@lyft</a>)</li>
+      
+        
+        <li>&rarr; Lykke (<a href="https://twitter.com/lykke" target="_blank">@lykke</a>)</li>
+      
+        
+        <li>&rarr; MasterCard (<a href="https://twitter.com/MasterCardDev" target="_blank">@MasterCardDev</a>)</li>
+      
+        
+        <li>&rarr; Medium (<a href="https://twitter.com/Medium" target="_blank">@Medium</a>)</li>
+      
+        
+        <li>&rarr; Meetup (<a href="https://twitter.com/MeetupAPI" target="_blank">@MeetupAPI</a>)</li>
+      
+        
+        <li>&rarr; Microsoft Office 365 (<a href="https://twitter.com/OfficeDev" target="_blank">@OfficeDev</a>)</li>
+      
+        
+        <li>&rarr; NPR (<a href="https://twitter.com/NPRTechTeam" target="_blank">@NPRTechTeam</a>)</li>
+      
+        
+        <li>&rarr; NPR (<a href="https://twitter.com/NPR" target="_blank">@NPR</a>)</li>
+      
+        
+        <li>&rarr; NatWest (<a href="https://twitter.com/natwest_help" target="_blank">@natwest_help</a>)</li>
+      
+        
+        <li>&rarr; New Relic (<a href="https://twitter.com/NewRelic" target="_blank">@NewRelic</a>)</li>
+      
+        
+        <li>&rarr; News API (<a href="https://twitter.com/NewsAPIorg" target="_blank">@NewsAPIorg</a>)</li>
+      
+        
+        <li>&rarr; Nordea (<a href="https://twitter.com/NordeaAPI" target="_blank">@NordeaAPI</a>)</li>
+      
+        
+        <li>&rarr; OpenDNS (<a href="https://twitter.com/OpenDNS" target="_blank">@OpenDNS</a>)</li>
+      
+        
+        <li>&rarr; PagerDuty (<a href="https://twitter.com/pagerduty" target="_blank">@pagerduty</a>)</li>
+      
+        
+        <li>&rarr; ParallelDots (<a href="https://twitter.com/ParallelDots" target="_blank">@ParallelDots</a>)</li>
+      
+        
+        <li>&rarr; PayPal (<a href="https://twitter.com/paypal" target="_blank">@paypal</a>)</li>
+      
+        
+        <li>&rarr; Pinboard (<a href="https://twitter.com/pinboard" target="_blank">@pinboard</a>)</li>
+      
+        
+        <li>&rarr; Pingometer (<a href="https://twitter.com/pingometer" target="_blank">@pingometer</a>)</li>
+      
+        
+        <li>&rarr; Plivo (<a href="https://twitter.com/#!/plivo" target="_blank">@#!/plivo</a>)</li>
+      
+        
+        <li>&rarr; Postmark (<a href="https://twitter.com/postmarkapp" target="_blank">@postmarkapp</a>)</li>
+      
+        
+        <li>&rarr; Quandl (<a href="https://twitter.com/quandl" target="_blank">@quandl</a>)</li>
+      
+        
+        <li>&rarr; Rackspace (<a href="https://twitter.com/rackspace" target="_blank">@rackspace</a>)</li>
+      
+        
+        <li>&rarr; Reddit (<a href="https://twitter.com/reddit" target="_blank">@reddit</a>)</li>
+      
+        
+        <li>&rarr; Runscope (<a href="https://twitter.com/Runscope" target="_blank">@Runscope</a>)</li>
+      
+        
+        <li>&rarr; Salesforce (<a href="https://twitter.com/salesforcedevs" target="_blank">@salesforcedevs</a>)</li>
+      
+        
+        <li>&rarr; Santander Bank (<a href="https://twitter.com/santanderbankUS" target="_blank">@santanderbankUS</a>)</li>
+      
+        
+        <li>&rarr; SendGrid (<a href="https://twitter.com/SendGrid" target="_blank">@SendGrid</a>)</li>
+      
+        
+        <li>&rarr; Slack (<a href="https://twitter.com/slackapi" target="_blank">@slackapi</a>)</li>
+      
+        
+        <li>&rarr; SmartBear Software (<a href="https://twitter.com/smartbear" target="_blank">@smartbear</a>)</li>
+      
+        
+        <li>&rarr; SoundCloud (<a href="https://twitter.com/soundcloudapi" target="_blank">@soundcloudapi</a>)</li>
+      
+        
+        <li>&rarr; SpectroCoin (<a href="https://twitter.com/spectrocoin" target="_blank">@spectrocoin</a>)</li>
+      
+        
+        <li>&rarr; Spotify (<a href="https://twitter.com/spotify" target="_blank">@spotify</a>)</li>
+      
+        
+        <li>&rarr; Spotify (<a href="https://twitter.com/SpotifyPlatform" target="_blank">@SpotifyPlatform</a>)</li>
+      
+        
+        <li>&rarr; StatusPage.io (<a href="https://twitter.com/statuspageio" target="_blank">@statuspageio</a>)</li>
+      
+        
+        <li>&rarr; StockTwits (<a href="https://twitter.com/stocktwits" target="_blank">@stocktwits</a>)</li>
+      
+        
+        <li>&rarr; Stride (<a href="https://twitter.com/atlassianstride" target="_blank">@atlassianstride</a>)</li>
+      
+        
+        <li>&rarr; Stripe (<a href="https://twitter.com/stripe" target="_blank">@stripe</a>)</li>
+      
+        
+        <li>&rarr; Sustainable Facilities Tool API (<a href="https://twitter.com/sftool" target="_blank">@sftool</a>)</li>
+      
+        
+        <li>&rarr; The Guardian (<a href="https://twitter.com/gdndevelopers" target="_blank">@gdndevelopers</a>)</li>
+      
+        
+        <li>&rarr; The Guardian (<a href="https://twitter.com/GuardianData" target="_blank">@GuardianData</a>)</li>
+      
+        
+        <li>&rarr; Twilio (<a href="https://twitter.com/twilio" target="_blank">@twilio</a>)</li>
+      
+        
+        <li>&rarr; Twitter (<a href="https://twitter.com/twitterapi/" target="_blank">@twitterapi/</a>)</li>
+      
+        
+        <li>&rarr; Twitter (<a href="https://twitter.com/twittereng/" target="_blank">@twittereng/</a>)</li>
+      
+        
+        <li>&rarr; Tyk (<a href="https://twitter.com/tyk_io" target="_blank">@tyk_io</a>)</li>
+      
+        
+        <li>&rarr; Uber (<a href="https://twitter.com/uber_api" target="_blank">@uber_api</a>)</li>
+      
+        
+        <li>&rarr; Uber (<a href="https://twitter.com/UberPubPolicy" target="_blank">@UberPubPolicy</a>)</li>
+      
+        
+        <li>&rarr; Ulster Bank (<a href="https://twitter.com/ulsterbank_help" target="_blank">@ulsterbank_help</a>)</li>
+      
+        
+        <li>&rarr; VersaPay (<a href="https://twitter.com/VersaPay" target="_blank">@VersaPay</a>)</li>
+      
+        
+        <li>&rarr; Weather Underground (<a href="https://twitter.com/weatherapi" target="_blank">@weatherapi</a>)</li>
+      
+        
+        <li>&rarr; Weatherbit (<a href="https://twitter.com/weatherbitio" target="_blank">@weatherbitio</a>)</li>
+      
+        
+        <li>&rarr; Wikipedia (<a href="https://twitter.com/wikipedia" target="_blank">@wikipedia</a>)</li>
+      
+        
+        <li>&rarr; Xignite (<a href="https://twitter.com/xignite" target="_blank">@xignite</a>)</li>
+      
+        
+        <li>&rarr; Yammer (<a href="https://twitter.com/yammer" target="_blank">@yammer</a>)</li>
+      
+        
+        <li>&rarr; YouTube (<a href="https://twitter.com/YouTubeDev" target="_blank">@YouTubeDev</a>)</li>
+      
+        
+        <li>&rarr; Zerigo (<a href="https://twitter.com/zerigo" target="_blank">@zerigo</a>)</li>
+      
+        
+        <li>&rarr; eBay (<a href="https://twitter.com/ebaydev" target="_blank">@ebaydev</a>)</li>
+      
+    </ul>
+  </div>
+
+</div>
+
+</section>
+
+  <footer class="footer">
+   <div class="footer__container">
+      <div class="footer__newsletter">
+         <p class="footer__newsletterTitle">Sign up to our newsletter for news, updates, and Japanese emojis!</p>
+         <form class="footer__newsletterForm" validate="" action="https://go.pardot.com/l/272652/2018-02-07/2fv23" method="POST">
+            <div class="form__inline footer__newsletterInput">
+               <input class="form__input" required="" name="email" type="text" placeholder="Email...">
+               <button class="button button--thin button--gradient button--noBorder" type="submit">
+                  <div class="button__content">Subscribe</div>
+               </button>
+            </div>
+         </form>
+      </div>
+      <h4 class="footer__title">Simpler data streaming for greater everything.</h4>
+      <nav class="footer__primaryNav">
+         <ul class="footer__primaryNavList">
+            <li class="footer__primaryNavListItem">
+               <a class="footer__primaryNavLink " href="https://streamdata.io/product/">
+               Product
+               </a>
+               <ul class="footer__primaryNavSubList ">
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/product/data-providers/">
+                     Data Providers
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/product/devices-desktop/">
+                     Devices &amp; Desktop
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/product/machine-learning/">
+                     Machine Learning
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="footer__primaryNavListItem">
+               <a class="footer__primaryNavLink " href="https://streamdata.io/developers/">
+               Developers
+               </a>
+               <ul class="footer__primaryNavSubList footer__primaryNavSubList--twoColumn">
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/getting-started/">
+                     Getting Started
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/api-gallery/">
+                     API Gallery
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/demos/">
+                     Demos
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/developers/docs/">
+                     Docs
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdataio.github.io/streamdataio-js/">
+                     SDK Docs
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="footer__primaryNavListItem">
+               <a class="footer__primaryNavLink " href="https://streamdata.io/about-us/">
+               Company
+               </a>
+               <ul class="footer__primaryNavSubList footer__primaryNavSubList--twoColumn">
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/about-us/">
+                     About Us
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/pricing/">
+                     Pricing
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/blog/">
+                     Blog
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/partners/">
+                     Partners
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/terms-conditions/">
+                     Terms Of Service
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/privacy-policy/">
+                     Privacy Policy
+                     </a>
+                  </li>
+                  <li class="footer__primaryNavSubListItem">
+                     <a class="footer__primaryNavSubLink" href="https://streamdata.io/contact/">
+                     Contact Us
+                     </a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div class="footer__bottom">
+         <script type="text/javascript" src="/assets/se-v2.js"></script>
+         <span class="siteStatus" data-site-status="">
+            <svg class="siteStatus__icon">
+               <circle cx="6" cy="6" r="5" stroke="#417505" stroke-width="2" fill="#7ED321"></circle>
+            </svg>
+            <a href="https://status.streamdata.io/"><span class="siteStatus__message status-none">All Systems Operational</span></a>
+         </span>
+         <span class="footer__social">
+         <a href="https://twitter.com/streamdataio" target="_blank"><img class="footer__socialItem" src="/assets/share-bar-twitter.svg" title="Twitter" alt=""></a>
+         <a href="https://github.com/streamdataio" target="_blank"><img class="footer__socialItem" src="/assets/share-bar-github.svg" title="GitHub" alt=""></a>
+         <a href="https://www.linkedin.com/company/streamdata-io" target="_blank"><img class="footer__socialItem" src="/assets/share-bar-linkedIn.svg" title="LinkedIn" alt=""></a>
+         </span>
+      </div>
+   </div>
+   <div class="footer__sub">
+      <div class="footer__subContainer">
+         <a class="footer__subLogo" href="https://streamdata.io/"><img src="/assets/streamdata-logo-white.svg" alt="streamdata.io logo"></a>
+         <p class="footer__subCopyright">
+            © 2018 Streamdata.io All rights reserved
+         </p>
+      </div>
+   </div>
+</footer>
+
+
+  <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/scripts.js"></script>
+  <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/wp-embed.min.js"></script>
+  <script type="text/javascript" src="http://template.api.gallery.streamdata.io/assets/se-v2.js"></script>
+  <script defer="" src="http://template.api.gallery.streamdata.io/assets/svgxuse.js"></script>
+  <script src="http://template.api.gallery.streamdata.io/assets/vendor.js"></script>
+  <script src="http://template.api.gallery.streamdata.io/assets/bundle.js"></script>
+</body>
+</html>

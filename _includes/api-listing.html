@@ -40,7 +40,7 @@
            {% endfor %}
          {% endfor %}
 
-         {% assign change_percentage = item.x-streamrank.change_percentage %}
+         {% assign change_percentage = item.x-streamrank.change_percentage | plus: 0 %}
 
          {% if verb == 'get' %}
           {% if change_percentage > 5 %}
