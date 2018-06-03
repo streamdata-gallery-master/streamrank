@@ -5,13 +5,15 @@ description: The New York Times (sometimes abbreviated as The NYT or The Times) 
   Founded in 1851, the paper has won 122 Pulitzer Prizes, more than any other newspaper.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/new-york-times-logo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags:
+- Profiled
 - News
 - Media
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/new-york-times/apis.yaml
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/new-york-times/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: New York Times
@@ -21,11 +23,13 @@ apis:
   humanURL: ""
   baseURL: https://api.nytimes.com//svc
   tags:
+  - Profiled
   - News
   - Media
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/new-york-times/movies-v2-reviews-search-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/new-york-times/movies-v2-reviews-search-json-get.md
 x-common:
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
@@ -67,6 +71,8 @@ x-common:
   url: http://developer.nytimes.com/Api_terms_of_use
 - type: x-terms-of-service
   url: https://developer.nytimes.com/tou
+- type: x-website
+  url: http://nytimes.com
 - type: x-website
   url: http://nytimes.com/
 include: []
