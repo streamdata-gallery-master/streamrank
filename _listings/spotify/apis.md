@@ -7,45 +7,47 @@ description: Spotify has created a lightweight software application that allows 
   Sony, EMI, Warner Music Group, and Universal. Users download Spotify and then log
   onto their service enabling the on-demand streaming of music. Music can be browsed
   by artist, album, record label, genre or playlist as well as by direct searches.
-image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "133"
 tags:
+- Technology
 - Streaming
 - Stack Network
 - Stack
 - Music
+- Mobile
 - Issues Example
-- Issues
+- internet
 - Indie EdTech Data Jam
 - Change Log Example
-- Change Log
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/spotify/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/spotify/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Spotify
   description: Spotify has created a lightweight software application that allows
     instant listening to specific tracks or albums with virtually no buffering delay
-  image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: ""
   baseURL: https://api.spotify.com//v1
   tags:
+  - Technology
   - Streaming
   - Stack Network
   - Stack
   - Music
+  - Mobile
   - Issues Example
-  - Issues
+  - internet
   - Indie EdTech Data Jam
   - Change Log Example
-  - Change Log
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/spotify/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/spotify/search-get.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
@@ -64,9 +66,13 @@ x-common:
 - type: x-console
   url: https://developer.spotify.com/web-api/console/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/spotify
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/spotify
 - type: x-developer
   url: https://developer.spotify.com/
+- type: x-email
+  url: office@spotify.com
 - type: x-ios-sdk
   url: https://developer.spotify.com/technologies/spotify-ios-sdk/
 - type: x-issues
@@ -83,6 +89,8 @@ x-common:
   url: https://github.com/spotify
 - type: x-website
   url: http://www.spotify.com
+- type: x-website
+  url: http://spotify.com
 include: []
 maintainers:
 - FN: Kin Lane
