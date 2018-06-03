@@ -92,16 +92,16 @@ paths:
 definitions: []
 x-collection-name: Meetup
 x-streamrank:
-  polling_total_time_average: "0.52"
-  polling_size_download_average: "238515.19"
-  streaming_total_time_average: "0.27"
-  streaming_size_download_average: "119830.96"
-  change_yes: "7"
-  change_no: "415"
+  polling_total_time_average: "0.56"
+  polling_size_download_average: "240168.02"
+  streaming_total_time_average: "0.29"
+  streaming_size_download_average: "120190.16"
+  change_yes: "25"
+  change_no: "2255"
   time_percentage: "48"
   size_percentage: "50"
-  change_percentage: "2"
-  last_run: "2018-05-06"
-  days_run: "2"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "8"
   minute_run: "0"
 ---
