@@ -61,16 +61,16 @@ paths:
 definitions: []
 x-collection-name: News API
 x-streamrank:
-  polling_total_time_average: "0.22"
-  polling_size_download_average: "10188.44"
-  streaming_total_time_average: "0.13"
-  streaming_size_download_average: "5129.89"
-  change_yes: "8"
-  change_no: "279"
+  polling_total_time_average: "0.24"
+  polling_size_download_average: "10392.72"
+  streaming_total_time_average: "0.14"
+  streaming_size_download_average: "5206.04"
+  change_yes: "29"
+  change_no: "2135"
   time_percentage: "41"
   size_percentage: "50"
-  change_percentage: "3"
-  last_run: "2018-05-06"
-  days_run: "1"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "7"
   minute_run: "0"
 ---
