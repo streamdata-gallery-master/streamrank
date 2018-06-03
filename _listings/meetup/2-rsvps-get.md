@@ -67,15 +67,15 @@ definitions: []
 x-collection-name: Meetup
 x-streamrank:
   polling_total_time_average: "0.11"
-  polling_size_download_average: "9333.72"
+  polling_size_download_average: "12284.58"
   streaming_total_time_average: "0.06"
-  streaming_size_download_average: "4678.16"
-  change_yes: "3"
-  change_no: "418"
-  time_percentage: "45"
+  streaming_size_download_average: "6168.84"
+  change_yes: "29"
+  change_no: "2251"
+  time_percentage: "44"
   size_percentage: "50"
   change_percentage: "1"
-  last_run: "2018-05-06"
-  days_run: "2"
+  last_run: "2018-05-12"
+  days_run: "8"
   minute_run: "0"
 ---
