@@ -8,16 +8,15 @@ description: The Guardian is a British national daily newspaper which has grown 
   including partnership opportunities via platform program.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags:
-- Partners
 - News
 - Media
 - Data
 - API United Kingdom
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-guardian/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/the-guardian/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: The Guardian
@@ -28,14 +27,13 @@ apis:
   humanURL: ""
   baseURL: https://content.guardianapis.com/
   tags:
-  - Partners
   - News
   - Media
   - Data
   - API United Kingdom
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-guardian/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/the-guardian/search-get.md
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
