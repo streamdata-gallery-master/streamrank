@@ -1,0 +1,20 @@
+
+<div>
+  {% for entry in listing_object %}
+    {% if entry.name %}
+
+        {% assign api_name = entry.name %}
+        {% assign api_slug = entry.x-slug %}
+        {% assign api_description = entry.description %}
+        {% assign api_image = entry.image %}
+        {% assign api_json_url = entry.url %}
+        {% assign api_json_kin_rank = entry.x-kinRank %}
+        {% assign api_json_alexa_rank = entry.x-alexaRank %}
+
+        <p><strong>{{ api_name }}</strong></p>
+        <p>{{ api_description }}</p>
+        <hr />
+
+    {% endif %}
+  {% endfor %}
+</div>
