@@ -7,18 +7,21 @@ description: 'Google Sheets is an online spreadsheet app that lets users create 
   code as well as users.'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags:
 - Stack Network
 - Stack
 - Spreadsheets
+- Profiled
 - Productivity
 - Google APIs
 - Documents
 - Data
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/google-sheets/apis.yaml
+- API Service Provider
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/google-sheets/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Sheets
@@ -31,13 +34,16 @@ apis:
   - Stack Network
   - Stack
   - Spreadsheets
+  - Profiled
   - Productivity
   - Google APIs
   - Documents
   - Data
+  - API Service Provider
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/google-sheets/spreadsheets-spreadsheetid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/google-sheets/spreadsheets-spreadsheetid-get.md
 x-common:
 - type: x-documentation
   url: https://developers.google.com/sheets/api/
