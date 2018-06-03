@@ -5,16 +5,18 @@ description: The Gmail API is a RESTful API that can be used to access Gmail mai
   is the best choice for authorized access to a users Gmail data.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags:
 - Stack Network
 - Stack
+- Profiled
 - Productivity
 - Google APIs
 - Email
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/gmail/apis.yaml
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/gmail/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Gmail
@@ -26,12 +28,14 @@ apis:
   tags:
   - Stack Network
   - Stack
+  - Profiled
   - Productivity
   - Google APIs
   - Email
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/gmail/userid-watch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/gmail/userid-watch-post.md
 x-common:
 - type: x-auth-scopes
   url: https://developers.google.com/gmail/api/auth/scopes
