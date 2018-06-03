@@ -14,7 +14,7 @@
       <p align="left"><strong>{{ api_description }}</strong></p>
       <p align="right"><img src="{{ api_image }}" width="150" align="left" /></p>
       <p align="left">{{ api_name }}</p>
-      <ul style="text-align: left;">
+      <ul style="text-align: left; list-style: circle;">
       {% for common in entry.x-common %}
 
         {% if common.type == 'x-website' %}
@@ -84,7 +84,7 @@
       {% endfor %}
       </ul>
 
-      <ul style="text-align: left;">
+      <ul style="text-align: left; list-style: circle;">
       {% for item in site.listings %}
         {% if item.swagger %}
           {% if item.swagger == "2.0" %}
