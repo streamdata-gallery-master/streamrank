@@ -505,16 +505,16 @@ definitions:
         type: post
 x-collection-name: Gmail
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: "200"
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: "0.07"
+  polling_size_download_average: "402.35"
+  streaming_total_time_average: "0.04"
+  streaming_size_download_average: "201.18"
+  change_yes: "4"
+  change_no: "2328"
+  time_percentage: "43"
+  size_percentage: "50"
+  change_percentage: "0"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
