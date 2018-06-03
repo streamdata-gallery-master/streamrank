@@ -3,37 +3,41 @@ name: Postmark
 description: Postmark removes the headaches of delivering and parsing transactional
   email for webapps with minimal setup time and zero maintenance. We have years of
   experience getting email to the inbox, so you can work and rest easier.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postmark-logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "92150"
 tags:
+- Technology
 - Target
 - Stack Network
+- SaaS
 - Messaging
 - Imports
 - Email
-created: "2018-05-05"
-modified: "2018-05-05"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/postmark/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/postmark/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter
+- name: Postmark Account
   description: Postmark removes the headaches of delivering and parsing transactional
     email for webapps with minimal setup time and zero maintenance
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postmark-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: ""
-  baseURL: https://api.twitter.com//1.1
+  baseURL: https://api.postmarkapp.com//
   tags:
+  - Technology
   - Target
   - Stack Network
+  - SaaS
   - Messaging
   - Imports
   - Email
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/postmark/trends-available-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/postmark/servers-get.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net
 - type: x-base
   url: https://api.postmarkapp.com
@@ -44,9 +48,15 @@ x-common:
 - type: x-contact-form
   url: http://support.postmarkapp.com/customer/portal/emails/new
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/postmark
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/postmark
 - type: x-developer
   url: http://developer.postmarkapp.com/
+- type: x-email
+  url: support@postmarkapp.com
+- type: x-email
+  url: 451d9b70cf9364d23ff6f9d51d870251569e+ahoy@inbound.postmarkapp.com
 - type: x-faq
   url: http://support.postmarkapp.com/
 - type: x-pricing
@@ -65,6 +75,8 @@ x-common:
   url: https://postmarkapp.com/terms-of-service
 - type: x-twitter
   url: https://twitter.com/postmarkapp
+- type: x-website
+  url: http://postmarkapp.com
 - type: x-website
   url: http://postmarkapp.com/
 - type: x-wordpress-pdk
