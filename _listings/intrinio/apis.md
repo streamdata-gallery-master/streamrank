@@ -1,5 +1,6 @@
 ---
 name: Intrinio
+x-slug: intrinio
 description: Market for financial data APIs and analytics applications built with
   those data feeds. Affordable, easy to access financial data for developers and investors
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
