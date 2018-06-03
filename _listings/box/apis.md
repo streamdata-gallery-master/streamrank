@@ -1,50 +1,56 @@
 ---
 name: Box
-description: Box Inc. (formerly Box.net) is an online file sharing and Cloud content
-  management service for enterprise companies. The company has adopted a freemium
-  business model, and provides 5 GB of free storage [3] for personal accounts. A mobile
-  version of the service is available for Android, BlackBerry, iOS, WebOS, and Windows
-  Phone devices. The company is based in Los Altos, California.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+description: Box is changing how you manage content across your business from simple
+  file sharing to building custom apps.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "443"
 tags:
+- Technology
 - Storage
 - Storage
 - Stack Network
 - Stack
 - Sharing
-- Road Map
+- SaaS
 - Publishing
+- Profiled
 - Productivity
 - Files
+- Enterprise
 - Collaboration
 - Backup
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/box/apis.yaml
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/box/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Box
-  description: Box Inc
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: ""
   baseURL: https://api.box.com//2.0
   tags:
+  - Technology
   - Storage
   - Storage
   - Stack Network
   - Stack
   - Sharing
-  - Road Map
+  - SaaS
   - Publishing
+  - Profiled
   - Productivity
   - Files
+  - Enterprise
   - Collaboration
   - Backup
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/box/events-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/box/events-get.md
 x-common:
 - type: x-base
   url: https://api.box.com/
@@ -54,6 +60,8 @@ x-common:
   url: http://blog.box.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/box
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/box
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
@@ -64,6 +72,8 @@ x-common:
   url: https://developers.box.com/roadmap/
 - type: x-twitter
   url: https://twitter.com/BoxPlatform
+- type: x-twitter
+  url: https://twitter.com/BoxHQ
 - type: x-website
   url: http://box.com
 include: []
