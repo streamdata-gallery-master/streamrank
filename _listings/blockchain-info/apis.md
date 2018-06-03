@@ -1,25 +1,27 @@
 ---
 name: Blockchain Info
-description: With the largest bitcoin wallet platform in the world, Blockchain's software
-  has powered over 100M transactions and empowered users in 130 countries across the
-  globe to transact quickly and without costly intermediaries. We also offers tools
-  for develo...
+description: With the largest bitcoin wallet platform in the world, Blockchain???s
+  software has powered over 100M transactions and empowered users in 130 countries
+  across the globe to transact quickly and without costly intermediaries. We also
+  offers tools for develo...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
 x-kinRank: "8"
 x-alexaRank: "842"
 tags:
 - Technology
 - SaaS
+- Profiled
 - Marketplace
 - internet
 - Blockchains
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/blockchain-info/apis.yaml
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/blockchain-info/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Blockchain Info
-  description: With the largest bitcoin wallet platform in the world, Blockchain's
+  description: With the largest bitcoin wallet platform in the world, Blockchain???s
     software has powered over 100M transactions and empowered users in 130 countries
     across the globe to transact quickly and without costly intermediaries
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
@@ -28,12 +30,14 @@ apis:
   tags:
   - Technology
   - SaaS
+  - Profiled
   - Marketplace
   - internet
   - Blockchains
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/blockchain-info/blocks-pool-name-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/blockchain-info/blocks-pool-name-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info
