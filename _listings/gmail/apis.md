@@ -1,5 +1,6 @@
 ---
 name: Gmail
+x-slug: gmail
 description: The Gmail API is a RESTful API that can be used to access Gmail mailboxes
   and send mail. For most web applications (including mobile apps), the Gmail API
   is the best choice for authorized access to a users Gmail data.
