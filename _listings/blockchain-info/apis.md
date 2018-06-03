@@ -1,5 +1,6 @@
 ---
 name: Blockchain Info
+x-slug: blockchain-info
 description: With the largest bitcoin wallet platform in the world, Blockchain???s
   software has powered over 100M transactions and empowered users in 130 countries
   across the globe to transact quickly and without costly intermediaries. We also
