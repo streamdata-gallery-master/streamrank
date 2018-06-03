@@ -312,16 +312,16 @@ definitions:
         type: get
 x-collection-name: New York Times
 x-streamrank:
-  polling_total_time_average: "0.1"
-  polling_size_download_average: "10352.2"
-  streaming_total_time_average: "0.06"
-  streaming_size_download_average: "5231.55"
+  polling_total_time_average: "0.12"
+  polling_size_download_average: "14702.92"
+  streaming_total_time_average: "0.07"
+  streaming_size_download_average: "7358.57"
   change_yes: "4"
-  change_no: "272"
-  time_percentage: "38"
-  size_percentage: "49"
-  change_percentage: "1"
-  last_run: "2018-05-06"
-  days_run: "1"
+  change_no: "2148"
+  time_percentage: "40"
+  size_percentage: "50"
+  change_percentage: "0"
+  last_run: "2018-05-12"
+  days_run: "7"
   minute_run: "0"
 ---
