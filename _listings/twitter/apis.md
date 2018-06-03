@@ -3,49 +3,53 @@ name: Twitter
 description: Twitter is a global real-time communications platform with 400 million
   monthly visitors to twitter.com, more than 200 million monthly active users around
   the world.
-image: https://avatars1.githubusercontent.com/u/50278?v=4
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "13"
 tags:
+- Technology
 - Stack Network
 - Stack
 - Social Network
 - Social API
 - Social
 - Social
-- Partners
 - My API Stack
+- Mobile
+- internet
 - Indie EdTech Data Jam
 - Imports
 - API LIfeycle
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Twitter
   description: Twitter is a global real-time communications platform with 400 million
     monthly visitors to twitter
-  image: https://avatars1.githubusercontent.com/u/50278?v=4
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: ""
   baseURL: https://api.twitter.com//1.1
   tags:
+  - Technology
   - Stack Network
   - Stack
   - Social Network
   - Social API
   - Social
   - Social
-  - Partners
   - My API Stack
+  - Mobile
+  - internet
   - Indie EdTech Data Jam
   - Imports
   - API LIfeycle
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/trends-available-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twitter/trends-available-json-get.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://tweetinvi.codeplex.com/
 - type: x-advertising-development-kit
   url: https://docs.fabric.io/unity/mopub/overview.html
@@ -85,6 +89,8 @@ x-common:
   url: http://dev.twitter.com/rest/tools/console
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/twitter
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/twitter
 - type: x-css-control
   url: https://dev.twitter.com/web/overview/css
 - type: x-developer
@@ -95,6 +101,8 @@ x-common:
   url: https://blog.twitter.com/api/blog.rss?name=developer
 - type: x-documentation
   url: https://dev.twitter.com/overview/documentation
+- type: x-email
+  url: copyright@twitter.com
 - type: x-embeddable
   url: https://dev.twitter.com/web/overview
 - type: x-encryption
@@ -121,7 +129,7 @@ x-common:
   url: https://dev.twitter.com/overview/general/adding-international-support-to-your-apps
 - type: x-java-library
   url: https://www.github.com/twitter/hbc
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://github.com/BoyCook/TwitterJSClient
 - type: x-oembed
   url: https://dev.twitter.com/web/embedded-timelines/oembed
@@ -163,6 +171,8 @@ x-common:
   url: https://dev.twitter.com/overview/terms
 - type: x-transparency-report
   url: https://transparency.twitter.com/
+- type: x-twitter
+  url: https://twitter.com/Twitter
 - type: x-twitter
   url: https://twitter.com/twitterapi/
 - type: x-twitter
