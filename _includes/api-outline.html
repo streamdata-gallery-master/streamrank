@@ -1,4 +1,4 @@
-<div align="center" width="50%">
+<div align="center" width="50%" style="border: 1px solid #000;">
 {% for entry in listing_object %}
   {% if entry.name %}
 
@@ -21,7 +21,6 @@
 
                 {% assign path_name = path[0] %}
                 {% assign api_path_slug = path_name | lstrip | rstrip | remove_first: "/" | replace: '.','' | replace: '{','' | replace: '}','' | replace: ' ','-' | replace: '/','-' | replace: '&','-' | replace: ':','' | replace: '.','-' | replace: '=','-' | replace: '?','-' | replace: '_','-' | replace: '---','-' | replace: '--','-' | downcase %}
-                {{ path_name }}<br />
                 {% for method in path[1] %}
 
                   {% assign method_details = method[1] %}
