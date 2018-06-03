@@ -14,78 +14,78 @@
       <p align="right"><img src="{{ api_image }}" width="100" align="left" style="padding: 15px;" /></p>
       <p align="left"><strong>{{ api_name }}</strong></p>
       <p align="left">{{ api_description }}</p>
-      <p align="left"><strong>Links:</strong></p>
+      <br /><p align="left"><strong>Links:</strong></p>
       <ul style="text-align: left; list-style-type: circle;">
       {% for common in entry.x-common %}
 
         {% if common.type == 'x-website' %}
-         <li><a href="{{ common.url }}">Website</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Website</a></li>
         {% endif %}
 
         {% if common.type == 'x-getting-started' %}
-         <li><a href="{{ common.url }}">Getting Started</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Getting Started</a></li>
         {% endif %}
 
         {% if common.type == 'x-authentication-overview' %}
-          <li><a href="{{ common.url }}">Authentication</a></li>
+          <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Authentication</a></li>
         {% endif %}
 
         {% if common.type == 'x-selfservice-registration' %}
-         <li><a href="{{ common.url }}">Sign Up</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Sign Up</a></li>
         {% endif %}
 
         {% if common.type == 'x-documentation' %}
-         <li><a href="{{ common.url }}">Documentation</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Documentation</a></li>
         {% endif %}
 
         {% if common.type == 'x-road-map' %}
-         <li><a href="{{ common.url }}">Road Map</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Road Map</a></li>
         {% endif %}
 
         {% if common.type == 'x-change-log' %}
-         <li><a href="{{ common.url }}">Change Log</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Change Log</a></li>
         {% endif %}
 
         {% if common.type == 'x-status' %}
-         <li><a href="{{ common.url }}">Status</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Status</a></li>
         {% endif %}
 
         {% if common.type == 'x-support' %}
-         <li><a href="{{ common.url }}">Support</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Support</a></li>
         {% endif %}
 
         {% if common.type == 'x-blog' %}
-         <li><a href="{{ common.url }}">Blog</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Blog</a></li>
         {% endif %}
 
         {% if common.type == 'x-blog-rss' %}
-         <li><a href="{{ common.url }}">Blog RSS</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Blog RSS</a></li>
         {% endif %}
 
         {% if common.type == 'x-twitter' %}
-         <li><a href="{{ common.url }}">Twitter</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Twitter</a></li>
         {% endif %}
 
         {% if common.type == 'x-github' %}
-         <li><a href="{{ common.url }}">Github</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Github</a></li>
         {% endif %}
 
         {% if common.type == 'x-pricing' %}
-         <li><a href="{{ common.url }}">Plans</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Plans</a></li>
         {% endif %}
 
         {% if common.type == 'x-terms-of-service-page' %}
-         <li><a href="{{ common.url }}">Terms of Service</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Terms of Service</a></li>
         {% endif %}
 
         {% if common.type == 'x-privacy-policy-page' %}
-         <li><a href="{{ common.url }}">Privacy Policy</a></li>
+         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Privacy Policy</a></li>
         {% endif %}
 
       {% endfor %}
       </ul>
 
-      <p align="left"><strong>API Paths:</strong></p>
+      <br /><p align="left"><strong>API Paths:</strong></p>
       <ul style="text-align: left; list-style-type: circle;">
       {% for item in site.listings %}
         {% if item.swagger %}
@@ -105,7 +105,7 @@
                   {% assign api_path_parameters = method_details.parameters %}
                   {% assign api_path_tags = method_details.tags %}
 
-                  <li>
+                  <li style="list-style-type: circle; padding-left: 5px;">
                     <a href="/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }}</a> ({{ verb | upcase }}) - {{ api_path_description }}
                   </li>
 
