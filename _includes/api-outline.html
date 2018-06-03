@@ -11,9 +11,10 @@
       {% assign api_json_kin_rank = entry.x-kinRank %}
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-      <p align="left"><strong>{{ api_name }}</strong></p>
-
-      <ul>
+      <p align="left"><strong>{{ api_description }}</strong></p>
+      <p align="right"><img src="{{ api_image }}" width="150" align="left" /></p>
+      <p align="left">{{ api_name }}</p>
+      <ul style="text-align: left;">
       {% for common in entry.x-common %}
 
         {% if common.type == 'x-website' %}
