@@ -6,9 +6,9 @@ description: Stack Exchange is a network of question and answer websites on dive
   after Stack Overflow, a forum for computer programming questions that was the original
   site in this network. The reputation system is designed to allow the sites to be
   self-moderating.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "126"
 tags:
 - Streamrank
 - Stack
@@ -17,20 +17,21 @@ tags:
 - My API Stack
 - Media
 - Imports
+- Forums
 - Content
 - Code
 - Citations
 - Answers
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stack-exchange/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Stack Exchange
   description: Stack Exchange is a network of question and answer websites on diverse
     topics in many different fields, each site covering a specific topic, where questions,
     answers, and users are subject to a reputation award process
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: ""
   baseURL: https://api.stackexchange.com//2.2
   tags:
@@ -41,13 +42,14 @@ apis:
   - My API Stack
   - Media
   - Imports
+  - Forums
   - Content
   - Code
   - Citations
   - Answers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/tags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stack-exchange/tags-get.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
@@ -59,8 +61,14 @@ x-common:
   url: http://blog.stackoverflow.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/stack-exchange
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stack-exchange
 - type: x-developer
   url: http://api.stackexchange.com/
+- type: x-email
+  url: legal@stackexchange.com
+- type: x-email
+  url: team@stackexchange.com
 - type: x-email
   url: team+api@stackexchange.com
 - type: x-error-codes
@@ -81,6 +89,8 @@ x-common:
   url: http://stackexchange.com/legal/api-terms-of-use
 - type: x-twitter
   url: https://twitter.com/StackExchange
+- type: x-website
+  url: http://stackexchange.com
 - type: x-website
   url: https://stackexchange.com/
 include: []
