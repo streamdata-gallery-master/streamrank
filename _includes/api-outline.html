@@ -14,6 +14,7 @@
       <p align="right"><img src="{{ api_image }}" width="150" align="left" /></p>
       <p align="left"><strong>{{ api_name }}</strong></p>
       <p align="left">{{ api_description }}</p>
+      <p><strong>Links:</strong></p>
       <ul style="text-align: left; list-style: circle;">
       {% for common in entry.x-common %}
 
@@ -84,6 +85,7 @@
       {% endfor %}
       </ul>
 
+      <p><strong>API Paths:</strong></p>
       <ul style="text-align: left; list-style: circle;">
       {% for item in site.listings %}
         {% if item.swagger %}
