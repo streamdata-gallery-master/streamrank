@@ -11,10 +11,10 @@
       {% assign api_json_kin_rank = entry.x-kinRank %}
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-      <p align="right"><img src="{{ api_image }}" width="100" align="left" /></p>
+      <p align="right"><img src="{{ api_image }}" width="100" align="left" style="padding: 15px;" /></p>
       <p align="left"><strong>{{ api_name }}</strong></p>
       <p align="left">{{ api_description }}</p>
-      <p><strong>Links:</strong></p>
+      <p align="left"><strong>Links:</strong></p>
       <ul style="text-align: left; list-style-type: circle;">
       {% for common in entry.x-common %}
 
@@ -85,7 +85,7 @@
       {% endfor %}
       </ul>
 
-      <p><strong>API Paths:</strong></p>
+      <p align="left"><strong>API Paths:</strong></p>
       <ul style="text-align: left; list-style-type: circle;">
       {% for item in site.listings %}
         {% if item.swagger %}
