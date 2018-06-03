@@ -9,11 +9,12 @@ description: Instagram is an online mobile photo-sharing, video-sharing and soci
   their images. The maximum duration for Instagram videos is 15 seconds.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags:
 - Stack Network
 - Stack
 - Social
+- Profiled
 - Photos
 - Photo API
 - Photo
@@ -23,10 +24,10 @@ tags:
 - Imports
 - Images
 - Change Log Example
-- Change Log
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/apis.yaml
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/instagram/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Instagram
@@ -41,6 +42,7 @@ apis:
   - Stack Network
   - Stack
   - Social
+  - Profiled
   - Photos
   - Photo API
   - Photo
@@ -50,10 +52,10 @@ apis:
   - Imports
   - Images
   - Change Log Example
-  - Change Log
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/#123;instagram-carousel-id-#125;-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/instagram/#123;instagram-carousel-id-#125;-comments-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
