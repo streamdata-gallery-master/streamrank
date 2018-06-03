@@ -1,5 +1,6 @@
 ---
 name: Instagram
+x-slug: instagram
 description: Instagram is an online mobile photo-sharing, video-sharing and social
   networking service that enables its users to take pictures and videos, and share
   them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
