@@ -15,6 +15,7 @@ tags:
 - Social
 - SaaS
 - Programming
+- Profiled
 - My API Stack
 - Management
 - Jobs
@@ -26,10 +27,11 @@ tags:
 - Coding
 - Code
 - Change Log Example
-- Change Log
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/apis.yaml
+- API Service Provider
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/github/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Github
@@ -45,6 +47,7 @@ apis:
   - Social
   - SaaS
   - Programming
+  - Profiled
   - My API Stack
   - Management
   - Jobs
@@ -56,12 +59,13 @@ apis:
   - Coding
   - Code
   - Change Log Example
-  - Change Log
+  - API Service Provider
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/organizations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/github/organizations-get.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://github.com/octokit/octokit.net
 - type: x-base
   url: https://api.github.com
