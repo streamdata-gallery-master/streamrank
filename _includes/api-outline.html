@@ -12,7 +12,77 @@
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
       <p align="left"><strong>{{ api_name }}</strong></p>
-      <p align="left">{{ api_description }}</p>
+
+      <ul>
+      {% for common in entry.x-common %}
+
+        {% if common.type == 'x-website' %}
+         <li><a href="{{ common.url }}">Website</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-getting-started' %}
+         <li><a href="{{ common.url }}">Getting Started</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-authentication-overview' %}
+          <li><a href="{{ common.url }}">Authentication</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-selfservice-registration' %}
+         <li><a href="{{ common.url }}">Sign Up</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-documentation' %}
+         <li><a href="{{ common.url }}">Documentation</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-road-map' %}
+         <li><a href="{{ common.url }}">Road Map</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-change-log' %}
+         <li><a href="{{ common.url }}">Change Log</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-status' %}
+         <li><a href="{{ common.url }}">Status</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-support' %}
+         <li><a href="{{ common.url }}">Support</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-blog' %}
+         <li><a href="{{ common.url }}">Blog</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-blog-rss' %}
+         <li><a href="{{ common.url }}">Blog RSS</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-twitter' %}
+         <li><a href="{{ common.url }}">Twitter</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-github' %}
+         <li><a href="{{ common.url }}">Github</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-pricing' %}
+         <li><a href="{{ common.url }}">Plans</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-terms-of-service-page' %}
+         <li><a href="{{ common.url }}">Terms of Service</a></li>
+        {% endif %}
+
+        {% if common.type == 'x-privacy-policy-page' %}
+         <li><a href="{{ common.url }}">Privacy Policy</a></li>
+        {% endif %}
+
+      {% endfor %}
+      </ul>
+
       <table border="0">
       {% for item in site.listings %}
         {% if item.swagger %}
