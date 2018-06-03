@@ -5,41 +5,49 @@ description: 'Disqus (/d?-sk?s/) is an online discussion and commenting service 
   platform includes various features, such as social integration, social networking,
   user profiles, spam and moderation tools, analytics, email notifications, and mobile
   commenting. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "850"
 tags:
+- Technology
 - Stack Network
 - Stack
 - Social
-- Partners
+- SaaS
+- Profiled
 - My API Stack
 - Media
+- internet
 - Content
 - Comments
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/apis.yaml
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Disqus
   description: Disqus (/d?-sk?s/) is an online discussion and commenting service for
     websites and online communities that uses a networked platform
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: ""
   baseURL: https://disqus.com/api/3.0/
   tags:
+  - Technology
   - Stack Network
   - Stack
   - Social
-  - Partners
+  - SaaS
+  - Profiled
   - My API Stack
   - Media
+  - internet
   - Content
   - Comments
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/users-interestingusers-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/disqus/users-interestingusers-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
@@ -49,6 +57,8 @@ x-common:
   url: http://blog.disqus.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/disqus
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/disqus
 - type: x-developer
   url: https://disqus.com/api/docs/
 - type: x-github
