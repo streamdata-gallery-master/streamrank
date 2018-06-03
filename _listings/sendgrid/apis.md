@@ -4,23 +4,24 @@ description: SendGrid is a cloud-based email service that delivers email on beha
   of companies to increase deliverability and improve customer communications integration
   with new or existing email systems is done via SMTP or through a REST API, providing
   metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "9582"
 tags:
+- Technology
 - Stack Network
 - Stack
-- Plans
-- Partners
+- SaaS
+- New
 - Messaging
 - Messaging
 - Imports
 - Email
 - Email
 - API LIfeycle
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: SendGrid
@@ -29,14 +30,15 @@ apis:
     with new or existing email systems is done via SMTP or through a REST API, providing
     metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam
     regulations
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: ""
   baseURL: https://api.sendgrid.com//v3
   tags:
+  - Technology
   - Stack Network
   - Stack
-  - Plans
-  - Partners
+  - SaaS
+  - New
   - Messaging
   - Messaging
   - Imports
@@ -45,9 +47,9 @@ apis:
   - API LIfeycle
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/suppression-bounces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/sendgrid/suppression-bounces-get.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
 - type: x-base
   url: https://api.sendgrid.com
@@ -59,10 +61,18 @@ x-common:
   url: https://sendgrid.com/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/sendgrid
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sendgrid
 - type: x-developer
   url: https://sendgrid.com/developers
 - type: x-documentation
   url: https://sendgrid.com/docs/index.html
+- type: x-email
+  url: privacy@sendgrid.com
+- type: x-email
+  url: legal@sendgrid.com
+- type: x-email
+  url: dpo@sendgrid.com
 - type: x-forum
   url: http://support.sendgrid.com/forums
 - type: x-github
@@ -75,7 +85,7 @@ x-common:
   url: https://sendgrid.com/docs/Code_Examples/java.html
 - type: x-labs
   url: http://labs.sendgrid.com/
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://sendgrid.com/docs/Code_Examples/nodejs.html
 - type: x-partners
   url: https://sendgrid.com/partners
@@ -99,6 +109,8 @@ x-common:
   url: https://sendgrid.com/tos
 - type: x-twitter
   url: https://twitter.com/SendGrid
+- type: x-website
+  url: http://sendgrid.com
 - type: x-website
   url: https://sendgrid.com/
 include: []
