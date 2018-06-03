@@ -84,7 +84,7 @@
       {% endfor %}
       </ul>
 
-      <table border="0">
+      <ul style="text-align: left;">
       {% for item in site.listings %}
         {% if item.swagger %}
           {% if item.swagger == "2.0" %}
@@ -103,14 +103,9 @@
                   {% assign api_path_parameters = method_details.parameters %}
                   {% assign api_path_tags = method_details.tags %}
 
-                  <tr>
-                    <td>
-                      <a href="/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }}</a>
-                    </td>
-                    <td width="8%" align="center">({{ verb | upcase }})</td>
-                    <!--<td>{{ path_name }}</td>-->
-                    <td>{{ api_path_description }}</td>
-                  </tr>
+                  <li>
+                    <a href="/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }}</a> ({{ verb | upcase }}) - {{ api_path_description }}
+                  </li>
 
                 {% endfor %}
               {% endfor %}
@@ -118,8 +113,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-      </table>
-      <br /><hr /><br />
+      </ul>
+      <hr />
 
   {% endif %}
 {% endfor %}
