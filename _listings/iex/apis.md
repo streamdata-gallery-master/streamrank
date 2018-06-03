@@ -6,11 +6,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "225220"
 tags:
+- Profiled
 - Marketplace
 - Market Data
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/iex/apis.yaml
+- Data Provider
+- API Provider
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/iex/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: IEX Trading API
@@ -20,11 +23,14 @@ apis:
   humanURL: ""
   baseURL: https://api.iextrading.com//1.0
   tags:
+  - Profiled
   - Marketplace
   - Market Data
+  - Data Provider
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/iex/market-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/iex/market-get.md
 x-common:
 - type: x-authentication
   url: https://iextrading.com/developer/docs/#authentication
