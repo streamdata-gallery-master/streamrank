@@ -1,5 +1,6 @@
 ---
 name: LinkedIn
+x-slug: linkedin
 description: With over 100 million users representing over 200 countries around the
   world, LinkedIn is a fast-growing professional networking site that allows members
   to create business contacts, search for jobs, and find potential clients. Individuals
