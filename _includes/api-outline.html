@@ -15,7 +15,7 @@
       <p align="left"><strong>{{ api_name }}</strong></p>
       <p align="left">{{ api_description }}</p>
       <p><strong>Links:</strong></p>
-      <ul style="text-align: left; list-style: circle;">
+      <ul style="text-align: left; list-style-type: circle;">
       {% for common in entry.x-common %}
 
         {% if common.type == 'x-website' %}
@@ -86,7 +86,7 @@
       </ul>
 
       <p><strong>API Paths:</strong></p>
-      <ul style="text-align: left; list-style: circle;">
+      <ul style="text-align: left; list-style-type: circle;">
       {% for item in site.listings %}
         {% if item.swagger %}
           {% if item.swagger == "2.0" %}
