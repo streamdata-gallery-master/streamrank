@@ -4,30 +4,33 @@ description: Twilio, the cloud communications company, providing a telephony inf
   web service in the cloud, allowing web developers to integrate phone calls, text
   messages and IP voice communications into their web, mobile and traditional phone
   applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "9195"
 tags:
 - Voice
 - Voice
+- Telecommunications
 - Telco
+- Technology
 - Stack Network
 - Stack
 - SMS API
 - SMS
 - Service Level Agreement
-- Reliability
-- Plans
-- Partners
+- SaaS
+- New
 - MMS API
 - MMS
 - Messaging
 - Messaging
-- Getting Started
+- internet
+- Getting Started Example
+- Enterprise
 - API LIfeycle
-created: "2018-05-06"
-modified: "2018-05-06"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twilio/apis.yaml
+created: "2018-06-03"
+modified: "2018-06-03"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twilio/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Twilio
@@ -35,32 +38,35 @@ apis:
     web service in the cloud, allowing web developers to integrate phone calls, text
     messages and IP voice communications into their web, mobile and traditional phone
     applications
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: ""
   baseURL: https://api.twilio.com//2010-04-01/
   tags:
   - Voice
   - Voice
+  - Telecommunications
   - Telco
+  - Technology
   - Stack Network
   - Stack
   - SMS API
   - SMS
   - Service Level Agreement
-  - Reliability
-  - Plans
-  - Partners
+  - SaaS
+  - New
   - MMS API
   - MMS
   - Messaging
   - Messaging
-  - Getting Started
+  - internet
+  - Getting Started Example
+  - Enterprise
   - API LIfeycle
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twilio/accounts-accountsid-usage-records-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twilio/accounts-accountsid-usage-records-get.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
 - type: x-acceptable-use-policy
   url: https://www.twilio.com/legal/aup
@@ -78,8 +84,20 @@ x-common:
   url: https://www.twilio.com/help/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/twilio
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/twilio
 - type: x-documentation
   url: https://www.twilio.com/docs/api
+- type: x-email
+  url: help@twilio.com
+- type: x-email
+  url: privacy@twilio.com
+- type: x-email
+  url: legalnotices@twilio.com
+- type: x-email
+  url: trademark@twilio.com
+- type: x-email
+  url: kyleky@twilio.com
 - type: x-getting-started
   url: https://www.twilio.com/docs/quickstart
 - type: x-github
@@ -88,7 +106,7 @@ x-common:
   url: https://www.twilio.com/docs/howto
 - type: x-java-library
   url: https://www.twilio.com/docs/java/install
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://www.twilio.com/docs/node/install
 - type: x-paid-support
   url: https://www.twilio.com/premium-support#features
@@ -134,6 +152,10 @@ x-common:
   url: https://twitter.com/twilio
 - type: x-website
   url: http://www.twilio.com
+- type: x-website
+  url: http://twilio.com
+- type: x-website
+  url: http://stackoverflow.com
 include: []
 maintainers:
 - FN: Kin Lane
