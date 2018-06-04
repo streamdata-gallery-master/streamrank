@@ -1,5 +1,6 @@
 ---
 name: PagerDuty
+x-slug: pagerduty
 description: See how PagerDuty Digital Operations Management Platform integrates machine
   data  human intelligence to improve visibility  agility across organizations.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
