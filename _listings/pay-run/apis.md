@@ -1,5 +1,6 @@
 ---
 name: Pay Run
+x-slug: pay-run
 description: PayRun.io is a RESTful payroll and auto enrolment API built by developers
   for developers. It is a 100% compliant solution hosted in our own private cloud,
   providing realtime payroll calculations and regulatory reporting to HMRC.
