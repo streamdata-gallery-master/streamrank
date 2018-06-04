@@ -16,7 +16,7 @@
          {% assign twitter_url = common.url %}
         {% endif %}
       {% endfor %}
-      <br /><p align="left"><strong>{{ api_name }} Tweets:</strong></p>
+      <br /><p align="left"><strong>{{ api_name }} Tweets:</strong></p><br />
       {% for item in site.listings %}
         {% if item.swagger %}
           {% if item.swagger == "2.0" %}
