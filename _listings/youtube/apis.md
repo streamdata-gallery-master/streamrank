@@ -1,5 +1,6 @@
 ---
 name: YouTube
+x-slug: youtube
 description: YouTube allows billions of people to discover, watch and share originally-created
   videos. YouTube provides a forum for people to connect, inform, and inspire others
   across the globe and acts as a distribution platform for original content creators
