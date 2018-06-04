@@ -1,5 +1,6 @@
 ---
 name: Twitter
+x-slug: twitter
 description: Twitter is a global real-time communications platform with 400 million
   monthly visitors to twitter.com, more than 200 million monthly active users around
   the world.
