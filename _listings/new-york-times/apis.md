@@ -1,5 +1,6 @@
 ---
 name: New York Times
+x-slug: new-york-times
 description: The New York Times (sometimes abbreviated as The NYT or The Times) is
   an American newspaper based in New York City with worldwide influence and readership.
   Founded in 1851, the paper has won 122 Pulitzer Prizes, more than any other newspaper.
