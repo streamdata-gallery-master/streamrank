@@ -1,5 +1,6 @@
 ---
 name: Pingdom
+x-slug: pingdom
 description: 'Pingdom is a service that tracks the uptime, downtime, and performance
   of websites.  When problems happen with a site that Pingdom monitors, it immediately
   alerts the owner so the problem can be taken care of. Pingdom monitors websites
