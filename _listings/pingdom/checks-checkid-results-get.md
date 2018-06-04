@@ -15,9 +15,9 @@ consumes:
 paths:
   /checks/{checkId}/results:
     get:
-      summary: Checks {checkId} Results?mostrecent={mostrecent}&amp;detail_level={detail_level}
-      description: Gets the most recent check results
-      operationId: getChecksCheckResultsMostrecentMostrecent&amp;detailLevelDetailLevel
+      summary: Checks {checkId} Results?fromUtc={fromUtc}&amp;toUtc={toUtc}&amp;detail_level={detail_level}
+      description: Gets check results between two dates
+      operationId: getChecksCheckResultsFromutcFromutc&amp;toutcToutc&amp;detailLevelDetailLevel
       responses:
         200:
           description: OK
