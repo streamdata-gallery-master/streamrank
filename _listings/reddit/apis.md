@@ -1,5 +1,6 @@
 ---
 name: Reddit
+x-slug: reddit
 description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social networking
   service and news website where registered community members can submit content,
   such as text posts or direct links. Only registered users can then vote submissions

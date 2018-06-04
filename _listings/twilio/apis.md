@@ -1,5 +1,6 @@
 ---
 name: Twilio
+x-slug: twilio
 description: Twilio, the cloud communications company, providing a telephony infrastructure
   web service in the cloud, allowing web developers to integrate phone calls, text
   messages and IP voice communications into their web, mobile and traditional phone

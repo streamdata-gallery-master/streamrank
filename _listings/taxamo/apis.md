@@ -1,5 +1,6 @@
 ---
 name: taxamo
+x-slug: taxamo
 description: We understand that the world of EU VAT compliance can be quite complex.
   That is why we have created a simple solution that eases the compliance burden for
   the developers, and the owners, of e-commerce websites across the globe.

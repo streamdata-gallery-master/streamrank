@@ -1,5 +1,6 @@
 ---
 name: The Guardian
+x-slug: the-guardian
 description: The Guardian is a British national daily newspaper which has grown into
   a national paper associated with a complex organisational structure and an international
   multimedia and web presence. The Guardian provides API access to articles accessible

@@ -1,5 +1,6 @@
 ---
 name: Google Sheets
+x-slug: google-sheets
 description: 'Google Sheets is an online spreadsheet app that lets users create and
   format spreadsheets and simultaneously work with other people. Google Sheets isnrsquo;t
   only for consumers: its used every day by businesses and schools to manage spreadsheet

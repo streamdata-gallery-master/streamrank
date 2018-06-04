@@ -1,5 +1,6 @@
 ---
 name: Weatherbit
+x-slug: weatherbit
 description: Our mission at Weatherbit.io is pretty simple. It is to provide the highest
   quality weather forecasts, observations, and historical weather data at the best
   price. We constantly improve our platform every day. Our Weather APIs grow with

@@ -1,5 +1,6 @@
 ---
 name: GitHub
+x-slug: github
 description: GitHub is a social network for programmers. Git is a distributed software
   management program created by Linus Torvalds, originally for the Linux Kernel Development.
   GitHub is a hosted Git repository. Github allows you to take part in collaboration

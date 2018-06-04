@@ -1,5 +1,6 @@
 ---
 name: NPR
+x-slug: npr
 description: NPR delivers breaking national and world news. Also top stories from
   business, politics, health, science, technology, music, arts and culture. Subscribe
   to podcasts and RSS feeds.

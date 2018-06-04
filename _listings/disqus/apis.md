@@ -1,5 +1,6 @@
 ---
 name: Disqus
+x-slug: disqus
 description: 'Disqus (/d?-sk?s/) is an online discussion and commenting service for
   websites and online communities that uses a networked platform. The company???s
   platform includes various features, such as social integration, social networking,

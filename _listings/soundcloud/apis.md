@@ -1,5 +1,6 @@
 ---
 name: SoundCloud
+x-slug: soundcloud
 description: SoundCloud is a global online audio distribution platform based in Berlin,
   Germany, that enables its users to upload, record, promote, and share their originally-created
   sounds. According to the company???s data, in December 2014, the service attracts

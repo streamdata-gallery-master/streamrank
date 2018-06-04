@@ -1,5 +1,6 @@
 ---
 name: Paylocity
+x-slug: paylocity
 description: ""
 image: ""
 x-kinRank: "7"

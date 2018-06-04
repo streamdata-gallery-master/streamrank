@@ -1,5 +1,6 @@
 ---
 name: Regulations.gov
+x-slug: regulations-gov
 description: Regulations.gov is a multi-agency website where citizens can view and
   comment on federal regulations and other agency actions that affect their daily
   lives. More than 35 federal departments and agencies participate in Regulations.gov,

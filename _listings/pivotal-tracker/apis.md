@@ -1,5 +1,6 @@
 ---
 name: Pivotal Tracker
+x-slug: pivotal-tracker
 description: Writing software isnrsquo;t half as hard as all the talking, emails,
   and meetings needed to reconcile shifting requirements and slipping deadlines. We
   get it, wersquo;ve been there. nbsp;In fact, wersquo;re still there. Were Pivotal

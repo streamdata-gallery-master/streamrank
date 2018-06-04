@@ -1,5 +1,6 @@
 ---
 name: Server Density
+x-slug: server-density
 description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
   you improve performance and maintain uptime. Organizer of @humanops
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg

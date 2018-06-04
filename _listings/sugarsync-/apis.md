@@ -1,5 +1,6 @@
 ---
 name: SugarSync
+x-slug: sugarsync-
 description: 'SugarSync is a cloud file sharing, file sync and online backup service
   that is simple, powerful and easy to use. Unlike Dropbox, SugarSync enables you
   to back up your existing folder structure. Try it for FREE for 30 days and get started

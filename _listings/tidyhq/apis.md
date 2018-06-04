@@ -1,5 +1,6 @@
 ---
 name: TidyHQ
+x-slug: tidyhq
 description: TidyClub is an enterprise-like cloud computing company built for your
   mother with a per transaction revenue model. The company is best known for making
   committee administration simple through combine CRM, Memberships, Tasks, Events,

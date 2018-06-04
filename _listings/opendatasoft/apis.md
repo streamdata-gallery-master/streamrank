@@ -1,5 +1,6 @@
 ---
 name: OpenDataSoft
+x-slug: opendatasoft
 description: OpenDataSoft is a cloud-based turnkey platform for data publishing and
   API management. Its interface is intuitively designed to empower anyone, regardless
   of technical skills, to upload easy-to-understand Open Data, or to even share data

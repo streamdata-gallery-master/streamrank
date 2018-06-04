@@ -1,5 +1,6 @@
 ---
 name: Stride
+x-slug: stride
 description: Stride is a cloud-based team business communication and collaboration
   tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
   software is available to download onto computers running Windows, Mac or Linux,

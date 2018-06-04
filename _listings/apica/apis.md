@@ -1,5 +1,6 @@
 ---
 name: Apica
+x-slug: apica
 description: Apica provides the most effective technology for optimizing the performance
   of cloud and mobile applications. Apica offers companies and developers alike easy-to-use,
   cloud-based load testing and web performance monitoring tools to test applications

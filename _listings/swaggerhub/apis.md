@@ -1,5 +1,6 @@
 ---
 name: SwaggerHub
+x-slug: swaggerhub
 description: 'The place for teams to collaborate and coordinate the entire workflow
   of an APIs lifecycle.  SwaggerHub???s built-in editors let you rapidly create the
   Swagger definition that everything else is based on, in an intuitive interface that

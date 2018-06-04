@@ -1,5 +1,6 @@
 ---
 name: StatusPage.io
+x-slug: statuspage-io
 description: StatusPage.io launched in 2013 to give companies a better way to be more
   transparent with their customers. We recognize managing a status page outside of
   ones own infrastructure can be a hassle, and hope to increase the transparency of

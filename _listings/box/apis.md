@@ -1,5 +1,6 @@
 ---
 name: Box
+x-slug: box
 description: Box is changing how you manage content across your business from simple
   file sharing to building custom apps.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg

@@ -1,5 +1,6 @@
 ---
 name: Pinboard
+x-slug: pinboard
 description: Pinboard.In is a social bookmarking site that offers an easy import/
   export in del.icio.us format,  Nightly database backups to S3,  Cached copies of
   all  bookmarks,  a ???to read??? status for later viewing, private bookmarks and

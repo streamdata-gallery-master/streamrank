@@ -1,5 +1,6 @@
 ---
 name: Spotify
+x-slug: spotify
 description: Spotify has created a lightweight software application that allows instant
   listening to specific tracks or albums with virtually no buffering delay. It was
   launched in the fall of 2008 and had approximately 10 million users by September
