@@ -13,7 +13,7 @@
       {% assign twitter_url = '' %}
       {% for common in entry.x-common %}
         {% if common.type == 'x-twitter' %}
-         {% assign twitter_url = entry.url %}
+         {% assign twitter_url = common.url %}
         {% endif %}
       {% endfor %}
       <br /><p align="left"><strong>{{ api_name }} Tweets:</strong></p>
