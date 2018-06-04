@@ -35,7 +35,7 @@
                   {% assign api_path_parameters = method_details.parameters %}
                   {% assign api_path_tags = method_details.tags %}
 
-                  <p>Streamdata.io API Gallery: {{ api_name }} {{ api_path_summary }}</a> - http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/listings/{{ api_slug }}/{{ api_path_slug }}/ @{{ twitter_url | replace: 'https://twitter.com/','' }}</p><br />
+                  <p align="left">Streamdata.io API Gallery: {{ api_name }} {{ api_path_summary }}</a> - http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/listings/{{ api_slug }}/{{ api_path_slug }}/{% if twitter_url != '' %} @{{ twitter_url | replace: 'https://twitter.com/','' }}{% endif %}</p><br />
 
                 {% endfor %}
               {% endfor %}
