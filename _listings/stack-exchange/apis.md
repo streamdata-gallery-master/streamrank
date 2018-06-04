@@ -1,5 +1,6 @@
 ---
 name: Stack Exchange
+x-slug: stack-exchange
 description: Stack Exchange is a network of question and answer websites on diverse
   topics in many different fields, each site covering a specific topic, where questions,
   answers, and users are subject to a reputation award process. The sites are modeled
