@@ -1,5 +1,6 @@
 ---
 name: Tumblr
+x-slug: tumblr
 description: Tumblr is a re-envisioning of tumblelogging, a subset of blogging that
   uses quick, mixed-media posts. The service hopes to do for the tumblelog what services
   like LiveJournal and Blogger did for the blog. The difference is that its extreme
