@@ -10,6 +10,7 @@
       {% assign api_json_url = entry.url %}
       {% assign api_json_kin_rank = entry.x-kinRank %}
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
+      {% assign twitter_url = '' %}
       {% for common in entry.x-common %}
         {% if common.type == 'x-twitter' %}
          {% assign twitter_url = entry.url %}
