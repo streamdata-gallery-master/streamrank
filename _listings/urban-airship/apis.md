@@ -1,5 +1,6 @@
 ---
 name: Urban Airship
+x-slug: urban-airship
 description: A market-leading mobile app engagement, mobile analytics, mobile data
   integration and mobile wallet marketing solution.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
