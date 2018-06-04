@@ -1,5 +1,6 @@
 ---
 name: Plivo
+x-slug: plivo
 description: Plivo is an API Platform for building voice and SMS features into web
   and mobile applications that are focused on running in the cloud. Plivo provides
   web APIs that allow developers to integrate voice and SMS sending, receiving, and
