@@ -1,5 +1,6 @@
 ---
 name: Pingometer
+x-slug: pingometer
 description: Pingometer is a service that monitors the uptime, downtime, and performance
   of websites. We offer HTTP, HTTPS, RUM, DNS, ICMP, IMAP, POP3, SMTP, TCP, UDP, and
   Transaction monitors. We have locations in Australia, Brazil, France, Germany, Luxembourg,
