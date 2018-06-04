@@ -1,5 +1,6 @@
 ---
 name: Uber
+x-slug: uber
 description: The Uber API exposes a set of RESTful endpoints that enable your application
   to GET information such as time and price estimates about the products offered in
   a given location, request rides on behalf of authenticated users, and create ride
