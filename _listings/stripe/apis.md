@@ -1,5 +1,6 @@
 ---
 name: Stripe
+x-slug: stripe
 description: Online payment processing for internet businesses. Stripe is a suite
   of payment APIs that powers commerce for online businesses of all sizes, including
   fraud prevention, and subscription management. Use Stripe???s payment platform to
