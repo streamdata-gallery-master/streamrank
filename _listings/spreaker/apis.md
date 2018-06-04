@@ -1,5 +1,6 @@
 ---
 name: Spreaker
+x-slug: spreaker
 description: Discover and listen to your favorite podcasts for free or sign up to
   create your own!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
