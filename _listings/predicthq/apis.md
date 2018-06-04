@@ -1,5 +1,6 @@
 ---
 name: PredictHQ
+x-slug: predicthq
 description: Event visibility yields higher returns  reduces operational costs. PredictHQ
   is the worlds largest source of intelligent event data making businesses smarter.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
