@@ -1,5 +1,6 @@
 ---
 name: Square
+x-slug: square
 description: Square helps millions of sellers run their business- from secure credit
   card processing to point of sale solutions. Get paid faster with Square and sign
   up today!
