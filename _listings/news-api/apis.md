@@ -1,5 +1,6 @@
 ---
 name: News API
+x-slug: news-api
 description: Get live article metadata from a range of sources including BBC News,
   TechCrunch, Huffington Post and more with our free News API.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-newsapi-org.jpg
