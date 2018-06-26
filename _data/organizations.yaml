@@ -53,11 +53,11 @@
   image: api-science.png
   description: The gallery section containing API Science APIs.
   paths: 23
-- label: Apigee Edge
-  slug: apigee-edge
-  url: http://apigee.edge.api.gallery.streamdata.io
-  image: apigee-edge.png
-  description: The gallery section containing Apigee Edge APIs.
+- label: Apigee
+  slug: apigee
+  url: http://apigee.api.gallery.streamdata.io
+  image: apigee.png
+  description: The gallery section containing Apigee APIs.
   paths: 152
 - label: APIMATIC
   slug: apimatic
@@ -773,11 +773,11 @@
   image: blizzard.png
   description: The gallery section containing Blizzard APIs.
   paths: 11
-- label: Blockchain Info
-  slug: blockchain-info
-  url: http://blockchain.info.api.gallery.streamdata.io
-  image: blockchain-info.png
-  description: The gallery section containing Blockchain Info APIs.
+- label: Blockchain
+  slug: blockchain
+  url: http://blockchain.api.gallery.streamdata.io
+  image: blockchain.png
+  description: The gallery section containing Blockchain APIs.
   paths: 16
 - label: Blogger
   slug: blogger
@@ -1731,17 +1731,11 @@
   image: new-relic.png
   description: The gallery section containing New Relic APIs.
   paths: 73
-- label: New York Times
-  slug: new-york-times
-  url: http://new.york.times.api.gallery.streamdata.io
-  image: new-york-times.png
-  description: The gallery section containing New York Times APIs.
-  paths: 14
-- label: News API
-  slug: news-api
-  url: http://news.api.api.gallery.streamdata.io
-  image: news-api.png
-  description: The gallery section containing News API APIs.
+- label: "News API \U0001F5DE\uFE0F"
+  slug: news-api-
+  url: http://news.api..api.gallery.streamdata.io
+  image: news-api-.png
+  description: "The gallery section containing News API \U0001F5DE\uFE0F APIs."
   paths: 3
 - label: NewsWhip
   slug: newswhip
@@ -1941,11 +1935,11 @@
   image: stack-exchange.png
   description: The gallery section containing Stack Exchange APIs.
   paths: 124
-- label: StatusPage.io
-  slug: statuspage-io
-  url: http://statuspage.io.api.gallery.streamdata.io
-  image: statuspage-io.png
-  description: The gallery section containing StatusPage.io APIs.
+- label: StatusPage
+  slug: statuspage
+  url: http://statuspage.api.gallery.streamdata.io
+  image: statuspage.png
+  description: The gallery section containing StatusPage APIs.
   paths: 41
 - label: Stocklytics
   slug: stocklytics
@@ -1988,24 +1982,24 @@
   url: http://swagger.api.gallery.streamdata.io
   image: swagger.png
   description: The gallery section containing Swagger APIs.
-  paths: 7
-- label: SwaggerHub
-  slug: swaggerhub
-  url: http://swaggerhub.api.gallery.streamdata.io
-  image: swaggerhub.png
-  description: The gallery section containing SwaggerHub APIs.
   paths: 70
+- label: Swagger
+  slug: swagger
+  url: http://swagger.api.gallery.streamdata.io
+  image: swagger.png
+  description: The gallery section containing Swagger APIs.
+  paths: 7
 - label: System Award Management
   slug: system-award-management
   url: http://system.award.management.api.gallery.streamdata.io
   image: system-award-management.png
   description: The gallery section containing System Award Management APIs.
   paths: 1
-- label: taxamo
+- label: Taxamo
   slug: taxamo
   url: http://taxamo.api.gallery.streamdata.io
   image: taxamo.png
-  description: The gallery section containing taxamo APIs.
+  description: The gallery section containing Taxamo APIs.
   paths: 36
 - label: TelAPI
   slug: telapi
@@ -2019,18 +2013,18 @@
   image: the-guardian.png
   description: The gallery section containing The Guardian APIs.
   paths: 4
+- label: The New York Times
+  slug: the-new-york-times
+  url: http://the.new.york.times.api.gallery.streamdata.io
+  image: the-new-york-times.png
+  description: The gallery section containing The New York Times APIs.
+  paths: 14
 - label: The Open Movie Database
   slug: the-open-movie-database
   url: http://the.open.movie.database.api.gallery.streamdata.io
   image: the-open-movie-database.png
   description: The gallery section containing The Open Movie Database APIs.
   paths: 1
-- label: TidyHQ
-  slug: tidyhq
-  url: http://tidyhq.api.gallery.streamdata.io
-  image: tidyhq.png
-  description: The gallery section containing TidyHQ APIs.
-  paths: 34
 - label: Twilio
   slug: twilio
   url: http://twilio.api.gallery.streamdata.io
@@ -2147,11 +2141,11 @@
   image: weather-underground.png
   description: The gallery section containing Weather Underground APIs.
   paths: 32
-- label: Weatherbit
-  slug: weatherbit
-  url: http://weatherbit.api.gallery.streamdata.io
-  image: weatherbit.png
-  description: The gallery section containing Weatherbit APIs.
+- label: Weatherbit.io
+  slug: weatherbit-io
+  url: http://weatherbit.io.api.gallery.streamdata.io
+  image: weatherbit-io.png
+  description: The gallery section containing Weatherbit.io APIs.
   paths: 49
 - label: Wikipedia
   slug: wikipedia
