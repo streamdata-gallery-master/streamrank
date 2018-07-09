@@ -11,82 +11,78 @@
       {% assign api_json_kin_rank = entry.x-kinRank %}
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-      <p align="right"><img src="{{ api_image }}" width="100" align="left" style="padding: 15px;" /></p>
-      <p align="left"><strong>{{ api_name }}</strong></p>
-      <p align="left">{{ api_description }}</p>
-      <br /><p align="left"><strong>Links:</strong></p>
-      <ul style="text-align: left; list-style-type: circle;">
+      <img src="{{ api_image }}" width="100" align="left" style="padding: 15px;" /><br />
+      <strong>{{ api_name }}</strong><br />
+      {{ api_description }}<br />
+      <strong>Links:</strong><br />
       {% for common in entry.x-common %}
 
         {% if common.type == 'x-website' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Website</a></li>
+         - <a href="{{ common.url }}">Website</a><br />
         {% endif %}
 
         {% if common.type == 'x-getting-started' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Getting Started</a></li>
+         - <a href="{{ common.url }}">Getting Started</a><br />
         {% endif %}
 
         {% if common.type == 'x-authentication-overview' %}
-          <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Authentication</a></li>
+          - <a href="{{ common.url }}">Authentication</a><br />
         {% endif %}
 
         {% if common.type == 'x-selfservice-registration' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Sign Up</a></li>
+         - <a href="{{ common.url }}">Sign Up</a><br />
         {% endif %}
 
         {% if common.type == 'x-documentation' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Documentation</a></li>
+         - <a href="{{ common.url }}">Documentation</a><br />
         {% endif %}
 
         {% if common.type == 'x-road-map' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Road Map</a></li>
+         - <a href="{{ common.url }}">Road Map</a><br />
         {% endif %}
 
         {% if common.type == 'x-change-log' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Change Log</a></li>
+         - <a href="{{ common.url }}">Change Log</a><br />
         {% endif %}
 
         {% if common.type == 'x-status' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Status</a></li>
+         - <a href="{{ common.url }}">Status</a><br />
         {% endif %}
 
         {% if common.type == 'x-support' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Support</a></li>
+         - <a href="{{ common.url }}">Support</a><br />
         {% endif %}
 
         {% if common.type == 'x-blog' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Blog</a></li>
+         - <a href="{{ common.url }}">Blog</a><br />
         {% endif %}
 
         {% if common.type == 'x-blog-rss' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Blog RSS</a></li>
+         - <a href="{{ common.url }}">Blog RSS</a><br />
         {% endif %}
 
         {% if common.type == 'x-twitter' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Twitter</a></li>
+         - <a href="{{ common.url }}">Twitter</a><br />
         {% endif %}
 
         {% if common.type == 'x-github' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Github</a></li>
+         - <a href="{{ common.url }}">Github</a><br />
         {% endif %}
 
         {% if common.type == 'x-pricing' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Plans</a></li>
+         - <a href="{{ common.url }}">Plans</a><br />
         {% endif %}
 
         {% if common.type == 'x-terms-of-service-page' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Terms of Service</a></li>
+         - <a href="{{ common.url }}">Terms of Service</a><br />
         {% endif %}
 
         {% if common.type == 'x-privacy-policy-page' %}
-         <li style="list-style-type: circle; padding-left: 5px;"><a href="{{ common.url }}">Privacy Policy</a></li>
+         - <a href="{{ common.url }}">Privacy Policy</a><br />
         {% endif %}
 
       {% endfor %}
-      </ul>
-
-      <br /><p align="left"><strong>API Paths:</strong></p>
-      <ul style="text-align: left; list-style-type: circle;">
+      <p align="left"><strong>API Paths:</strong><br />
       {% for item in site.listings %}
         {% if item.swagger %}
           {% if item.swagger == "2.0" %}
@@ -105,9 +101,7 @@
                   {% assign api_path_parameters = method_details.parameters %}
                   {% assign api_path_tags = method_details.tags %}
 
-                  <li style="list-style-type: circle; padding-left: 5px;">
-                    <a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }}</a> ({{ verb | upcase }}) - {{ api_path_description }}
-                  </li>
+                  - <a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }}</a> ({{ verb | upcase }}) - {{ api_path_description }}
 
                 {% endfor %}
               {% endfor %}
@@ -115,7 +109,6 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-      </ul>
       <br /><hr /><br />
 
   {% endif %}
