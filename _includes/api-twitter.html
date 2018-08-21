@@ -11,13 +11,18 @@
       {% assign api_json_kin_rank = entry.x-kinRank %}
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
       {% assign twitter_url = '' %}
+
       {% for common in entry.x-common %}
         {% if common.type == 'x-twitter' %}
+
          {% assign twitter_url = common.url %}
          {% assign twitter_handle = common.url | replace: 'https://twitter.com/','' %}
+
+         <br /><p align="left"><a href="{{ twitter_url }}"<strong>@{{ twitter_handle }}</strong></p><br />
+
         {% endif %}
       {% endfor %}
-      <br /><p align="left"><a href="{{ twitter_url }}"<strong>@{{ twitter_handle }}</strong></p><br />
+
   {% endif %}
 {% endfor %}
 </div>
