@@ -18,7 +18,7 @@
              {% if entry.name %}
               {% for api in entry.apis %}
                  {% if entry.name == item.x-collection-name %}
-                    <br />
+
                    {% assign api_name = entry.name %}
                    {% assign api_slug = entry.x-slug %}
                    {% assign api_description = entry.description %}
