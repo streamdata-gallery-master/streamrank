@@ -1,4 +1,3 @@
-<div>
 {% for entry in listing_object %}
   {% if entry.name %}
 
@@ -15,7 +14,7 @@
          {% assign twitter_url = common.url %}
         {% endif %}
       {% endfor %}
-      <br /><p align="left"><strong>{{ api_name }} Tweets:</strong></p><br />
+      <p align="left"><strong>{{ api_name }} Tweets:</strong></p>
       {% for item in site.listings %}
         {% if item.swagger %}
           {% if item.swagger == "2.0" %}
@@ -42,8 +41,6 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-      <br /><hr /><br />
 
   {% endif %}
 {% endfor %}
-</div>
