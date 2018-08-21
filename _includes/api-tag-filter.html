@@ -1,25 +1,141 @@
-<section class="filterTags" data-filter-tags="">
-   <div class="filterTags__container">
 
-     <form>
-     <strong>Filter By:</strong>
-     <select name="filter" id="tagfilter">
-     {% assign topics = site.data.topics | sort: 'label' %}
-     {% for topic in topics %}}
-         <option value="https://streamdata-gallery.github.io/apis/{{ topic.slug }}/apis/"{% if topic.slug == tag_slug %} selected{% endif %}>{{ topic.label }}</option>
-    {% endfor %}
-     </select>
-     <input type="button" onclick="filterbytag();" name="filter_by" value="Go" />
-   </form>
+ <div>
 
    <script>
+
+   function reset()
+     {
+     var elements = document.getElementsByClassName('taggedLinkCard taggedLinkCard--red');
+
+     for (var i = 0; i < elements.length; i++)
+       {
+       thisid = elements[i].getAttribute("id");
+       document.getElementById(thisid).style.display = '';
+       }
+     }
+
+    function filterbyrank()
+      {
+      reset();
+
+      ranking = document.getElementById('rankFilter').value;
+      var elements = document.getElementsByClassName('taggedLinkCard taggedLinkCard--red');
+      if(ranking != 'all')
+        {
+        for (var i = 0; i < elements.length; i++)
+          {
+          thisrank = elements[i].getAttribute("rank");
+          thisid = elements[i].getAttribute("id");
+          if(ranking != thisrank)
+            {
+            //console.log("removing!");
+            document.getElementById(thisid).style.display = 'none';
+            }
+          else
+            {
+            //console.log("leaving!");
+            }
+          //console.log(elements[i].getAttribute("verb"));
+          }
+        }
+      }
     function filterbytag()
       {
       url = document.getElementById('tagfilter').value;
       //alert(url);
       location.href = url;
       }
+    function filterbyverb()
+      {
+      reset();
+
+      verb = document.getElementById('verbFilter').value;
+      verb = verb.toLowerCase();
+      var elements = document.getElementsByClassName('taggedLinkCard taggedLinkCard--red');
+      console.log("verb: " + verb);
+      if(verb != 'all')
+        {
+        for (var i = 0; i < elements.length; i++)
+          {
+          thisverb = elements[i].getAttribute("verb");
+          thisid = elements[i].getAttribute("id");
+          //console.log("verb: " + verb);
+          //console.log("thisverb: " + thisverb);
+          if(verb != thisverb)
+            {
+            //console.log("removing!");
+            document.getElementById(thisid).style.display = 'none';
+            }
+          else
+            {
+            //console.log("leaving!");
+            }
+          //console.log(elements[i].getAttribute("verb"));
+          }
+        }
+      }
+
    </script>
 
-   </div>
-</section>
+   <table border="0" align="center">
+     <tr>
+
+       {% if listing_type == 'topics' %}
+         <td align="center">
+             <form>
+             <strong>Ranking:</strong>
+             <select name="rankFilter" id="rankFilter" onchange="filterbyrank();">
+               <option value="All">All</option>
+               <option value="10">10</option>
+               <option value="9">9</option>
+               <option value="8">8</option>
+             </select>
+         </td>
+       {% endif %}
+
+       <td align="center">
+         <form>
+           {% if listing_type == 'topics' %}
+              <strong>Tag(s):</strong>
+           {% else %}
+              <strong>Organization(s):</strong>
+           {% endif %}
+         <select name="filter" id="tagfilter" onchange="filterbytag();">
+         {% if listing_type == 'topics' %}
+            {% assign navigation = site.data.topics | sort: 'label' %}
+         {% else %}
+            {% assign navigation = site.data.organizations | sort: 'label' %}
+         {% endif %}
+         {% for nav in navigation %}
+             <option value="{{ nav.url }}"{% if nav.label == site.tag %} selected{% endif %}>{{ nav.label }}</option>
+         {% endfor %}
+         </select>
+       </td>
+
+       {% if listing_type == 'topics' %}
+         <td align="center">
+             <form>
+             <strong>Verb:</strong>
+             <select name="verbFilter" id="verbFilter" onchange="filterbyverb();">
+               <option value="All">All</option>
+               <option value="GET">GET</option>
+               <option value="POST">POST</option>
+               <option value="PUT">PUT</option>
+               <option value="DELETE">DELETE</option>
+             </select>
+         </td>
+       {% endif %}
+     </tr>
+   </table>
+ </form>
+
+ {% if listing_type == 'topics' %}
+   <br /><br /><table border="0" align="center">
+     <tr>
+       <td colspan="3" align="center">
+         <a href="organizations.html"><strong>Group By Organization</strong></a> | <a href="index.html"><strong>List All APIs</strong></a>
+       </td>
+     </tr>
+   </table>
+ {% endif %}
+ </div>

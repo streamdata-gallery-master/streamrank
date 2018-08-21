@@ -1,11 +1,11 @@
-<section class="APIDetailHeader  APIDetailHeader--extra-top-padding ">
+<section class="APIDetailHeader">
    <div class="APIDetailHeader__container">
       <div class="APIDetailHeader__left">
          <img src="{{ apis_json.image }}" alt="{{ page.info.title }}" class="APIDetailHeader__image">
       </div>
       <div class="APIDetailHeader__right">
          <h1 class="APIDetailHeader__title">{{ api_name }} - {{ api_path_summary }}</h1>
-         <h2 class="APIDetailHeader__subtitle">{{ api_path_description }}</h2>
+         <p>{{ api_path_description }}</p>
          <div class="APIDetailHeader__dateContainer">
             <p class="APIDetailHeader__dateCallout">Posted on:</p>
             <p class="APIDetailHeader__date">{{ apis_json.modified | date: %b %y" }}</p>
@@ -15,9 +15,16 @@
 </section>
 
 {% if stream_rank.time_percentage != 0 and stream_rank.size_percentage != 0 and stream_rank.change_percentage != 0 %}
-  {% if stream_rank.change_percentage == '200' %}
-
-  {% else %}
+  {% if stream_rank.change_percentage == 200 %}
+  <section class="APIDetailStats">
+     <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
+     <div class="APIDetailStats__row">
+        <div class="APIDetailStats__statContainer">
+           <p class="APIDetailStats__stat">Variable Rank</p>
+        </div>
+     </div>
+  </section>
+  {% endif %}
   <section class="APIDetailStats">
      <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
      <div class="APIDetailStats__row">
@@ -35,7 +42,6 @@
         </div>
      </div>
   </section>
-  {% endif %}
 {% endif %}
 
 <section class="APIDescription">
@@ -43,31 +49,21 @@
       <h2 class="APIDescription__header">API Description</h2>
       <div class="APIDescription__table">
          <div class="APIDescription__tableHeader">
-            <p class="APIDescription__tableHeaderCopy">API</p>
-         </div>
-         <div class="APIDescription__tableBody">
-            <div class="APIDescription__tableBodyCopy">
-               <p>{{ api_path_summary }}</p>
-            </div>
-         </div>
-      </div>
-      <div class="APIDescription__table">
-         <div class="APIDescription__tableHeader">
             <p class="APIDescription__tableHeaderCopy">Provider</p>
          </div>
          <div class="APIDescription__tableBody">
             <div class="APIDescription__tableBodyCopy">
-               <p>{{ page.info.title }}</p>
+               <p>{{ api_name}}</p>
             </div>
          </div>
       </div>
       <div class="APIDescription__table">
          <div class="APIDescription__tableHeader">
-            <p class="APIDescription__tableHeaderCopy">API decription</p>
+            <p class="APIDescription__tableHeaderCopy">decription</p>
          </div>
          <div class="APIDescription__tableBody">
             <div class="APIDescription__tableBodyCopy">
-               <p>{{ api_path_description }}</p>
+               <p>{{ api_description }}</p>
             </div>
          </div>
       </div>
@@ -147,6 +143,48 @@
       </div>
       {% endif %}
 
+      {% if api_json_openapi_spec != '' %}
+      <a name="openapi"></a>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">OpenAPI</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="{{ api_json_openapi_spec }}" target="_blank" rel="noopener">{{ api_json_openapi_spec }}</a></p>
+            </div>
+         </div>
+      </div>
+      {% endif %}
+
+      {% if api_json_postman_collection != '' %}
+      <a name="postman"></a>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">Postman Collection</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="{{ api_json_postman_collection }}" target="_blank" rel="noopener">{{ api_json_postman_collection }}</a></p>
+            </div>
+         </div>
+      </div>
+      {% endif %}
+
+      {% if api_json_asyncapi_url != '' %}
+      <a name="asyncapi"></a>
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">AsyncAPI</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="{{ api_json_openapi_spec }}" target="_blank" rel="noopener">{{ api_json_asyncapi_url }}</a></p>
+            </div>
+         </div>
+      </div>
+      {% endif %}
+
       <p class="APIDescription__instructions">Curl command through Streamdata.io</p>
    </div>
    <div class="APIDescription__browserWindow">
@@ -172,68 +210,67 @@
 </section>
 
 {% if stream_rank.time_percentage != 0 and stream_rank.size_percentage != 0 and stream_rank.change_percentage != 0 %}
-  {% if stream_rank.change_percentage == '200' %}
-
-  {% else %}
-  <section class="APISpecs">
-     <div class="APISpecs__container">
-        <div class="APISpecs__column">
-           <h2 class="APISpecs__header">API Specifications</h2>
-           <div class="APISpecs__row">
-              <div class="APISpecs__rowHeader">
-                 <div class="APISpecs__rowHeaderCopy">Average Download Size</div>
-              </div>
-              <div class="APISpecs__rowStats">
-                 <div class="APISpecs__rowStatsCopy">
-                    <p><strong>{{ stream_rank.polling_size_download_average }} Kb</strong></p>
-                 </div>
-              </div>
-           </div>
-           <div class="APISpecs__row">
-              <div class="APISpecs__rowHeader">
-                 <div class="APISpecs__rowHeaderCopy">Average Download Time</div>
-              </div>
-              <div class="APISpecs__rowStats">
-                 <div class="APISpecs__rowStatsCopy">
-                    <p><strong>{{ stream_rank.polling_total_time_average }} second(s)</strong></p>
-                 </div>
-              </div>
-           </div>
-        </div>
-        <div class="APISpecs__column">
-           <h2 class="APISpecs__header">Test Conditions</h2>
-           <div class="APISpecs__row">
-              <div class="APISpecs__rowHeader">
-                 <div class="APISpecs__rowHeaderCopy">Date of test</div>
-              </div>
-              <div class="APISpecs__rowStats">
-                 <div class="APISpecs__rowStatsCopy"
-                    <p><strong>{{ stream_rank.last_run | date: %b %y" }}</strong></p>
-                 </div>
-              </div>
-           </div>
-           <div class="APISpecs__row">
-              <div class="APISpecs__rowHeader">
-                 <div class="APISpecs__rowHeaderCopy">Duration of test</div>
-              </div>
-              <div class="APISpecs__rowStats">
-                 <div class="APISpecs__rowStatsCopy">
-                    <p><strong>{{ stream_rank.days_run }} days</strong></p>
-                 </div>
-              </div>
-           </div>
-           <div class="APISpecs__row">
-              <div class="APISpecs__rowHeader">
-                 <div class="APISpecs__rowHeaderCopy">Polling frequency used for test</div>
-              </div>
-              <div class="APISpecs__rowStats">
-                 <div class="APISpecs__rowStatsCopy">
-                    <p><strong>60 second(s)</strong></p>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </div>
-  </section>
-  {% endif %}
+<section class="APISpecs">
+   <div class="APISpecs__container">
+      <div class="APISpecs__column">
+         <h2 class="APISpecs__header">API Specifications</h2>
+         <div class="APISpecs__row">
+            <div class="APISpecs__rowHeader">
+               <div class="APISpecs__rowHeaderCopy">Average Download Size</div>
+            </div>
+            <div class="APISpecs__rowStats">
+               <div class="APISpecs__rowStatsCopy">
+                  <p><strong>{{ stream_rank.polling_size_download_average }} Kb</strong></p>
+               </div>
+            </div>
+         </div>
+         <div class="APISpecs__row">
+            <div class="APISpecs__rowHeader">
+               <div class="APISpecs__rowHeaderCopy">Average Download Time</div>
+            </div>
+            <div class="APISpecs__rowStats">
+               <div class="APISpecs__rowStatsCopy">
+                  <p><strong>{{ stream_rank.polling_total_time_average }} second(s)</strong></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="APISpecs__column">
+         <h2 class="APISpecs__header">Test Conditions</h2>
+         <div class="APISpecs__row">
+            <div class="APISpecs__rowHeader">
+               <div class="APISpecs__rowHeaderCopy">Date of test</div>
+            </div>
+            <div class="APISpecs__rowStats">
+               <div class="APISpecs__rowStatsCopy"
+                  <p><strong>{{ stream_rank.last_run | date: %b %y" }}</strong></p>
+               </div>
+            </div>
+         </div>
+         <div class="APISpecs__row">
+            <div class="APISpecs__rowHeader">
+               <div class="APISpecs__rowHeaderCopy">Duration of test</div>
+            </div>
+            <div class="APISpecs__rowStats">
+               <div class="APISpecs__rowStatsCopy">
+                  <p><strong>{{ stream_rank.days_run }} days</strong></p>
+               </div>
+            </div>
+         </div>
+         <div class="APISpecs__row">
+            <div class="APISpecs__rowHeader">
+               <div class="APISpecs__rowHeaderCopy">Polling frequency used for test</div>
+            </div>
+            <div class="APISpecs__rowStats">
+               <div class="APISpecs__rowStatsCopy">
+                  <p><strong>60 second(s)</strong></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
 {% endif %}
+<br /><br />
+<p align="center"><a href="/"><strong>Return to Main Page</strong></a></p>
+<br /><br />

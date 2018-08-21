@@ -1,10 +1,11 @@
-title: Streamdata Gallery
-url: template.streamdata.gallery
-tag: Template
+title: Streamdata API Gallery - StreamRank
+description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
+url: streamrank.streamdata.gallery
+tag: StreamRank
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery
-github_repo: template
+github_user: streamdata-gallery-topics
+github_repo: streamrank
 github_branch: master
 collections:
   listings:
