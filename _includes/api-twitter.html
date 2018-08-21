@@ -15,7 +15,7 @@
       {% for common in entry.x-common %}
         {% if common.type == 'x-twitter' %}
          {% assign twitter_url = common.url %}
-         {% assign twitter_handle = common.url | replace: 'https://twitter.com/','' %}
+         {% assign twitter_handle = common.url | replace: 'https://twitter.com/','' | replace: '@','' | replace: '/','' %}
         {% endif %}
       {% endfor %}
 
