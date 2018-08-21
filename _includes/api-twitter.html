@@ -1,0 +1,24 @@
+<center>
+<div style="border: 0px solid #000; width: 1000px;">
+{% for entry in listing_object %}
+  {% if entry.name %}
+
+      {% assign api_name = entry.name %}
+      {% assign api_slug = entry.x-slug %}
+      {% assign api_description = entry.description %}
+      {% assign api_image = entry.image %}
+      {% assign api_json_url = entry.url %}
+      {% assign api_json_kin_rank = entry.x-kinRank %}
+      {% assign api_json_alexa_rank = entry.x-alexaRank %}
+      {% assign twitter_url = '' %}
+      {% for common in entry.x-common %}
+        {% if common.type == 'x-twitter' %}
+         {% assign twitter_url = common.url %}
+         {% assign twitter_handle = common.url | replace: 'https://twitter.com/','' %}
+        {% endif %}
+      {% endfor %}
+      <br /><p align="left"><a href="{{ twitter_url }}"<strong>@{{ twitter_handle }}</strong></p><br />
+  {% endif %}
+{% endfor %}
+</div>
+</center>
