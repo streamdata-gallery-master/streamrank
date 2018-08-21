@@ -18,7 +18,6 @@
         {% for item in site.listings %}
           {% if item.swagger %}
             {% if item.swagger == "2.0" %}
-              api_name: {{ api_name }} == {{ item.x-collection-name }}<br />
 	              {% if api_name == item.x-collection-name %}
 	                {% for path in item.paths %}
 
