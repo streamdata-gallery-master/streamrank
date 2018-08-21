@@ -1,7 +1,6 @@
+<div>
 
-{% if site.tag != 'StreamRank' %}
-
-  <div>
+  {% if site.tag != 'StreamRank' %}
 
      <script>
 
@@ -131,6 +130,8 @@
      </table>
    </form>
 
+ {% endif %}
+
    {% if listing_type == 'topics' %}
      <br /><br /><table border="0" align="center">
        <tr>
@@ -140,6 +141,4 @@
        </tr>
      </table>
    {% endif %}
-   </div>
-
- {% endif %}
+</div>
