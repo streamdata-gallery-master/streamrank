@@ -15,6 +15,19 @@ specificationVersion: "0.14"
 apis:
 - name: New York Times
   x-api-slug: new-york-times
+  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
+  humanURL: http://nytimes.com
+  baseURL: https://api.nytimes.com//svc
+  tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
+    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
+- name: New York Times
+  x-api-slug: new-york-times
   description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
     on Washington, business, sports, movies, travel, books, jobs, education, real
     estate, cars & more at nytimes.com.'
