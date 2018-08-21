@@ -6,68 +6,30 @@ description: NPR delivers breaking national and world news. Also top stories fro
   to podcasts and RSS feeds.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
 x-kinRank: "9"
-x-alexaRank: "641"
-tags:
-- Stack Network
-- Stack
-- Radio
-- Publishing
-- Profiled
-- News
-- Mobile
-- Media
-- Getting Started Example
-- Federal Government
-- Broadcasting
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/npr/apis.yaml
+x-alexaRank: "598"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
 - name: NPR
-  description: NPR delivers breaking national and world news
+  x-api-slug: npr
+  description: NPR delivers breaking national and world news. Also top stories from
+    business, politics, health, science, technology, music, arts and culture. Subscribe
+    to podcasts and RSS feeds.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: ""
+  humanURL: http://npr.org
   baseURL: https://api.npr.org//
-  tags:
-  - Stack Network
-  - Stack
-  - Radio
-  - Publishing
-  - Profiled
-  - News
-  - Mobile
-  - Media
-  - Getting Started Example
-  - Federal Government
-  - Broadcasting
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/npr/listening-v2-recommendations-get.md
-- name: NPR
-  description: NPR delivers breaking national and world news
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: ""
-  baseURL: https://api.npr.org//
-  tags:
-  - Stack Network
-  - Stack
-  - Radio
-  - Publishing
-  - Profiled
-  - News
-  - Mobile
-  - Media
-  - Getting Started Example
-  - Federal Government
-  - Broadcasting
-  - API Provider
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/npr/listening-v2-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/npr/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://nfusion.solutions.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://npr.stack.network
 - type: x-base
   url: http://api.npr.org/
 - type: x-codecademy
@@ -100,6 +62,8 @@ x-common:
   url: giving@npr.org
 - type: x-email
   url: giftplanning@npr.org
+- type: x-email
+  url: NPRDonorCommunications@npr.org
 - type: x-getting-started
   url: http://dev.npr.org/#quick-start
 - type: x-github

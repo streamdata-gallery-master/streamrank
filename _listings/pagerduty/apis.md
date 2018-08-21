@@ -2,41 +2,34 @@
 name: PagerDuty
 x-slug: pagerduty
 description: See how PagerDuty Digital Operations Management Platform integrates machine
-  data  human intelligence to improve visibility  agility across organizations.
+  data & human intelligence to improve visibility & agility across organizations.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: "19574"
-tags:
-- Technology
-- Stack Network
-- SaaS
-- Notifications
-- Monitoring
-- Incident
-- Enterprise
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pagerduty/apis.yaml
+x-alexaRank: "18918"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
 - name: PagerDuty
+  x-api-slug: pagerduty
   description: See how PagerDuty Digital Operations Management Platform integrates
-    machine data  human intelligence to improve visibility  agility across organizations
+    machine data & human intelligence to improve visibility & agility across organizations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: ""
+  humanURL: http://www.pagerduty.com/
   baseURL: https:///
-  tags:
-  - Technology
-  - Stack Network
-  - SaaS
-  - Notifications
-  - Monitoring
-  - Incident
-  - Enterprise
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pagerduty/services-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pagerduty/openapi.md
 x-common:
+- type: x-website
+  url: http://www.pagerduty.com/
+- type: x-api-gallery
+  url: http://paccurate.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pagerduty.stack.network
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
@@ -57,8 +50,12 @@ x-common:
   url: support@pagerduty.com
 - type: x-email
   url: legal@pagerduty.com
+- type: x-email
+  url: privacy@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pagerduty
 - type: x-openapi-spec--authoritative
   url: https://api-reference.pagerduty.com/output.json
 - type: x-pricing

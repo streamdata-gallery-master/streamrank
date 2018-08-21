@@ -5,48 +5,33 @@ description: A market-leading mobile app engagement, mobile analytics, mobile da
   integration and mobile wallet marketing solution.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
 x-kinRank: "8"
-x-alexaRank: "76944"
-tags:
-- Technology
-- Stack Network
-- SaaS
-- Push Notifications
-- New
-- Mobile
-- Location
-- Location
-- internet
-- BaaS
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/urban-airship/apis.yaml
+x-alexaRank: "79571"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Urban Airship
-  description: A market-leading mobile app engagement, mobile analytics, mobile data
-    integration and mobile wallet marketing solution
+  x-api-slug: urban-airship
+  description: The Urban Airship Push API is a major update which unifies several
+    legacy endpoints into two&mdash; one for sending messages and one for scheduling.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
-  humanURL: ""
+  humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
-  tags:
-  - Technology
-  - Stack Network
-  - SaaS
-  - Push Notifications
-  - New
-  - Mobile
-  - Location
-  - Location
-  - internet
-  - BaaS
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/urban-airship/partner-apps-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/urban-airship/openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/
 - type: x-android-sdk
   url: http://docs.urbanairship.com/platform/android.html
+- type: x-api-gallery
+  url: http://ulster.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://urban.airship.stack.network
 - type: x-blackberry-sdk
   url: http://docs.urbanairship.com/platform/blackberry.html
 - type: x-blog
@@ -73,6 +58,8 @@ x-common:
   url: http://docs.urbanairship.com/reference/glossary.html
 - type: x-ios-sdk
   url: http://docs.urbanairship.com/platform/ios.html
+- type: x-linkedin
+  url: https://www.linkedin.com/company/urban-airship/
 - type: x-phonegap-sdk
   url: http://docs.urbanairship.com/platform/phonegap.html
 - type: x-pricing

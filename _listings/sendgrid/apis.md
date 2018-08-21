@@ -1,57 +1,81 @@
 ---
 name: SendGrid
 x-slug: sendgrid
-description: SendGrid is a cloud-based email service that delivers email on behalf
-  of companies to increase deliverability and improve customer communications integration
-  with new or existing email systems is done via SMTP or through a REST API, providing
-  metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations.
+description: Delivering your transactional and marketing emails through the worlds
+  largest cloud-based email delivery platform. Send with confidence.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
 x-kinRank: "9"
-x-alexaRank: "9582"
-tags:
-- Technology
-- Stack Network
-- Stack
-- SaaS
-- New
-- Messaging
-- Messaging
-- Imports
-- Email
-- Email
-- API LIfeycle
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/sendgrid/apis.yaml
+x-alexaRank: "10000"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
 - name: SendGrid
-  description: SendGrid is a cloud-based email service that delivers email on behalf
-    of companies to increase deliverability and improve customer communications integration
-    with new or existing email systems is done via SMTP or through a REST API, providing
-    metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam
-    regulations
+  x-api-slug: sendgrid
+  description: SendGrids cloud-based email infrastructure relieves businesses of the
+    cost and complexity of maintaining custom email systems. SendGrid provides reliable
+    delivery, scalability and real-time analytics along with flexible APIs that make
+    custom integration a breeze.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: ""
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags:
-  - Technology
-  - Stack Network
-  - Stack
-  - SaaS
-  - New
-  - Messaging
-  - Messaging
-  - Imports
-  - Email
-  - Email
-  - API LIfeycle
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/sendgrid/suppression-bounces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/openapi.md
+- name: SendGrid Get Mailbox Provers Stats (stream)
+  x-api-slug: sendgrid-get-mailbox-provers-stats-stream
+  description: Delivering your transactional and marketing emails through the worlds
+    largest cloud-based email delivery platform. Send with confidence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/openapi.md
+- name: SendGrid Get Stats (stream)
+  x-api-slug: sendgrid-get-stats-stream
+  description: Delivering your transactional and marketing emails through the worlds
+    largest cloud-based email delivery platform. Send with confidence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/openapi.md
+- name: SendGrid Get Suppression Blocks (stream)
+  x-api-slug: sendgrid-get-suppression-blocks-stream
+  description: Delivering your transactional and marketing emails through the worlds
+    largest cloud-based email delivery platform. Send with confidence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/openapi.md
+- name: SendGrid Get Suppression Bounces (stream)
+  x-api-slug: sendgrid-get-suppression-bounces-stream
+  description: Delivering your transactional and marketing emails through the worlds
+    largest cloud-based email delivery platform. Send with confidence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog
@@ -86,6 +110,8 @@ x-common:
   url: https://sendgrid.com/docs/Code_Examples/java.html
 - type: x-labs
   url: http://labs.sendgrid.com/
+- type: x-linkedin
+  url: https://www.linkedin.com/company/sendgrid
 - type: x-node-js-library
   url: https://sendgrid.com/docs/Code_Examples/nodejs.html
 - type: x-partners

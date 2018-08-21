@@ -1,76 +1,37 @@
 ---
 name: Twilio
 x-slug: twilio
-description: Twilio, the cloud communications company, providing a telephony infrastructure
-  web service in the cloud, allowing web developers to integrate phone calls, text
-  messages and IP voice communications into their web, mobile and traditional phone
-  applications.
+description: Cloud communications platform for building SMS, Voice & Messaging applications
+  on an API built for global scale. Get started with a free trial.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
 x-kinRank: "10"
 x-alexaRank: "9195"
-tags:
-- Voice
-- Voice
-- Telecommunications
-- Telco
-- Technology
-- Stack Network
-- Stack
-- SMS API
-- SMS
-- Service Level Agreement
-- SaaS
-- New
-- MMS API
-- MMS
-- Messaging
-- Messaging
-- internet
-- Getting Started Example
-- Enterprise
-- API LIfeycle
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twilio/apis.yaml
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Twilio
-  description: Twilio, the cloud communications company, providing a telephony infrastructure
-    web service in the cloud, allowing web developers to integrate phone calls, text
-    messages and IP voice communications into their web, mobile and traditional phone
-    applications
+  x-api-slug: twilio
+  description: Cloud communications platform for building SMS, Voice & Messaging applications
+    on an API built for global scale. Get started with a free trial.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
-  humanURL: ""
+  humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
-  tags:
-  - Voice
-  - Voice
-  - Telecommunications
-  - Telco
-  - Technology
-  - Stack Network
-  - Stack
-  - SMS API
-  - SMS
-  - Service Level Agreement
-  - SaaS
-  - New
-  - MMS API
-  - MMS
-  - Messaging
-  - Messaging
-  - internet
-  - Getting Started Example
-  - Enterprise
-  - API LIfeycle
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twilio/accounts-accountsid-usage-records-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twilio/openapi.md
 x-common:
 - type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
 - type: x-acceptable-use-policy
   url: https://www.twilio.com/legal/aup
+- type: x-api-gallery
+  url: http://tvmaze.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twilio.stack.network
 - type: x-application-gallery
   url: https://www.twilio.com/showcase
 - type: x-base-url
@@ -116,12 +77,6 @@ x-common:
 - type: x-php-library
   url: https://www.twilio.com/docs/php/install
 - type: x-pricing
-  url: https://www.twilio.com/pricing
-- type: x-pricing--show-2
-  url: https://www.twilio.com/pricing
-- type: x-pricing--show-3
-  url: https://www.twilio.com/pricing
-- type: x-pricing--show-4
   url: https://www.twilio.com/pricing
 - type: x-privacy
   url: https://www.twilio.com/legal/privacy

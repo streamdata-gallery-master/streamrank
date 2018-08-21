@@ -3,53 +3,32 @@ name: Stripe
 x-slug: stripe
 description: Online payment processing for internet businesses. Stripe is a suite
   of payment APIs that powers commerce for online businesses of all sizes, including
-  fraud prevention, and subscription management. Use Stripe???s payment platform to
-  accept and process p...
+  fraud prevention, and subscription management. Use Stripes payment platform to accept
+  and process p...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
 x-kinRank: "10"
-x-alexaRank: "1793"
-tags:
-- Technology
-- Stripe Stack
-- Stack Network
-- Stack
-- SaaS
-- Payments
-- Payments
-- Payment API
-- Invoicing
-- Imports
-- Finance
-- Change Log Example
-- Billing
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stripe/apis.yaml
+x-alexaRank: "1914"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Stripe
-  description: Online payment processing for internet businesses
+  x-api-slug: stripe
+  description: Web and mobile payments, built for developers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: ""
+  humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
-  tags:
-  - Technology
-  - Stripe Stack
-  - Stack Network
-  - Stack
-  - SaaS
-  - Payments
-  - Payments
-  - Payment API
-  - Invoicing
-  - Imports
-  - Finance
-  - Change Log Example
-  - Billing
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stripe/transfers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stripe/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stride.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog
@@ -76,8 +55,12 @@ x-common:
   url: nonprofit@stripe.com
 - type: x-email
   url: support@stripe.com
+- type: x-email
+  url: dpo@stripe.com
 - type: x-github
   url: https://github.com/stripe
+- type: x-linkedin
+  url: https://www.linkedin.com/company/stripe/
 - type: x-pricing
   url: https://stripe.com/us/pricing
 - type: x-twitter

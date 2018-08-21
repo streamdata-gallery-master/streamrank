@@ -11,53 +11,97 @@ description: Instagram is an online mobile photo-sharing, video-sharing and soci
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
 x-kinRank: "9"
 x-alexaRank: "0"
-tags:
-- Stack Network
-- Stack
-- Social
-- Profiled
-- Photos
-- Photo API
-- Photo
-- My API Stack
-- Media
-- Indie EdTech Data Jam
-- Imports
-- Images
-- Change Log Example
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/instagram/apis.yaml
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Instagram
+  x-api-slug: instagram
   description: Instagram is an online mobile photo-sharing, video-sharing and social
     networking service that enables its users to take pictures and videos, and share
     them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
-    and Flickr
+    and Flickr. A distinctive feature is that it confines photos to a square shape,
+    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
+    ratio typically used by mobile device cameras. Users can also apply digital filters
+    to their images. The maximum duration for Instagram videos is 15 seconds.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
-  humanURL: ""
+  humanURL: http://instagram.com
   baseURL: https://graph.facebook.com//v3.0
-  tags:
-  - Stack Network
-  - Stack
-  - Social
-  - Profiled
-  - Photos
-  - Photo API
-  - Photo
-  - My API Stack
-  - Media
-  - Indie EdTech Data Jam
-  - Imports
-  - Images
-  - Change Log Example
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/instagram/#123;instagram-carousel-id-#125;-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/openapi.md
+- name: Instagram Instagram Carousel (stream)
+  x-api-slug: instagram-instagram-carousel-stream
+  description: Instagram is an online mobile photo-sharing, video-sharing and social
+    networking service that enables its users to take pictures and videos, and share
+    them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
+    and Flickr. A distinctive feature is that it confines photos to a square shape,
+    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
+    ratio typically used by mobile device cameras. Users can also apply digital filters
+    to their images. The maximum duration for Instagram videos is 15 seconds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
+  humanURL: http://instagram.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/openapi.md
+- name: Instagram Instagram Carousel Comments (stream)
+  x-api-slug: instagram-instagram-carousel-comments-stream
+  description: Instagram is an online mobile photo-sharing, video-sharing and social
+    networking service that enables its users to take pictures and videos, and share
+    them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
+    and Flickr. A distinctive feature is that it confines photos to a square shape,
+    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
+    ratio typically used by mobile device cameras. Users can also apply digital filters
+    to their images. The maximum duration for Instagram videos is 15 seconds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
+  humanURL: http://instagram.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/openapi.md
+- name: Instagram Instagram Media Comments (stream)
+  x-api-slug: instagram-instagram-media-comments-stream
+  description: Instagram is an online mobile photo-sharing, video-sharing and social
+    networking service that enables its users to take pictures and videos, and share
+    them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
+    and Flickr. A distinctive feature is that it confines photos to a square shape,
+    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
+    ratio typically used by mobile device cameras. Users can also apply digital filters
+    to their images. The maximum duration for Instagram videos is 15 seconds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
+  humanURL: http://instagram.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/openapi.md
+- name: Instagram Instagram User (stream)
+  x-api-slug: instagram-instagram-user-stream
+  description: Instagram is an online mobile photo-sharing, video-sharing and social
+    networking service that enables its users to take pictures and videos, and share
+    them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
+    and Flickr. A distinctive feature is that it confines photos to a square shape,
+    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
+    ratio typically used by mobile device cameras. Users can also apply digital filters
+    to their images. The maximum duration for Instagram videos is 15 seconds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
+  humanURL: http://instagram.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/instagram/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://infermedica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instagram.stack.network
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
 - type: x-authentication

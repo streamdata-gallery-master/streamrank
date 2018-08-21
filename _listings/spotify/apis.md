@@ -1,57 +1,37 @@
 ---
 name: Spotify
 x-slug: spotify
-description: Spotify has created a lightweight software application that allows instant
-  listening to specific tracks or albums with virtually no buffering delay. It was
-  launched in the fall of 2008 and had approximately 10 million users by September
-  2010. Spotify offers streaming music from major and independent record labels including
-  Sony, EMI, Warner Music Group, and Universal. Users download Spotify and then log
-  onto their service enabling the on-demand streaming of music. Music can be browsed
-  by artist, album, record label, genre or playlist as well as by direct searches.
+description: Spotify is a digital music service that gives you access to millions
+  of songs.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
 x-kinRank: "8"
-x-alexaRank: "133"
-tags:
-- Technology
-- Streaming
-- Stack Network
-- Stack
-- Music
-- Mobile
-- Issues Example
-- internet
-- Indie EdTech Data Jam
-- Change Log Example
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/spotify/apis.yaml
+x-alexaRank: "132"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Spotify
-  description: Spotify has created a lightweight software application that allows
-    instant listening to specific tracks or albums with virtually no buffering delay
+  x-api-slug: spotify
+  description: Spotify is a digital music service that gives you access to millions
+    of songs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
-  humanURL: ""
+  humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
-  tags:
-  - Technology
-  - Streaming
-  - Stack Network
-  - Stack
-  - Music
-  - Mobile
-  - Issues Example
-  - internet
-  - Indie EdTech Data Jam
-  - Change Log Example
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/spotify/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/spotify/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
+- type: x-api-gallery
+  url: http://spire.global.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spotify.stack.network
 - type: x-application-gallery
   url: https://developer.spotify.com/my-applications/
 - type: x-application-gallery
@@ -78,6 +58,8 @@ x-common:
   url: https://developer.spotify.com/technologies/spotify-ios-sdk/
 - type: x-issues
   url: https://github.com/spotify/web-api/issues
+- type: x-linkedin
+  url: https://www.linkedin.com/company/spotify/
 - type: x-stack-overflow
   url: http://stackoverflow.com/questions/tagged/spotify
 - type: x-terms-of-service

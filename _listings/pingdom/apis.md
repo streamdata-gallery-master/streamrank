@@ -1,41 +1,154 @@
 ---
 name: Pingdom
 x-slug: pingdom
-description: 'Pingdom is a service that tracks the uptime, downtime, and performance
-  of websites.  When problems happen with a site that Pingdom monitors, it immediately
-  alerts the owner so the problem can be taken care of. Pingdom monitors websites
-  from multiple locations globally so that it can distinguish genuine downtime from
-  routing and access problems. '
+description: Monitor your websites availability and performance for free with Pingdom
+  and always be the first to know when your website is down. No installation required.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
 x-kinRank: "7"
-x-alexaRank: "5592"
-tags:
-- Technology
-- SaaS
-- Performance
-- Monitoring
-- internet
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pingdom/apis.yaml
+x-alexaRank: "5876"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Summary API
-  description: Pingdom is a service that tracks the uptime, downtime, and performance
-    of websites
+- name: Analysis API
+  x-api-slug: analysis-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
-  humanURL: ""
-  baseURL: https://api.pingdom.com//
-  tags:
-  - Technology
-  - SaaS
-  - Performance
-  - Monitoring
-  - internet
+  humanURL: http://www.pingdom.com
+  baseURL: :///
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pingdom/api-version-summary-probes-checkid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Checks API
+  x-api-slug: checks-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Credits API
+  x-api-slug: credits-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Probes API
+  x-api-slug: probes-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Reference API
+  x-api-slug: reference-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Reports API
+  x-api-slug: reports-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Results API
+  x-api-slug: results-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Servertime API
+  x-api-slug: servertime-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Settings API
+  x-api-slug: settings-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Single API
+  x-api-slug: single-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Summary API
+  x-api-slug: summary-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
+- name: Traceroute API
+  x-api-slug: traceroute-api
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingdom/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pinboard.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pingdom.stack.network
 - type: x-base
   url: https://api.pingdom.com
 - type: x-blog
@@ -52,6 +165,8 @@ x-common:
   url: sales@pingdom.com
 - type: x-github
   url: https://github.com/Pingdom
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pingdom
 - type: x-pricing
   url: https://www.pingdom.com/pricing
 - type: x-twitter

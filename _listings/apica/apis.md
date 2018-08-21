@@ -1,48 +1,190 @@
 ---
 name: Apica
 x-slug: apica
-description: Apica provides the most effective technology for optimizing the performance
-  of cloud and mobile applications. Apica offers companies and developers alike easy-to-use,
-  cloud-based load testing and web performance monitoring tools to test applications
-  for maximum capacity, daily performance, improved load times, and protection from
-  peak loads. For more information about how Apica is providing the highest standard
-  for cloud and mobile application performance management.
+description: Apicas performance testing and monitoring solutions provide critical
+  peak performance data and 24/7 monitoring of applications and sites around the world.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
 x-kinRank: "7"
-x-alexaRank: "827487"
-tags:
-- Testing
-- Technology
-- SaaS
-- Profiled
-- Performance
-- Monitoring
-- Enterprise
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/apica/apis.yaml
+x-alexaRank: "876355"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Checks API
-  description: Apica provides the most effective technology for optimizing the performance
-    of cloud and mobile applications
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: ""
-  baseURL: https://api.pingdom.com//
-  tags:
-  - Testing
-  - Technology
-  - SaaS
-  - Profiled
-  - Performance
-  - Monitoring
-  - Enterprise
-  - API Provider
+  humanURL: https://www.apicasystem.com
+  baseURL: ://api.serverdensity.io./
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/apica/api-version-checks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Browser Checks API
+  x-api-slug: browser-checks-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks API
+  x-api-slug: checks-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks Command API
+  x-api-slug: checks-command-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks Job API
+  x-api-slug: checks-job-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks Ping API
+  x-api-slug: checks-ping-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks Port API
+  x-api-slug: checks-port-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks Proxysniffer
+  x-api-slug: checks-proxysniffer
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Checks URL
+  x-api-slug: checks-url
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Customers API
+  x-api-slug: customers-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Groups API
+  x-api-slug: groups-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Messages API
+  x-api-slug: messages-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Roles API
+  x-api-slug: roles-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
+- name: Scenarios API
+  x-api-slug: scenarios-api
+  description: Apicas performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/apica/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://apica.stack.network
 - type: x-blog
   url: https://www.apicasystem.com/blog/
 - type: x-blog-rss
@@ -54,15 +196,19 @@ x-common:
 - type: x-documentation
   url: https://api-wpm.apicasystem.com/v3/Help
 - type: x-email
+  url: support@apicasystems.com
+- type: x-email
   url: sales@apicasystems.com
 - type: x-email
   url: swesales@apicasystems.com
 - type: x-email
-  url: support@apicasystems.com
-- type: x-email
   url: operations@apicasystem.com
 - type: x-github
   url: https://github.com/ApicaSystem
+- type: x-linkedin
+  url: https://www.linkedin.com/company/apica-ab
+- type: x-phone
+  url: 1 (310) 776-7540
 - type: x-twitter
   url: https://twitter.com/apicasystems
 - type: x-website

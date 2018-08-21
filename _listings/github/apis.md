@@ -1,73 +1,277 @@
 ---
 name: GitHub
 x-slug: github
-description: GitHub is a social network for programmers. Git is a distributed software
-  management program created by Linus Torvalds, originally for the Linux Kernel Development.
-  GitHub is a hosted Git repository. Github allows you to take part in collaboration
-  by forking projects, sending and pulling requests, and monitoring development.
+description: GitHub brings together the worlds largest community of developers to
+  discover, share, and build better software. From open source projects to private
+  team repositories, were your all-in-one platform for collaborative development.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
 x-kinRank: "10"
-x-alexaRank: "70"
-tags:
-- Technology
-- Stack Network
-- Stack
-- Social
-- Social
-- SaaS
-- Programming
-- Profiled
-- My API Stack
-- Management
-- Jobs
-- Issues
-- Issue Management
-- Imports
-- Hacker Storytelling
-- Developers
-- Coding
-- Code
-- Change Log Example
-- API Service Provider
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/github/apis.yaml
+x-alexaRank: "64"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Github
-  description: GitHub is a social network for programmers
+  x-api-slug: github
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: ""
+  humanURL: https://github.com
   baseURL: https://api.github.com//
-  tags:
-  - Technology
-  - Stack Network
-  - Stack
-  - Social
-  - Social
-  - SaaS
-  - Programming
-  - Profiled
-  - My API Stack
-  - Management
-  - Jobs
-  - Issues
-  - Issue Management
-  - Imports
-  - Hacker Storytelling
-  - Developers
-  - Coding
-  - Code
-  - Change Log Example
-  - API Service Provider
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/github/organizations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Events (stream)
+  x-api-slug: github-get-events-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Feeds (stream)
+  x-api-slug: github-get-feeds-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Gists (stream)
+  x-api-slug: github-get-gists-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Issues (stream)
+  x-api-slug: github-get-issues-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Meta (stream)
+  x-api-slug: github-get-meta-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Notifications (stream)
+  x-api-slug: github-get-notifications-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Organizations (stream)
+  x-api-slug: github-get-organizations-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Orgs Org (stream)
+  x-api-slug: github-get-orgs-org-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Orgs Org Events (stream)
+  x-api-slug: github-get-orgs-org-events-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Orgs Org Issues (stream)
+  x-api-slug: github-get-orgs-org-issues-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Orgs Org Repos (stream)
+  x-api-slug: github-get-orgs-org-repos-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Rate Limit (stream)
+  x-api-slug: github-get-rate-limit-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Repositories (stream)
+  x-api-slug: github-get-repositories-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Search Code (stream)
+  x-api-slug: github-get-search-code-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Search Issues (stream)
+  x-api-slug: github-get-search-issues-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Search Repositories (stream)
+  x-api-slug: github-get-search-repositories-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Search Users (stream)
+  x-api-slug: github-get-search-users-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get User Orgs (stream)
+  x-api-slug: github-get-user-orgs-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Users Username Events (stream)
+  x-api-slug: github-get-users-username-events-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
+- name: GitHub Get Users Username Orgs (stream)
+  x-api-slug: github-get-users-username-orgs-stream
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog

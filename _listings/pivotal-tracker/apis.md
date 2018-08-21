@@ -1,49 +1,45 @@
 ---
 name: Pivotal Tracker
 x-slug: pivotal-tracker
-description: Writing software isnrsquo;t half as hard as all the talking, emails,
-  and meetings needed to reconcile shifting requirements and slipping deadlines. We
-  get it, wersquo;ve been there. nbsp;In fact, wersquo;re still there. Were Pivotal
-  Labs, a web and mobile development consultancy. In 2006 we built Tracker for our
-  developers and clients to facilitate constructive communication, reflect the status
-  of a project and help forecast its future. Today Tracker is a staple of the developers
-  toolkit.nbsp;
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pivotal-tracker.png
+description: Pivotal Tracker is the agile project management tool of choice for developers
+  around the world for real-time collaboration around a shared, prioritized backlog.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
 x-kinRank: "7"
-x-alexaRank: "0"
-tags:
-- Project Management
-- Project
-- API LIfeycle
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pivotal-tracker/apis.yaml
+x-alexaRank: "15894"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pivotal-tracker/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Pivotal Tracker
-  description: Writing software isnrsquo;t half as hard as all the talking, emails,
-    and meetings needed to reconcile shifting requirements and slipping deadlines
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pivotal-tracker.png
-  humanURL: ""
+  x-api-slug: pivotal-tracker
+  description: Whether welding together two apps or forging a unique one, tap into
+    100% of the Tracker feature set with the very same API the Tracker team uses.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
   baseURL: https://www.pivotaltracker.com//services/v3/
-  tags:
-  - Project Management
-  - Project
-  - API LIfeycle
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pivotal-tracker/projects-project-id-stories-story-id-tasks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pivotal-tracker/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pingometer.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pivotal.tracker.stack.network
 - type: x-blog
   url: http://www.pivotaltracker.com/community/tracker-blog
 - type: x-blog
   url: http://www.pivotaltracker.com/feed
-- type: x-email
-  url: TRACKER@PIVOTAL.IO
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/pivotaltracker
 - type: x-faq
   url: https://www.pivotaltracker.com/faq
 - type: x-github
   url: https://github.com/pivotal
+- type: x-linkedin
+  url: https://www.linkedin.com/showcase/pivotal-tracker/
 - type: x-pricing
   url: http://www.pivotaltracker.com/why-tracker/pricing
 - type: x-selfservice-registration

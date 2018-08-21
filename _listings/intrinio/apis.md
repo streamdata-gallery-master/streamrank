@@ -1,52 +1,63 @@
 ---
 name: Intrinio
 x-slug: intrinio
-description: Market for financial data APIs and analytics applications built with
-  those data feeds. Affordable, easy to access financial data for developers and investors
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+description: Intelligent Data, On Demand. The financial data platform for developers,
+  investors, students, and educators, with over 200 feeds including real-time, intraday,
+  EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
+  and Goo...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
 x-kinRank: "8"
-x-alexaRank: "321628"
-tags:
-- Technology
-- SaaS
-- REST
-- Profiled
-- Paid Tier
-- Market Data
-- JSON
-- Have API Key
-- Free Tier
-- Financial Services
-- Enterprise
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/intrinio/apis.yaml
+x-alexaRank: "303229"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Intrinio API
-  description: Market for financial data APIs and analytics applications built with
-    those data feeds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
-  humanURL: ""
+  x-api-slug: intrinio-api
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
+  humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
-  tags:
-  - Technology
-  - SaaS
-  - REST
-  - Profiled
-  - Paid Tier
-  - Market Data
-  - JSON
-  - Have API Key
-  - Free Tier
-  - Financial Services
-  - Enterprise
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/intrinio/press-releases-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/intrinio/openapi.md
+- name: Intrinio Press Releases (stream)
+  x-api-slug: intrinio-press-releases-stream
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
+  humanURL: https://intrinio.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/intrinio/openapi.md
+- name: Intrinio Securities (stream)
+  x-api-slug: intrinio-securities-stream
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
+  humanURL: https://intrinio.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/intrinio/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://international.trade.administration.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://intrinio.stack.network
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
 - type: x-authentication
@@ -69,6 +80,8 @@ x-common:
   url: admin@intrinio.com
 - type: x-email
   url: support@intrinio.com
+- type: x-email
+  url: acarpenter@intrinio.com
 - type: x-login
   url: https://intrinio.com/login
 - type: x-partners

@@ -1,54 +1,28 @@
 ---
 name: Twitter
 x-slug: twitter
-description: Twitter is a global real-time communications platform with 400 million
-  monthly visitors to twitter.com, more than 200 million monthly active users around
-  the world.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-x-kinRank: "10"
-x-alexaRank: "13"
-tags:
-- Technology
-- Stack Network
-- Stack
-- Social Network
-- Social API
-- Social
-- Social
-- My API Stack
-- Mobile
-- internet
-- Indie EdTech Data Jam
-- Imports
-- API LIfeycle
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twitter/apis.yaml
+description: From breaking news and entertainment to sports and politics, get the
+  full story with all the live commentary.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+x-kinRank: "9"
+x-alexaRank: "12"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Twitter
-  description: Twitter is a global real-time communications platform with 400 million
-    monthly visitors to twitter
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-  humanURL: ""
+  x-api-slug: twitter
+  description: From breaking news and entertainment to sports and politics, get the
+    full story with all the live commentary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
-  tags:
-  - Technology
-  - Stack Network
-  - Stack
-  - Social Network
-  - Social API
-  - Social
-  - Social
-  - My API Stack
-  - Mobile
-  - internet
-  - Indie EdTech Data Jam
-  - Imports
-  - API LIfeycle
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twitter/trends-available-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
@@ -56,6 +30,10 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management

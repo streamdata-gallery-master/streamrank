@@ -1,44 +1,45 @@
 ---
-name: taxamo
+name: Taxamo
 x-slug: taxamo
-description: We understand that the world of EU VAT compliance can be quite complex.
-  That is why we have created a simple solution that eases the compliance burden for
-  the developers, and the owners, of e-commerce websites across the globe.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Taxamo_logo-copy.jpg
+description: 'We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax
+  #TaxTrends'
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
 x-kinRank: "8"
-x-alexaRank: "0"
-tags:
-- VAT
-- Taxes
-- Tax
-- Target
-- Stack Network
-- New
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/taxamo/apis.yaml
+x-alexaRank: "795977"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/taxamo/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Taxamo
-  description: We understand that the world of EU VAT compliance can be quite complex
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Taxamo_logo-copy.jpg
-  humanURL: ""
+  x-api-slug: taxamo
+  description: 'We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax
+    #TaxTrends'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
+  humanURL: https://www.taxamo.com/
   baseURL: https://api.taxamo.com//
-  tags:
-  - VAT
-  - Taxes
-  - Tax
-  - Target
-  - Stack Network
-  - New
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/taxamo/api-v1-transactions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/taxamo/openapi.md
 x-common:
+- type: x-website
+  url: https://www.taxamo.com/
+- type: x-api-gallery
+  url: http://system.award.management.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://taxamo.stack.network
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/taxamo-eu-vat-compliance
 - type: x-documentation
   url: https://api.taxamo.com/swagger/ui/index.html
+- type: x-email
+  url: marketing@taxamo.com
 - type: x-github
   url: https://github.com/taxamo
+- type: x-linkedin
+  url: https://www.linkedin.com/company/taxamo
 - type: x-pricing
   url: http://www.taxamo.com/pricing/
 - type: x-twitter

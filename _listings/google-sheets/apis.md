@@ -2,50 +2,52 @@
 name: Google Sheets
 x-slug: google-sheets
 description: 'Google Sheets is an online spreadsheet app that lets users create and
-  format spreadsheets and simultaneously work with other people. Google Sheets isnrsquo;t
+  format spreadsheets and simultaneously work with other people. Google Sheets isn&rsquo;t
   only for consumers: its used every day by businesses and schools to manage spreadsheet
   data. With the new Sheets API v4 and Sheets add-ons, that data can be accessed by
   code as well as users.'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png
 x-kinRank: "9"
 x-alexaRank: "0"
-tags:
-- Stack Network
-- Stack
-- Spreadsheets
-- Profiled
-- Productivity
-- Google APIs
-- Documents
-- Data
-- API Service Provider
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/google-sheets/apis.yaml
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/google-sheets/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Google Sheets
-  description: Google Sheets is an online spreadsheet app that lets users create and
-    format spreadsheets and simultaneously work with other people
+  x-api-slug: google-sheets
+  description: 'Google Sheets is an online spreadsheet app that lets users create
+    and format spreadsheets and simultaneously work with other people. Google Sheets
+    isn&rsquo;t only for consumers: its used every day by businesses and schools to
+    manage spreadsheet data. With the new Sheets API v4 and Sheets add-ons, that data
+    can be accessed by code as well as users.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png
-  humanURL: ""
+  humanURL: https://developers.google.com/sheets/
   baseURL: https://sheets.googleapis.com/v4/
-  tags:
-  - Stack Network
-  - Stack
-  - Spreadsheets
-  - Profiled
-  - Productivity
-  - Google APIs
-  - Documents
-  - Data
-  - API Service Provider
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/google-sheets/spreadsheets-spreadsheetid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/google-sheets/openapi.md
+- name: Google Sheets Get Spreadsheet (stream)
+  x-api-slug: google-sheets-get-spreadsheet-stream
+  description: 'Google Sheets is an online spreadsheet app that lets users create
+    and format spreadsheets and simultaneously work with other people. Google Sheets
+    isn&rsquo;t only for consumers: its used every day by businesses and schools to
+    manage spreadsheet data. With the new Sheets API v4 and Sheets add-ons, that data
+    can be accessed by code as well as users.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png
+  humanURL: https://developers.google.com/sheets/
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/google-sheets/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.service.management.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.sheets.stack.network
 - type: x-documentation
   url: https://developers.google.com/sheets/api/
 - type: x-guides

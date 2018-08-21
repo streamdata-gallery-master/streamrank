@@ -1,52 +1,121 @@
 ---
 name: Reddit
 x-slug: reddit
-description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social networking
-  service and news website where registered community members can submit content,
-  such as text posts or direct links. Only registered users can then vote submissions
-  up or down to organize the posts and determine their position on the sites pages.
-  Content entries are organized by areas of interest called subreddits.
+description: Reddit is a community of millions of users engaging in the creation of
+  content and the sharing of conversation across tens of thousands of topics.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
 x-kinRank: "9"
 x-alexaRank: "6"
-tags:
-- Technology
-- Stack Network
-- Stack
-- Social
-- Social
-- My API Stack
-- Mobile
-- Media
-- Links
-- internet
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/reddit/apis.yaml
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Reddit
-  description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social
-    networking service and news website where registered community members can submit
-    content, such as text posts or direct links
+  x-api-slug: reddit
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: ""
+  humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com//
-  tags:
-  - Technology
-  - Stack Network
-  - Stack
-  - Social
-  - Social
-  - My API Stack
-  - Mobile
-  - Media
-  - Links
-  - internet
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/reddit/subreddits-popular-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Best (stream)
+  x-api-slug: reddit-get-best-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get New Subreddits (stream)
+  x-api-slug: reddit-get-new-subreddits-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Search Reddit Names (stream)
+  x-api-slug: reddit-get-search-reddit-names-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddit Hot (stream)
+  x-api-slug: reddit-get-subreddit-hot-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddit New (stream)
+  x-api-slug: reddit-get-subreddit-new-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddit Rising (stream)
+  x-api-slug: reddit-get-subreddit-rising-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddits Search (stream)
+  x-api-slug: reddit-get-subreddits-search-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddits Where (stream)
+  x-api-slug: reddit-get-subreddits-where-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/reddit/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rebilly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reddit.stack.network
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
 - type: x-base
@@ -71,6 +140,8 @@ x-common:
   url: legal@reddit.com
 - type: x-github
   url: https://github.com/reddit
+- type: x-linkedin
+  url: https://www.linkedin.com/company/product-hunt/
 - type: x-privacy
   url: https://www.reddit.com/help/privacypolicy
 - type: x-security

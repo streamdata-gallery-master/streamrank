@@ -1,56 +1,48 @@
 ---
 name: SugarSync
 x-slug: sugarsync-
-description: 'SugarSync is a cloud file sharing, file sync and online backup service
+description: SugarSync is a cloud file sharing, file sync and online backup service
   that is simple, powerful and easy to use. Unlike Dropbox, SugarSync enables you
   to back up your existing folder structure. Try it for FREE for 30 days and get started
-  today! '
+  today!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
 x-kinRank: "8"
 x-alexaRank: "64898"
-tags:
-- Technology
-- Target
-- Storage
-- Storage
-- Storage
-- Stack Network
-- SaaS
-- Mobile
-- internet
-- Getting Started Example
-- File
-- Cloud
-- Backup
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/sugarsync-/apis.yaml
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sugarsync-/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Sugar Sync  API
+  x-api-slug: sugar-sync--api
   description: SugarSync is a cloud file sharing, file sync and online backup service
-    that is simple, powerful and easy to use
+    that is simple, powerful and easy to use. Unlike Dropbox, SugarSync enables you
+    to back up your existing folder structure. Try it for FREE for 30 days and get
+    started today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
-  humanURL: ""
+  humanURL: http://sugarsync.com
   baseURL: https://api.sugarsync.com//
-  tags:
-  - Technology
-  - Target
-  - Storage
-  - Storage
-  - Storage
-  - Stack Network
-  - SaaS
-  - Mobile
-  - internet
-  - Getting Started Example
-  - File
-  - Cloud
-  - Backup
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/sugarsync-/workspace-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sugarsync-/openapi.md
+- name: SugarSync  API
+  x-api-slug: sugarsync--api
+  description: The SugarSync service presents a set of resources that your application
+    can access through the Platform API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
+  humanURL: http://sugarsync.com
+  baseURL: https://api.sugarsync.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/sugarsync-/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stripe.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sugarsync..stack.network
 - type: x-application-gallery
   url: https://www.sugarsync.com/partners/
 - type: x-base
@@ -73,6 +65,8 @@ x-common:
   url: https://www.sugarsync.com/dev/getting-started.html
 - type: x-glossary
   url: https://www.sugarsync.com/dev/glossary.html
+- type: x-linkedin
+  url: https://www.linkedin.com/company/sugarsync
 - type: x-pricing
   url: https://www.sugarsync.com/
 - type: x-selfservice-registration

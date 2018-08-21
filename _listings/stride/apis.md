@@ -5,36 +5,41 @@ description: Stride is a cloud-based team business communication and collaborati
   tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
   software is available to download onto computers running Windows, Mac or Linux,
   as well as Android, iOS smartphones, and tablets
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
 x-kinRank: "8"
-x-alexaRank: "0"
-tags:
-- Messaging
-- Chat
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stride/apis.yaml
+x-alexaRank: "40723"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stride/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Stride
+  x-api-slug: stride
   description: Stride is a cloud-based team business communication and collaboration
-    tool, launched by Atlassian to replace the cloud-based version of HipChat
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
-  humanURL: ""
+    tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
+    software is available to download onto computers running Windows, Mac or Linux,
+    as well as Android, iOS smartphones, and tablets
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
   baseURL: https://api.atlassian.com//
-  tags:
-  - Messaging
-  - Chat
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stride/site-cloudid-conversation-conversationid-roster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stride/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://strava.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stride.stack.network
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
 - type: x-blog
   url: https://blog.stride.com/
 - type: x-buttons
   url: https://developer.atlassian.com/cloud/stride/blocks/stride-button/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stride
 - type: x-developer
   url: https://developer.atlassian.com/cloud/stride/
 - type: x-getting-started

@@ -1,57 +1,37 @@
 ---
 name: Stack Exchange
 x-slug: stack-exchange
-description: Stack Exchange is a network of question and answer websites on diverse
-  topics in many different fields, each site covering a specific topic, where questions,
-  answers, and users are subject to a reputation award process. The sites are modeled
-  after Stack Overflow, a forum for computer programming questions that was the original
-  site in this network. The reputation system is designed to allow the sites to be
-  self-moderating.
+description: After someone asks a question, members of the community propose answers.
+  Others vote on those answers. Very quickly, the answers with the most votes rise
+  to the top. You dont have to read through a lot of discussion to find the best answer.    Like
+  to...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
 x-kinRank: "8"
 x-alexaRank: "126"
-tags:
-- Streamrank
-- Stack
-- Question Answer
-- Plug in
-- My API Stack
-- Media
-- Imports
-- Forums
-- Content
-- Code
-- Citations
-- Answers
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stack-exchange/apis.yaml
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Stack Exchange
-  description: Stack Exchange is a network of question and answer websites on diverse
-    topics in many different fields, each site covering a specific topic, where questions,
-    answers, and users are subject to a reputation award process
+  x-api-slug: stack-exchange
+  description: After someone asks a question, members of the community propose answers.
+    Others vote on those answers. Very quickly, the answers with the most votes rise
+    to the top. You dont have to read through a lot of discussion to find the best
+    answer.    Like to...
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: ""
+  humanURL: http://stackexchange.com
   baseURL: https://api.stackexchange.com//2.2
-  tags:
-  - Streamrank
-  - Stack
-  - Question Answer
-  - Plug in
-  - My API Stack
-  - Media
-  - Imports
-  - Forums
-  - Content
-  - Code
-  - Citations
-  - Answers
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stack-exchange/tags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://square.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stack.exchange.stack.network
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base
@@ -78,6 +58,8 @@ x-common:
   url: https://github.com/StackExchange
 - type: x-javascript-sdk
   url: https://api.stackexchange.com/docs/js-lib
+- type: x-linkedin
+  url: https://www.linkedin.com/company/stack-exchange
 - type: x-privacy
   url: https://stackexchange.com/legal/privacy-policy
 - type: x-rate-limits

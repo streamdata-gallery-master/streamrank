@@ -1,45 +1,37 @@
 ---
 name: Pinboard
 x-slug: pinboard
-description: Pinboard.In is a social bookmarking site that offers an easy import/
-  export in del.icio.us format,  Nightly database backups to S3,  Cached copies of
-  all  bookmarks,  a ???to read??? status for later viewing, private bookmarks and
-  private tags, and simplified bulk editing.
+description: Pinboard is a bookmarking website for introverted people in a hurry.
+  The focus of the site is less on socializing, and more on speed and utility. Pinboard
+  tries to offer useful features without getting in your way. My highest priority
+  is keeping your data safe over the long term.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
 x-kinRank: "9"
-x-alexaRank: "44671"
-tags:
-- Technology
-- Stack Network
-- Stack
-- My API Stack
-- Links
-- internet
-- Indie EdTech Data Jam
-- Bookmarks
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pinboard/apis.yaml
+x-alexaRank: "45688"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pinboard/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Pinboard
-  description: Pinboard
+  x-api-slug: pinboard
+  description: Pinboard is a bookmarking website for introverted people in a hurry.
+    The focus of the site is less on socializing, and more on speed and utility. Pinboard
+    tries to offer useful features without getting in your way. My highest priority
+    is keeping your data safe over the long term.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
-  humanURL: ""
+  humanURL: http://pinboard.in
   baseURL: https://api.pinboard.in//v1
-  tags:
-  - Technology
-  - Stack Network
-  - Stack
-  - My API Stack
-  - Links
-  - internet
-  - Indie EdTech Data Jam
-  - Bookmarks
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pinboard/tags-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pinboard/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://payrun.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pinboard.stack.network
 - type: x-base
   url: https://api.pinboard.in
 - type: x-blog

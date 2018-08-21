@@ -2,41 +2,43 @@
 name: Pingometer
 x-slug: pingometer
 description: Pingometer is a service that monitors the uptime, downtime, and performance
-  of websites. We offer HTTP, HTTPS, RUM, DNS, ICMP, IMAP, POP3, SMTP, TCP, UDP, and
-  Transaction monitors. We have locations in Australia, Brazil, France, Germany, Luxembourg,
-  Japan, the Netherlands, South Africa, the United Kingdom, and the United States.
+  of websites. Get 24/7 monitoring - sign up for your FREE account today!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-pingometer.jpg
 x-kinRank: "8"
-x-alexaRank: "1382804"
-tags:
-- Technology
-- Stack Network
-- SaaS
-- Performance
-- Monitoring
-- internet
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pingometer/apis.yaml
+x-alexaRank: "1995680"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingometer/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Checks API
+- name: Alerts API
+  x-api-slug: alerts-api
   description: Pingometer is a service that monitors the uptime, downtime, and performance
-    of websites
+    of websites. Get 24/7 monitoring - sign up for your FREE account today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-pingometer.jpg
-  humanURL: ""
-  baseURL: https://api.pingdom.com//
-  tags:
-  - Technology
-  - Stack Network
-  - SaaS
-  - Performance
-  - Monitoring
-  - internet
+  humanURL: https://pingometer.com/
+  baseURL: ://api.serverdensity.io./
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pingometer/api-version-checks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingometer/openapi.md
+- name: Checks API
+  x-api-slug: checks-api
+  description: Pingometer is a service that monitors the uptime, downtime, and performance
+    of websites. Get 24/7 monitoring - sign up for your FREE account today!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-pingometer.jpg
+  humanURL: https://pingometer.com/
+  baseURL: https://api.pingdom.com//
+  tags: StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pingometer/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pingdom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pingometer.stack.network
 - type: x-blog
   url: https://pingometer.com/blog/
 - type: x-crunchbase

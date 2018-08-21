@@ -7,36 +7,31 @@ description: OpenDataSoft is a cloud-based turnkey platform for data publishing 
   within an admi...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
 x-kinRank: "7"
-x-alexaRank: "307560"
-tags:
-- Technology
-- SaaS
-- Government
-- Enterprise
-- Data
-- Cities
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/opendatasoft/apis.yaml
+x-alexaRank: "323884"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
 apis:
 - name: OpenDataSoft
+  x-api-slug: opendatasoft
   description: OpenDataSoft is a cloud-based turnkey platform for data publishing
-    and API management
+    and API management. Its interface is intuitively designed to empower anyone, regardless
+    of technical skills, to upload easy-to-understand Open Data, or to even share
+    data within an admi...
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: ""
+  humanURL: http://opendatasoft.com
   baseURL: https://public.opendatasoft.com//api/v2
-  tags:
-  - Technology
-  - SaaS
-  - Government
-  - Enterprise
-  - Data
-  - Cities
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/opendatasoft/source-datasets-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/opendatasoft/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://opencorporates.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://opendatasoft.stack.network
 - type: x-blog
   url: http://www.opendatasoft.com/category/news/
 - type: x-crunchbase

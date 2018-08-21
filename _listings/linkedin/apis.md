@@ -1,62 +1,33 @@
 ---
 name: LinkedIn
 x-slug: linkedin
-description: With over 100 million users representing over 200 countries around the
-  world, LinkedIn is a fast-growing professional networking site that allows members
-  to create business contacts, search for jobs, and find potential clients. Individuals
-  have the ability to create their own professional profile that can be viewed by
-  others in their network, and also view the profiles of their own contacts.
+description: DZone Software provides tools and processes to help customers accelerate
+  productivity through agile learning and knowledge-centered collaboration.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
 x-kinRank: "8"
-x-alexaRank: "31"
-tags:
-- Technology
-- Stack Network
-- Stack
-- Social Networks
-- Social Network
-- Social API
-- Social
-- SaaS
-- Profiled
-- My API Stack
-- Mobile
-- internet
-- Indie EdTech Data Jam
-- API Service Provider
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/linkedin/apis.yaml
+x-alexaRank: "34"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
 - name: LinkedIn
-  description: With over 100 million users representing over 200 countries around
-    the world, LinkedIn is a fast-growing professional networking site that allows
-    members to create business contacts, search for jobs, and find potential clients
+  x-api-slug: linkedin
+  description: DZone Software provides tools and processes to help customers accelerate
+    productivity through agile learning and knowledge-centered collaboration.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
-  humanURL: ""
+  humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
-  tags:
-  - Technology
-  - Stack Network
-  - Stack
-  - Social Networks
-  - Social Network
-  - Social API
-  - Social
-  - SaaS
-  - Profiled
-  - My API Stack
-  - Mobile
-  - internet
-  - Indie EdTech Data Jam
-  - API Service Provider
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/linkedin/companies-id-updates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/linkedin/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://link.fish.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://linkedin.stack.network
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
 - type: x-base

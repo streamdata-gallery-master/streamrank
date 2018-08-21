@@ -1,39 +1,36 @@
 ---
 name: PredictHQ
 x-slug: predicthq
-description: Event visibility yields higher returns  reduces operational costs. PredictHQ
+description: Event visibility yields higher returns & reduces operational costs. PredictHQ
   is the worlds largest source of intelligent event data making businesses smarter.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
 x-kinRank: "7"
-x-alexaRank: "428389"
-tags:
-- Technology
-- SaaS
-- Profiled
-- Events
-- API Provider
-created: "2018-06-03"
-modified: "2018-06-03"
-url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/predicthq/apis.yaml
+x-alexaRank: "292227"
+tags: StreamRank
+created: "2018-08-20"
+modified: "2018-08-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/predicthq/apis.md
 specificationVersion: "0.14"
 apis:
 - name: PredictHQ
-  description: Event visibility yields higher returns  reduces operational costs
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
-  humanURL: ""
+  x-api-slug: predicthq
+  description: Event visibility yields higher returns & reduces operational costs.
+    PredictHQ is the worlds largest source of intelligent event data making businesses
+    smarter.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
+  humanURL: http://www.predicthq.com/
   baseURL: https://api.predicthq.com//
-  tags:
-  - Technology
-  - SaaS
-  - Profiled
-  - Events
-  - API Provider
+  tags: StreamRank
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/predicthq/v1-signals-signal-id-dimensions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/predicthq/openapi.md
 x-common:
 - type: x-website
   url: http://www.predicthq.com/
+- type: x-api-gallery
+  url: http://postmark.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://predicthq.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/predicthq
 - type: x-email
@@ -44,6 +41,8 @@ x-common:
   url: notices@predicthq.com
 - type: x-github
   url: https://github.com/predicthq
+- type: x-linkedin
+  url: PredictHQ
 - type: x-twitter
   url: https://twitter.com/PredictHQ
 - type: x-website
