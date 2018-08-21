@@ -3,23 +3,23 @@
     {% if item.swagger %}
       {% if item.swagger == "2.0" %}
 		{% if item.x-complete == 0 %}
-	        
+
 	        {% assign api_name = "" %}
 	        {% assign api_description = "" %}
 	        {% assign api_image = "" %}
 	        {% assign api_json_url = "" %}
 	        {% assign api_json_kin_rank = "" %}
 	        {% assign api_json_alexa_rank = "" %}
-	
+
 	        {% assign api_json_openapi_spec = "" %}
 	        {% assign api_json_postman_collection = "" %}
 	        {% assign api_json_asyncapi_url = "" %}
-	
+
 	         {% for entry in listing_object %}
 	           {% if entry.name %}
 	            {% for api in entry.apis %}
 	               {% if entry.name == item.x-collection-name %}
-	
+
 	                 {% assign api_name = entry.name %}
 	                 {% assign api_slug = entry.x-slug %}
 	                 {% assign api_description = entry.description %}
@@ -27,28 +27,28 @@
 	                 {% assign api_json_url = entry.url %}
 	                 {% assign api_json_kin_rank = entry.x-kinRank %}
 	                 {% assign api_json_alexa_rank = entry.x-alexaRank %}
-	
+
 	                 {% for property in api.properties %}
-	
+
 	                    {% if property.type == 'x-openapi-spec' %}
 	                      {% assign api_json_openapi_spec = property.url %}
 	                    {% endif %}
-	
+
 	                    {% if property.type == 'x-postman-collection' %}
 	                      {% assign api_json_postman_collection = property.url %}
 	                    {% endif %}
-	
+
 	                    {% if property.type == 'x-asyncapi-spec' %}
 	                      {% assign api_json_asyncapi_url = property.url %}
 	                    {% endif %}
-	
+
 	                 {% endfor %}
-	
+
 	               {% endif %}
 	             {% endfor %}
 	           {% endif %}
 	         {% endfor %}
-	
+
 	         {% for path in item.paths %}
 	           {% assign path_name = path[0] %}
 	           {% for method in path[1] %}
@@ -65,7 +65,7 @@
 	             {% assign api_path_tags = method_details.tags %}
 	           {% endfor %}
 	         {% endfor %}
-	
+
 	         <div class="taggedLinkCard taggedLinkCard--red" data-platform="html5" verb="{{ verb }}" rank="{{ api_json_kin_rank }}" id="api-{% increment counter %}">
 	            <div class="taggedLinkCard__container enterAnimation enterAnimation--active" data-enter-animation="">
 	               <div class="taggedLinkCard__upper" style="background-color:#FFF;">
