@@ -10,9 +10,9 @@
         {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
         <p><strong>{{ api_name }}</strong></p>
-        <p>{{ api_description }}</p>
+        {{ api_description }}
 
-        <h2 class="APIDescription__header">API Paths</h2>
+        <strong>API Paths</strong>
 
         <table border="0">
         {% for item in site.listings %}
