@@ -1,33 +1,19 @@
+<div style="text-align: left;">
+  {% for entry in listing_object %}
+    {% if entry.name %}
 
-<div class="shortMasthead  shortMasthead--extra-top-padding ">
-  <h1 class="shortMasthead__headline enterAnimation enterAnimation--active" data-enter-animation="">Posts</h1>
-  <div style="width: 100%;">
-    <div style="width: 75%; margin: 0 auto;">
-      These are seeds for posts based upon APIs included in this repo, providing a quick way to start a story.
-    <div>
-  </div>
+        {% assign api_name = entry.name %}
+        {% assign api_slug = entry.x-slug %}
+        {% assign api_description = entry.description %}
+        {% assign api_image = entry.image %}
+        {% assign api_json_url = entry.url %}
+        {% assign api_json_kin_rank = entry.x-kinRank %}
+        {% assign api_json_alexa_rank = entry.x-alexaRank %}
+
+        <p><strong>{{ api_name }}</strong></p>
+        <p>{{ api_description }}</p>
+        <hr />
+
+    {% endif %}
+  {% endfor %}
 </div>
-
-<section>
-
-  <div style="text-align: left;">
-    {% for entry in listing_object %}
-      {% if entry.name %}
-
-          {% assign api_name = entry.name %}
-          {% assign api_slug = entry.x-slug %}
-          {% assign api_description = entry.description %}
-          {% assign api_image = entry.image %}
-          {% assign api_json_url = entry.url %}
-          {% assign api_json_kin_rank = entry.x-kinRank %}
-          {% assign api_json_alexa_rank = entry.x-alexaRank %}
-
-          <p><strong>{{ api_name }}</strong></p>
-          <p>{{ api_description }}</p>
-          <hr />
-
-      {% endif %}
-    {% endfor %}
-  </div>
-
-</section>
