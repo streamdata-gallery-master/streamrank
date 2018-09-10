@@ -138,8 +138,6 @@ x-common:
 - type: x-twitter
   url: https://twitter.com/Etsy
 - type: x-website
-  url: http://www.etsy.com/
-- type: x-website
   url: http://etsy.com
 include: []
 maintainers:
