@@ -32,6 +32,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/columbus-indiana-311/requests-response-format-get.md
 x-common:
+- type: x-api-gallery
+  url: http://chicago.illinois.311.api.gallery.streamdata.io
 - type: x-open-311-feed
   url: http://csr.columbus.in.gov/csr/open311/v2/services.xml?jurisdiction_id=columbus.in.gov
 - type: x-website
