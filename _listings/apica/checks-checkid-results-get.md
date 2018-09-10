@@ -18,6 +18,7 @@ paths:
       summary: Get Checks Results
       description: Gets the most recent check results
       operationId: getChecksCheckResultsMostrecentMostrecent&amp;detailLevelDetailLevel
+      x-api-path-slug: checkscheckidresults-get
       responses:
         200:
           description: OK
