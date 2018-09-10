@@ -26,11 +26,40 @@ tags:
 - Collaboration
 - Backups
 - API Provider
-created: "2018-09-09"
-modified: "2018-09-09"
+created: "2018-09-10"
+modified: "2018-09-10"
 url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/box/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Box
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: ""
+  baseURL: https://api.box.com//2.0
+  tags:
+  - Technology
+  - Streams
+  - Storage
+  - Storage
+  - Stack Network
+  - Stack
+  - Sharing
+  - Service API
+  - SaaS
+  - Relative StreamRank
+  - Relative Data
+  - Publish
+  - Profiles
+  - Productivity
+  - Files
+  - Enterprise
+  - Collaboration
+  - Backups
+  - API Provider
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/box/events-get.md
 x-common:
 - type: x-api-gallery
   url: http://botify.api.gallery.streamdata.io
