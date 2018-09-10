@@ -242,7 +242,27 @@ produces:
 - application/json
 consumes:
 - application/json
-paths: []
+paths:
+  /v1/cryptocurrency/info:
+    get:
+      summary: Get metadata
+      description: Returns all static metadata for one or more cryptocurrencies including
+        name, symbol, logo, and its various registered URLs
+      operationId: getV1CryptocurrencyInfo
+      parameters:
+      - in: query
+        name: id
+        description: One or more comma-separated CoinMarketCap cryptocurrency IDs
+      - in: query
+        name: symbol
+        description: Alternatively pass one or more comma-separated cryptocurrency
+          symbols
+      responses:
+        200:
+          description: OK
+      tags:
+      - blockchain
+      - metadata
 definitions:
   Cryptocurrencies Info - URLs object:
     properties:
