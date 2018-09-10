@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
-x-collection-name: Baltimore Open311
-x-complete: 0
 info:
-  title: Baltimore Open311 Requests
-  description: Query the current status of multiple requests.
+  title: Open311 GeoReport API
+  description: Open311 allows you to get/post civic information of cities via a unified
+    interface. The GeoReport part allows you to submit and view issues at the public
+    local space
   termsOfService: (depends on server instance for example NYC http://dev.cityofchicago.org/docs/api/tos)
   contact:
     name: Open311 community
@@ -23,7 +23,7 @@ paths:
   /requests.{response_format}:
     get:
       summary: Requests
-      description: Query the current status of multiple requests.
+      description: Query the current status of multiple requests
       operationId: query-the-current-status-of-multiple-requests
       x-api-path-slug: requests-response-format-get
       parameters:
@@ -53,7 +53,128 @@ paths:
           description: OK
       tags:
       - "311"
-      - Requests
+      - requests
+definitions:
+  Service:
+    properties:
+      service_code:
+        description: This is a default description.
+        type: get
+      service_name:
+        description: This is a default description.
+        type: get
+      description:
+        description: This is a default description.
+        type: get
+      metadata:
+        description: This is a default description.
+        type: get
+      type:
+        description: This is a default description.
+        type: get
+      keywords:
+        description: This is a default description.
+        type: get
+      group:
+        description: This is a default description.
+        type: get
+  ServiceDefinition:
+    properties:
+      service_code:
+        description: This is a default description.
+        type: get
+      attributes:
+        description: This is a default description.
+        type: get
+  ServiceAttribute:
+    properties:
+      variable:
+        description: This is a default description.
+        type: get
+      code:
+        description: This is a default description.
+        type: get
+      datatype:
+        description: This is a default description.
+        type: get
+      required:
+        description: This is a default description.
+        type: get
+      datatype_description:
+        description: This is a default description.
+        type: get
+      order:
+        description: This is a default description.
+        type: get
+      description:
+        description: This is a default description.
+        type: get
+      values:
+        description: This is a default description.
+        type: get
+  AttributeValue:
+    properties:
+      key:
+        description: This is a default description.
+        type: get
+      name:
+        description: This is a default description.
+        type: get
+  Request:
+    properties:
+      service_request_id:
+        description: This is a default description.
+        type: get
+      status:
+        description: This is a default description.
+        type: get
+      status_notes:
+        description: This is a default description.
+        type: get
+      service_name:
+        description: This is a default description.
+        type: get
+      service_code:
+        description: This is a default description.
+        type: get
+      description:
+        description: This is a default description.
+        type: get
+      agency_responsible:
+        description: This is a default description.
+        type: get
+      service_notice:
+        description: This is a default description.
+        type: get
+      requested_datetime:
+        description: This is a default description.
+        type: get
+      updated_datetime:
+        description: This is a default description.
+        type: get
+  RequestResponse:
+    properties:
+      service_request_id:
+        description: This is a default description.
+        type: get
+      token:
+        description: This is a default description.
+        type: get
+      service_notice:
+        description: This is a default description.
+        type: get
+      account_id:
+        description: This is a default description.
+        type: get
+  TokenResponse:
+    properties:
+      service_request_id:
+        description: This is a default description.
+        type: get
+      token:
+        description: This is a default description.
+        type: get
+x-collection-name: Baltimore Open311
 x-streamrank:
   polling_total_time_average: "27.4"
   polling_size_download_average: "10739.6"
