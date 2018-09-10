@@ -1,17 +1,73 @@
 ---
 name: Eventbrite
 x-slug: eventbrite
-description: Eventbrite brings people together through live experiences. Discover
-  events that match your passions, or create your own with online ticketing tools.
+description: Eventbrite believes that anyone can be an event organizer. That???s why
+  they offer tools that make it easy to sell tickets to all kinds of events whether
+  it???s a photography class or a sold-out concert, an inspiring conference or an
+  air-guitar competition. With Eventbrite, organizers can create a customizable event
+  page; spread the word with social media; collect money; and gain visibility into
+  attendees and sales. Eventbrite is for anyone planning or attending an event. It
+  empowers event organizers to become more efficient and effective when bringing people
+  together. And people everywhere are searching Eventbrite to discover great events
+  that matter to them.n
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
 x-kinRank: "9"
 x-alexaRank: "643"
-tags: StreamRank
+tags:
+- Webhook Implementations
+- Tickets
+- Tickets
+- Technology
+- Stack Network
+- Stack
+- Relative Data
+- Registrations
+- Profiles
+- Pedestal
+- My API Stack
+- Mobile
+- Marketplace
+- internet
+- Historical Data API
+- General Data
+- Events
+- Events
+- API Provider
+- API LIfeyclessss
 created: "2018-09-10"
 modified: "2018-09-10"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/eventbrite/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/eventbrite/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Eventbrite
+  description: Eventbrite believes that anyone can be an event organizer
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: ""
+  baseURL: https://www.eventbriteapi.com//v3/
+  tags:
+  - Webhook Implementations
+  - Tickets
+  - Tickets
+  - Technology
+  - Stack Network
+  - Stack
+  - Relative Data
+  - Registrations
+  - Profiles
+  - Pedestal
+  - My API Stack
+  - Mobile
+  - Marketplace
+  - internet
+  - Historical Data API
+  - General Data
+  - Events
+  - Events
+  - API Provider
+  - API LIfeyclessss
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/eventbrite/events-search-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://europeana.api.gallery.streamdata.io
