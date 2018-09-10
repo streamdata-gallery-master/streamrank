@@ -1,62 +1,68 @@
 ---
 name: Twitter
 x-slug: twitter
-description: From breaking news and entertainment to sports and politics, get the
-  full story with all the live commentary.
+description: Twitter is a global real-time communications platform with 400 million
+  monthly visitors to twitter.com, more than 200 million monthly active users around
+  the world.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
-tags: StreamRank
-created: "2018-08-20"
-modified: "2018-08-20"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/apis.md
+tags:
+- Technology
+- Streams
+- Stack Network
+- Stack
+- Social Networks
+- Social
+- Social
+- Social
+- Service API
+- Relative StreamRank
+- Relative Data
+- Pedestal
+- My API Stack
+- Mobile
+- internet
+- Indie EdTech Data Jam
+- Imports
+- Historical Data API
+- General Data
+- API LIfeyclessss
+created: "2018-09-09"
+modified: "2018-09-09"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
+  description: Twitter is a global real-time communications platform with 400 million
+    monthly visitors to twitter
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
+  humanURL: ""
   baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/searchtweets-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/searchtweets-json-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
-    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
-    StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/searchtweets-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/searchtweets-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/listsstatuses-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/listsstatuses-json-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: StreamRank
+  tags:
+  - Technology
+  - Streams
+  - Stack Network
+  - Stack
+  - Social Networks
+  - Social
+  - Social
+  - Social
+  - Service API
+  - Relative StreamRank
+  - Relative Data
+  - Pedestal
+  - My API Stack
+  - Mobile
+  - internet
+  - Indie EdTech Data Jam
+  - Imports
+  - Historical Data API
+  - General Data
+  - API LIfeyclessss
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/twitter/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/twitter/trends-available-json-get.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
