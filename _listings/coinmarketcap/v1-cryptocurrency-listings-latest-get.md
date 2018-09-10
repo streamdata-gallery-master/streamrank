@@ -242,7 +242,45 @@ produces:
 - application/json
 consumes:
 - application/json
-paths: []
+paths:
+  /v1/cryptocurrency/listings/latest:
+    get:
+      summary: List all cryptocurrencies (latest)
+      description: Get a paginated list of all cryptocurrencies with latest market
+        data
+      operationId: getV1CryptocurrencyListingsLatest
+      parameters:
+      - in: query
+        name: convert
+        description: Optionally calculate market quotes in up to 32 currencies at
+          once by passing a comma-separated list of cryptocurrency or fiat currency
+          symbols
+      - in: query
+        name: cryptocurrency_type
+        description: The type of cryptocurrency to include
+      - in: query
+        name: limit
+        description: Optionally specify the number of results to return
+      - in: query
+        name: sort
+        description: What field to sort the list of cryptocurrencies by
+      - in: query
+        name: sort_dir
+        description: The direction in which to order cryptocurrencies against the
+          specified sort
+      - in: query
+        name: start
+        description: Optionally offset the start (1-based index) of the paginated
+          list of items to return
+      responses:
+        200:
+          description: OK
+      tags:
+      - blockchain
+      - list
+      - ""
+      - cryptocurrencies
+      - (latest)
 definitions:
   Cryptocurrencies Info - URLs object:
     properties:
