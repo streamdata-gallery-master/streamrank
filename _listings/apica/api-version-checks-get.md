@@ -22,6 +22,7 @@ paths:
       operationId: |2-
 
         getApiVersionChecks
+      x-api-path-slug: apiversionchecks-get
       parameters:
       - in: query
         name: include_tags
