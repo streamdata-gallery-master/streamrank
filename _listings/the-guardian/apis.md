@@ -10,41 +10,22 @@ description: The Guardian is a British national daily newspaper which has grown 
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
 x-kinRank: "9"
 x-alexaRank: "0"
-tags: StreamRank
-created: "2018-08-20"
-modified: "2018-08-20"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-guardian/apis.md
+tags:
+- Streams
+- Service API
+- Relative StreamRank
+- Relative Data
+- Pedestal
+- News
+- Media
+- General Data
+- Data
+- API United Kingdom
+created: "2018-09-09"
+modified: "2018-09-09"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/the-guardian/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: The Guardian
-  x-api-slug: the-guardian
-  description: The Content API is a public service for accessing all the content the
-    Guardian creates and the collections we have of that content (tags and sections).
-    There are over one and a half million items available published as far back as
-    1999. This overview will give you some idea of what data is available, how to
-    find what you need, and what you will see when you make a request to us.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
-  humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com/
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-guardian/openapi.md
-- name: The Guardian Search (stream)
-  x-api-slug: the-guardian-search-stream
-  description: The Guardian is a British national daily newspaper which has grown
-    into a national paper associated with a complex organisational structure and an
-    international multimedia and web presence. The Guardian provides API access to
-    articles accessible by tag and section, and a suite of open source data and tools.
-    The Guardian makes content accessible to increase traffic, brand awareness, and
-    as a marketing vehicle, including partnership opportunities via platform program.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
-  humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-guardian/openapi.md
+apis: []
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
@@ -62,6 +43,8 @@ x-common:
   url: http://www.theguardian.com/open-platform/blog/idio-guardian-chrome-extension
 - type: x-crunchbase
   url: http://www.crunchbase.com/organization/the-guardian
+- type: x-developer
+  url: http://open-platform.theguardian.com/access/
 - type: x-documentation
   url: http://open-platform.theguardian.com/documentation/
 - type: x-email
