@@ -1,3 +1,0 @@
----
-A /> <b>Deprecated</b>
----
