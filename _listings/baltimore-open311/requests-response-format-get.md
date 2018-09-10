@@ -25,6 +25,7 @@ paths:
       summary: Requests
       description: Query the current status of multiple requests
       operationId: query-the-current-status-of-multiple-requests
+      x-api-path-slug: requestsresponse-format-get
       parameters:
       - in: query
         name: end_date
