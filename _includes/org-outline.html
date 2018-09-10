@@ -16,43 +16,41 @@
         {% endif %}
       {% endfor %}
 
+      {% assign apis_json = entry %}
       {% include x-common.html %}
 
-      <br />- <!--<a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/" style="color:#000;">--><strong>{{ api_name }}</strong><!--</a>--> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}" style="color:#000; text-decoration: underline;">View Webhook Implementation</a>){% endif %}
-      <ul>
-
+      <br />- <!--<a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/" style="color:#000;">--><strong>{{ api_name }}</strong><!--</a>--> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}" style="color:#000; text-decoration: underline;">View Webhook Implementation</a>){% endif %}<br /><br />
         {% if website_url != '' %}
-          <li><a href="{{ website_url }}" target="_blank">Website</a></li>
+        &emsp;- <a href="{{ website_url }}" target="_blank">Website</a><br />
         {% endif %}
 
         {% if portal_url != '' %}
-          <li><a href="{{ portal_url }}" target="_blank">Portal</a></li>
+        &emsp;- <a href="{{ portal_url }}" target="_blank">Portal</a><br />
         {% endif %}
 
         {% if getting_started_url != '' %}
-          <li><a href="{{ getting_started_url }}" target="_blank">Getting Started</a></li>
+        &emsp;- <a href="{{ getting_started_url }}" target="_blank">Getting Started</a><br />
         {% endif %}
 
         {% if documentation_url != '' %}
-          <li><a href="{{ documentation_url }}" target="_blank">Documentation</a></li>
+        &emsp;- <a href="{{ documentation_url }}" target="_blank">Documentation</a><br />
         {% endif %}
 
         {% if blog_url != '' %}
-          <li><a href="{{ blog_url }}" target="_blank">Blog</a></li>
+        &emsp;- <a href="{{ blog_url }}" target="_blank">Blog</a><br />
         {% endif %}
 
         {% if blogrss_url != '' %}
-          <li><a href="{{ blogrss_url }}" target="_blank">Blog RSS</a></li>
+        &emsp;- <a href="{{ blogrss_url }}" target="_blank">Blog RSS</a><br />
         {% endif %}
 
         {% if twitter_url != '' %}
-          <li><a href="{{ twitter_url }}" target="_blank">Twitter</a></li>
+        &emsp;- <a href="{{ twitter_url }}" target="_blank">Twitter</a><br />
         {% endif %}
 
         {% if gitub_url != '' %}
-          <li><a href="{{ gitub_url }}" target="_blank">Github</a></li>
+        &emsp;- <a href="{{ gitub_url }}" target="_blank">Github</a><br />
         {% endif %}
 
-      </ul>
   {% endif %}
 {% endfor %}
