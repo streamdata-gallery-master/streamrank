@@ -7,11 +7,21 @@ x-kinRank: "7"
 x-alexaRank: "276"
 tags:
 - Blockchain
-created: "2018-09-09"
-modified: "2018-09-09"
+created: "2018-09-10"
+modified: "2018-09-10"
 url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/coinmarketcap/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CoinMarketCap
+  description: Cryptocurrency market cap rankings, charts, and more
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28891-pro-coinmarketcap-com.jpg
+  humanURL: ""
+  baseURL: https://pro-api.coinmarketcap.com//
+  tags:
+  - Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/coinmarketcap/v1-cryptocurrency-quotes-latest-get.md
 x-common:
 - type: x-github
   url: https://github.com/coinmarketcap
