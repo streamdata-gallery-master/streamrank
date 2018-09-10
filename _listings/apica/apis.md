@@ -27,29 +27,7 @@ created: "2018-09-09"
 modified: "2018-09-09"
 url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/apica/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Checks API
-  description: Apica provides the most effective technology for optimizing the performance
-    of cloud and mobile applications
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: ""
-  baseURL: https://api.pingdom.com//
-  tags:
-  - Testing
-  - Technology
-  - Streams
-  - Service API
-  - SaaS
-  - Relative StreamRank
-  - Relative Data
-  - Profiles
-  - Performance
-  - Monitoring
-  - Enterprise
-  - API Provider
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/apica/api-version-checks-get.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://apica.api.gallery.streamdata.io
