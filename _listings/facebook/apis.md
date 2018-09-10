@@ -36,7 +36,39 @@ created: "2018-09-09"
 modified: "2018-09-09"
 url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/facebook/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Facebook
+  description: Facebook is an online social networking service that allows its users
+    to connect with friends and family as well as make new connections
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: ""
+  baseURL: https://graph.facebook.com//
+  tags:
+  - Webhook Implementations
+  - Technology
+  - Streams
+  - Stack Network
+  - Stack
+  - Social Networks
+  - Social
+  - Social
+  - Relative StreamRank
+  - Relative Data
+  - Profiles
+  - Pedestal
+  - Payments
+  - My API Stack
+  - Mobile
+  - Issues Example
+  - internet
+  - Indie EdTech Data Jam
+  - Historical Data API
+  - General Data
+  - Facebook Stack
+  - API Provider
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/facebook/video-likes-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
