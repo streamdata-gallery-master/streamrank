@@ -1,486 +1,66 @@
 ---
 name: Disqus
 x-slug: disqus
-description: Disqus offers the best add-on tools for websites to increase engagement.
-  We help publishers power online discussions with comments and earn revenue with
-  native advertising.
+description: 'Disqus (/d?-sk?s/) is an online discussion and commenting service for
+  websites and online communities that uses a networked platform. The company???s
+  platform includes various features, such as social integration, social networking,
+  user profiles, spam and moderation tools, analytics, email notifications, and mobile
+  commenting. '
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
 x-alexaRank: "973"
-tags: StreamRank
-created: "2018-08-20"
-modified: "2018-08-20"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/apis.md
+tags:
+- Technology
+- Streams
+- Stack Network
+- Stack
+- Social
+- SaaS
+- Relative StreamRank
+- Relative Data
+- Profiles
+- Pedestal
+- My API Stack
+- Media
+- internet
+- Historical Data API
+- General Data
+- Content
+- Comments
+- API Provider
+created: "2018-09-09"
+modified: "2018-09-09"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
+  description: Disqus (/d?-sk?s/) is an online discussion and commenting service for
+    websites and online communities that uses a networked platform
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
+  humanURL: ""
   baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
+  tags:
+  - Technology
+  - Streams
+  - Stack Network
+  - Stack
+  - Social
+  - SaaS
+  - Relative StreamRank
+  - Relative Data
+  - Profiles
+  - Pedestal
+  - My API Stack
+  - Media
+  - internet
+  - Historical Data API
+  - General Data
+  - Content
+  - Comments
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistpopular-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistpopular-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistposts-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistpopular-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/usersinterestingusers-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistpopular-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/usersinterestingusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/categorieslist-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistpopular-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistposts-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/usersinterestingusers-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/categorieslist-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumsinterestingforums-json-get-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Categories List (stream)
-  x-api-slug: disqus-categories-list-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Categories ListPosts (stream)
-  x-api-slug: disqus-categories-listposts-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Categories ListThreads (stream)
-  x-api-slug: disqus-categories-listthreads-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Forums InterestingForums (stream)
-  x-api-slug: disqus-forums-interestingforums-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Forums ListFollowers (stream)
-  x-api-slug: disqus-forums-listfollowers-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Forums ListPosts (stream)
-  x-api-slug: disqus-forums-listposts-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Forums ListThreads (stream)
-  x-api-slug: disqus-forums-listthreads-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Forums ListUsers (stream)
-  x-api-slug: disqus-forums-listusers-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Interesting Users (stream)
-  x-api-slug: disqus-interesting-users-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Posts List (stream)
-  x-api-slug: disqus-posts-list-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Posts ListPopular (stream)
-  x-api-slug: disqus-posts-listpopular-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Threads List (stream)
-  x-api-slug: disqus-threads-list-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Threads ListHot (stream)
-  x-api-slug: disqus-threads-listhot-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Threads ListPopular (stream)
-  x-api-slug: disqus-threads-listpopular-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
-- name: Disqus Threads ListPosts (stream)
-  x-api-slug: disqus-threads-listposts-stream
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https:///
-  tags: StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/disqus/users-interestingusers-json-get.md
 x-common:
 - type: x-api-gallery
   url: http://digitalocean.api.gallery.streamdata.io
