@@ -2,6 +2,7 @@
   {% for item in listing_object %}
     {% if item.swagger %}
       {% if item.swagger == "2.0" %}
+
 	        {% assign api_name = "" %}
 	        {% assign api_description = "" %}
 	        {% assign api_image = "" %}
@@ -81,6 +82,7 @@
   	            </div>
   	         </div>
            {% endif %}
+
       {% endif %}
     {% endif %}
   {% endfor %}
