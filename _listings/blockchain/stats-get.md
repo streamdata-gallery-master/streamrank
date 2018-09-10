@@ -18,6 +18,7 @@ paths:
       summary: Stats
       description: This method can be used to get the data behind Blockchain
       operationId: getStats
+      x-api-path-slug: stats-get
       parameters:
       - in: query
         name: format
