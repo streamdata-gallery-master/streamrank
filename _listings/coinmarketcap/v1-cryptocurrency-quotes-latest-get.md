@@ -242,7 +242,33 @@ produces:
 - application/json
 consumes:
 - application/json
-paths: []
+paths:
+  /v1/cryptocurrency/quotes/latest:
+    get:
+      summary: Get market quotes (latest)
+      description: Get the latest market quote for 1 or more cryptocurrencies
+      operationId: getV1CryptocurrencyQuotesLatest
+      parameters:
+      - in: query
+        name: convert
+        description: Optionally calculate market quotes in up to 32 currencies at
+          once by passing a comma-separated list of cryptocurrency or fiat currency
+          symbols
+      - in: query
+        name: id
+        description: One or more comma-separated cryptocurrency CoinMarketCap IDs
+      - in: query
+        name: symbol
+        description: Alternatively pass one or more comma-separated cryptocurrency
+          symbols
+      responses:
+        200:
+          description: OK
+      tags:
+      - blockchain
+      - market
+      - quotes
+      - (latest)
 definitions:
   Cryptocurrencies Info - URLs object:
     properties:
