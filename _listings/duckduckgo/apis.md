@@ -6,12 +6,46 @@ description: The Internet privacy company that empowers you to seamlessly take c
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
 x-kinRank: "9"
 x-alexaRank: "286"
-tags: StreamRank
+tags:
+- Technology
+- Stack Network
+- Search engine
+- Search
+- Search
+- SaaS
+- Profiles
+- Pedestal
+- Mobile
+- internet
+- General Data
+- API Provider
 created: "2018-09-10"
 modified: "2018-09-10"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/duckduckgo/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/duckduckgo/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: DuckDuckGo
+  description: The Internet privacy company that empowers you to seamlessly take control
+    of your personal information online, without any tradeoffs
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
+  humanURL: ""
+  baseURL: https://api.duckduckgo.com//
+  tags:
+  - Technology
+  - Stack Network
+  - Search engine
+  - Search
+  - Search
+  - SaaS
+  - Profiles
+  - Pedestal
+  - Mobile
+  - internet
+  - General Data
+  - API Provider
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/duckduckgo/get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://dropbox.api.gallery.streamdata.io
