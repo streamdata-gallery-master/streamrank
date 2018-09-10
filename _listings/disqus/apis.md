@@ -1,162 +1,66 @@
 ---
 name: Disqus
 x-slug: disqus
-description: Disqus offers the best add-on tools for websites to increase engagement.
-  We help publishers power online discussions with comments and earn revenue with
-  native advertising.
+description: 'Disqus (/d?-sk?s/) is an online discussion and commenting service for
+  websites and online communities that uses a networked platform. The company???s
+  platform includes various features, such as social integration, social networking,
+  user profiles, spam and moderation tools, analytics, email notifications, and mobile
+  commenting. '
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
 x-alexaRank: "973"
-tags: StreamRank
+tags:
+- Technology
+- Streams
+- Stack Network
+- Stack
+- Social
+- SaaS
+- Relative StreamRank
+- Relative Data
+- Profiles
+- Pedestal
+- My API Stack
+- Media
+- internet
+- Historical Data API
+- General Data
+- Content
+- Comments
+- API Provider
 created: "2018-09-10"
 modified: "2018-09-10"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Disqus - Categories List
-  x-api-slug: categorieslist-json-get
-  description: Categories List
+- name: Disqus
+  description: Disqus (/d?-sk?s/) is an online discussion and commenting service for
+    websites and online communities that uses a networked platform
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
+  humanURL: ""
   baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
+  tags:
+  - Technology
+  - Streams
+  - Stack Network
+  - Stack
+  - Social
+  - SaaS
+  - Relative StreamRank
+  - Relative Data
+  - Profiles
+  - Pedestal
+  - My API Stack
+  - Media
+  - internet
+  - Historical Data API
+  - General Data
+  - Content
+  - Comments
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/categorieslist-json-get-openapi.md
-- name: Disqus - Forums InterestingForums
-  x-api-slug: forumsinterestingforums-json-get
-  description: Forums InterestingForums
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumsinterestingforums-json-get-openapi.md
-- name: Disqus - Forums ListFollowers
-  x-api-slug: forumslistfollowers-json-get
-  description: Forums ListFollowers
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-- name: Disqus - Forums ListThreads
-  x-api-slug: forumslistthreads-json-get
-  description: Forums ListThreads
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-- name: Disqus - Forums ListPosts
-  x-api-slug: forumslistposts-json-get
-  description: Forums ListPosts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistposts-json-get-openapi.md
-- name: Disqus - Forums ListUsers
-  x-api-slug: forumslistusers-json-get
-  description: Forums ListUsers
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/forumslistusers-json-get-openapi.md
-- name: Disqus - Posts List
-  x-api-slug: postslist-json-get
-  description: Posts List
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/postslist-json-get-openapi.md
-- name: Disqus - Threads List
-  x-api-slug: threadslist-json-get
-  description: Threads List
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslist-json-get-openapi.md
-- name: Disqus - Threads ListHot
-  x-api-slug: threadslisthot-json-get
-  description: Threads ListHot
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslisthot-json-get-openapi.md
-- name: Disqus - Threads ListPopular
-  x-api-slug: threadslistpopular-json-get
-  description: Threads ListPopular
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistpopular-json-get-openapi.md
-- name: Disqus - Threads ListPosts
-  x-api-slug: threadslistposts-json-get
-  description: Threads ListPosts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/threadslistposts-json-get-openapi.md
-- name: Disqus - Interesting Users
-  x-api-slug: usersinterestingusers-json-get
-  description: Interesting Users
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
-    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
-    Historical Data API, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/disqus/usersinterestingusers-json-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/disqus/users-interestingusers-json-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://digitalocean.api.gallery.streamdata.io
