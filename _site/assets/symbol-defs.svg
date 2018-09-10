@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="leftarrow" viewBox="0 0 9 16">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Left-Arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.47361346,15.8215015 L0.172799589,8.42156385 C-0.057599863,8.18806581 -0.057599863,7.81206898 0.172799589,7.57857095 L7.47361346,0.17863329 C7.70651182,-0.0578647177 8.08634606,-0.059364705 8.32174333,0.173133336 C8.5571406,0.406131373 8.55963951,0.785628176 8.32724093,1.02162619 L1.44274538,8.0000674 L8.32724093,14.9785086 C8.55963951,15.2145066 8.5571406,15.5940034 8.32174333,15.8270015 C8.20479437,15.9425005 8.05286067,16 7.9004272,16 C7.74549481,16 7.59106221,15.9405005 7.47361346,15.8215015 Z" id="Icon-Copy" fill="#021C2C" transform="translate(4.249964, 8.000000) scale(-1, 1) rotate(-180.000000) translate(-4.249964, -8.000000) "/>
+    </g>
+
+</symbol>
+<symbol id="rightarrow" viewBox="0 0 9 16">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Right-Arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.47361346,15.8215015 L0.172799589,8.42156385 C-0.057599863,8.18806581 -0.057599863,7.81206898 0.172799589,7.57857095 L7.47361346,0.17863329 C7.70651182,-0.0578647177 8.08634606,-0.059364705 8.32174333,0.173133336 C8.5571406,0.406131373 8.55963951,0.785628176 8.32724093,1.02162619 L1.44274538,8.0000674 L8.32724093,14.9785086 C8.55963951,15.2145066 8.5571406,15.5940034 8.32174333,15.8270015 C8.20479437,15.9425005 8.05286067,16 7.9004272,16 C7.74549481,16 7.59106221,15.9405005 7.47361346,15.8215015 Z" id="Icon" fill="#021C2C" transform="translate(4.249964, 8.000000) scale(-1, 1) translate(-4.249964, -8.000000) "/>
+    </g>
+
+</symbol>
+<symbol id="avatar" viewBox="0 0 26 26">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Log-in/Default</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Navigation/Desktop/Default-Nav-White" transform="translate(-1163.000000, -22.000000)" stroke="#526773">
+            <g id="Icon/Log-in/Default" transform="translate(1164.000000, 23.000000)">
+                <g id="Group-265">
+                    <path d="M10,15 C10,15 8.5,14.5 8.5,12 C7.674,12 7.674,10 8.5,10 C8.5,9.665 7,6 9.5,6.5 C10,4.5 15.5,4.5 16,6.5 C16.347,7.888 15.5,9.754 15.5,10 C16.326,10 16.326,12 15.5,12 C15.5,14.5 14,15 14,15 L14,17.5 C16.477,18.429 18.93,19.197 20.186,20.075 C22.234,17.999 23.5,15.147 23.5,12 C23.5,5.648 18.352,0.5 12,0.5 C5.648,0.5 0.5,5.648 0.5,12 C0.5,15.153 1.77,18.009 3.825,20.087 C5.155,19.167 7.777,18.341 10,17.5 L10,15 L10,15 Z" id="Stroke-1068" stroke-width="2"/>
+                    <path d="M3.8252,20.0869 C5.9102,22.1939 8.8022,23.4999 12.0002,23.4999 C15.2032,23.4999 18.0992,22.1899 20.1852,20.0749" id="Stroke-1069" stroke-width="2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="chevron-down" viewBox="0 0 11 6">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Desktop/Default-Nav-White" transform="translate(-667.000000, -35.000000)" fill="#526773">
+            <path d="M674.262422,42.8110142 L669.538327,38.0227789 C669.389243,37.8716907 669.389243,37.6283966 669.538327,37.4773083 L674.262422,32.689073 C674.413123,32.5360436 674.6589,32.535073 674.811217,32.6855142 C674.963534,32.8362789 674.965151,33.0818377 674.814774,33.2345436 L670.360063,37.7500436 L674.814774,42.2655436 C674.965151,42.4182495 674.963534,42.6638083 674.811217,42.814573 C674.735544,42.8893083 674.637233,42.9265142 674.538598,42.9265142 C674.438347,42.9265142 674.338419,42.8880142 674.262422,42.8110142 Z" id="Icon" transform="translate(672.176514, 37.750000) scale(-1, 1) rotate(-90.000000) translate(-672.176514, -37.750000) "/>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="chevron-left" viewBox="0 0 8 14">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-left" fill="currentColor">
+            <polygon id="Shape" transform="translate(4.000000, 7.000000) scale(-1, 1) translate(-4.000000, -7.000000) " points="2.28 14 0 12.05 4.15 7 0 1.93 2.28 0 8 7"/>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="chevron-right" viewBox="0 0 8 14">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-right" fill="currentColor">
+            <polygon id="Shape" points="2.28 14 0 12.05 4.15 7 0 1.93 2.28 0 8 7"/>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="close" viewBox="0 0 44 44">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="close" fill="currentColor">
+            <path d="M42.815,1.399 C42.034,0.617 40.768,0.617 39.987,1.399 L22.032,19.356 L4.077,1.399 C3.296,0.617 2.03,0.617 1.249,1.399 C0.468,2.18 0.468,3.446 1.249,4.227 L19.204,22.184 L1.249,40.141 C0.468,40.921 0.468,42.188 1.249,42.969 C1.64,43.359 2.151,43.554 2.663,43.554 C3.175,43.554 3.686,43.359 4.077,42.969 L22.032,25.013 L39.987,42.969 C40.378,43.359 40.889,43.554 41.401,43.554 C41.913,43.554 42.424,43.359 42.815,42.969 C43.596,42.188 43.596,40.921 42.815,40.141 L24.86,22.184 L42.815,4.227 C43.597,3.447 43.597,2.18 42.815,1.399 L42.815,1.399 Z" id="Path"/>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="facebook" viewBox="0 0 11 22">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook" fill="currentColor">
+            <path d="M7.3,22 L7.3,11 L10.6,11 L11,7.2 L7.3,7.2 L7.3,5.3 C7.3,4.3 7.4,3.8 8.9,3.8 L10.9,3.8 L10.9,0 L7.7,0 C3.8,0 2.4,1.8 2.4,4.9 L2.4,7.2 L0,7.2 L0,11 L2.4,11 L2.4,22 L7.3,22 L7.3,22 L7.3,22 Z" id="Oval-1"/>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="instagram" viewBox="0 0 313 313">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="instagram" transform="translate(0.000000, -1.000000)" fill="currentColor">
+            <g>
+                <path d="M312.5,157.2 C312.5,179.2 311.9,201.2 312.6,223.2 C314,262.2 287.9,294.4 254,307 C242.7,311.2 231,313.5 218.9,313.5 C177.1,313.4 135.3,313.9 93.4,313.3 C58.3,312.8 30.5,298.1 11.6,268 C4.2,256.2 0.4,243.1 0.3,229.2 C0.1,181.4 -0.3,133.6 0.4,85.7 C0.8,54.9 16.5,32.2 42,15.9 C58.3,5.5 76.4,1.1 95.6,1.1 C136.8,1.1 177.9,0.8 219.1,1.2 C251.5,1.6 278.2,14.4 297.5,40.9 C307.3,54.4 312.5,69.7 312.5,86.6 L312.5,157.2 L312.5,157.2 L312.5,157.2 Z M23.4,157.1 L23.4,226.6 C23.4,235.6 25.3,244.1 29.5,252.1 C43.3,278.1 66,289.8 94.4,290.2 C135,290.8 175.7,290.3 216.3,290.4 C227.2,290.4 237.8,288.5 248,284.5 C273.4,274.5 289.4,251.4 289.4,224.2 L289.4,88.8 C289.4,75.9 285.8,64.2 278,53.8 C263.1,34 242.7,24.8 218.4,24.6 C177.1,24.2 135.8,24.4 94.5,24.5 C85.3,24.5 76.4,26.3 67.7,29.4 C42.3,38.6 22.3,62.1 23.3,92.7 C24,114.1 23.4,135.6 23.4,157.1 L23.4,157.1 L23.4,157.1 Z" id="Shape_1_"/>
+                <path d="M156.7,79.3 C197.4,79.3 230.4,111.8 230.3,151.9 C230.2,191.6 197.1,224.2 156.8,224.2 C116.1,224.2 83.4,191.8 83.4,151.5 C83.4,111.5 116.1,79.3 156.7,79.3 L156.7,79.3 L156.7,79.3 Z M206.7,151.6 C206.6,124.5 184.2,102.5 156.6,102.5 C129.3,102.5 106.5,124.9 106.5,151.8 C106.5,178.8 129,200.7 156.8,200.7 C184.7,200.6 206.8,178.9 206.7,151.6 L206.7,151.6 L206.7,151.6 Z" id="Shape_2_"/>
+                <path d="M222.3,73.4 C222.2,64.3 229,57.2 237.6,57.2 C246.1,57.2 253.3,64.6 253.2,73.3 C253.2,82.1 245.9,89.4 237.4,89.3 C229,89.2 222.3,82.2 222.3,73.4 L222.3,73.4 L222.3,73.4 Z" id="Shape_3_"/>
+            </g>
+        </g>
+    </g>
+
+</symbol>
+<symbol id="logo" viewBox="0 0 66 26">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Material-Design-Stickersheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="28" font-family="SFUIDisplay-Heavy, SF UI Display" font-weight="600">
+        <g id="Desktop-Copy" transform="translate(-43.000000, -558.000000)" fill="currentColor">
+            <text id="Logo">
+                <tspan x="42" y="578">Logo</tspan>
+            </text>
+        </g>
+    </g>
+
+</symbol></svg>

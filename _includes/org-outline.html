@@ -1,0 +1,22 @@
+{% for entry in listing_object %}
+  {% if entry.name %}
+
+      {% assign api_name = entry.name %}
+      {% assign api_slug = entry.x-slug %}
+      {% assign api_description = entry.description %}
+      {% assign api_image = entry.image %}
+      {% assign api_json_url = entry.url %}
+      {% assign api_json_kin_rank = entry.x-kinRank %}
+      {% assign api_json_alexa_rank = entry.x-alexaRank %}
+
+      {% assign api_json_webhook = "" %}
+      {% for resource in entry.x-common %}
+        {% if resource.type == 'x-webhook' %}
+          {% assign api_json_webhook = resource.url %}
+        {% endif %}
+      {% endfor %}
+
+      <br />- <!--<a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/" style="color:#000;">--><strong>{{ api_name }}</strong><!--</a>--> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}" style="color:#000; text-decoration: underline;">View Webhook Implementation</a>){% endif %}
+
+  {% endif %}
+{% endfor %}
