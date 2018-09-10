@@ -33,7 +33,7 @@ apis:
   - "311"
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/baltimore-open311/requests-response-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/baltimore-open311/requests-response-format-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.waf.api.gallery.streamdata.io
