@@ -1,43 +1,53 @@
 ---
 name: The New York Times
 x-slug: the-new-york-times
-description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
+description: 'The New York Times: Find breaking news, multimedia, reviews  opinion
   on Washington, business, sports, movies, travel, books, jobs, education, real estate,
-  cars & more at nytimes.com.'
+  cars  more at nytimes.com.'
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
 x-kinRank: "9"
 x-alexaRank: "117"
-tags: StreamRank
-created: "2018-08-20"
-modified: "2018-08-20"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-new-york-times/apis.md
+tags:
+- Streams
+- Service API
+- Relative StreamRank
+- Relative Data
+- Publish
+- Profiles
+- Pedestal
+- News
+- Media
+- Historical Data API
+- General Data
+- API Provider
+created: "2018-09-09"
+modified: "2018-09-09"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/the-new-york-times/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: New York Times
-  x-api-slug: new-york-times
-  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
-  humanURL: http://nytimes.com
-  baseURL: https://api.nytimes.com//svc
-  tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
-    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
-- name: New York Times
-  x-api-slug: new-york-times
-  description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
+- name: The New York Times
+  description: 'The New York Times: Find breaking news, multimedia, reviews  opinion
     on Washington, business, sports, movies, travel, books, jobs, education, real
-    estate, cars & more at nytimes.com.'
+    estate, cars  more at nytimes'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
-  humanURL: http://nytimes.com
+  humanURL: ""
   baseURL: https://api.nytimes.com//svc
-  tags: StreamRank
+  tags:
+  - Streams
+  - Service API
+  - Relative StreamRank
+  - Relative Data
+  - Publish
+  - Profiles
+  - Pedestal
+  - News
+  - Media
+  - Historical Data API
+  - General Data
+  - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/the-new-york-times/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/the-new-york-times/movies-v2-reviews-search-json-get.md
 x-common:
 - type: x-api-gallery
   url: http://the.guardian.api.gallery.streamdata.io
