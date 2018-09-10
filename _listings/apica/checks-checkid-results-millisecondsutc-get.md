@@ -18,6 +18,7 @@ paths:
       summary: Get Checks Results
       description: Gets a specific check result by a numeric java timestamp
       operationId: getChecksCheckResultsMillisecondsutcDetailLevelDetailLevel
+      x-api-path-slug: checkscheckidresultsmillisecondsutc-get
       responses:
         200:
           description: OK
