@@ -1,45 +1,52 @@
 ---
 name: Pinboard
 x-slug: pinboard
-description: Pinboard is a bookmarking website for introverted people in a hurry.
-  The focus of the site is less on socializing, and more on speed and utility. Pinboard
-  tries to offer useful features without getting in your way. My highest priority
-  is keeping your data safe over the long term.
+description: Pinboard.In is a social bookmarking site that offers an easy import/
+  export in del.icio.us format,  Nightly database backups to S3,  Cached copies of
+  all  bookmarks,  a ???to read??? status for later viewing, private bookmarks and
+  private tags, and simplified bulk editing.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
 x-kinRank: "9"
 x-alexaRank: "45688"
-tags: StreamRank
-created: "2018-08-20"
-modified: "2018-08-20"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pinboard/apis.md
+tags:
+- Technology
+- Streams
+- Stack Network
+- Stack
+- Service API
+- Relative StreamRank
+- Relative Data
+- My API Stack
+- Links
+- internet
+- Indie EdTech Data Jam
+- Bookmarks
+created: "2018-09-09"
+modified: "2018-09-09"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pinboard/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Pinboard
-  x-api-slug: pinboard
-  description: store-manage-and-share-bookmarks-on-pinboard
+  description: Pinboard
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
-  humanURL: http://pinboard.in
+  humanURL: ""
   baseURL: https://api.pinboard.in//v1
-  tags: Bookmarks, Links, My API Stack, Indie EdTech Data Jam, Stack Network, Stack,
-    Technology, internet, Relative Data, Service API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pinboard/postssuggest-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pinboard/postssuggest-get-openapi.md
-- name: Pinboard
-  x-api-slug: pinboard
-  description: Pinboard is a bookmarking website for introverted people in a hurry.
-    The focus of the site is less on socializing, and more on speed and utility. Pinboard
-    tries to offer useful features without getting in your way. My highest priority
-    is keeping your data safe over the long term.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
-  humanURL: http://pinboard.in
-  baseURL: https://api.pinboard.in//v1
-  tags: StreamRank
+  tags:
+  - Technology
+  - Streams
+  - Stack Network
+  - Stack
+  - Service API
+  - Relative StreamRank
+  - Relative Data
+  - My API Stack
+  - Links
+  - internet
+  - Indie EdTech Data Jam
+  - Bookmarks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/pinboard/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/pinboard/tags-get-get.md
 x-common:
 - type: x-api-gallery
   url: http://payrun.api.gallery.streamdata.io
