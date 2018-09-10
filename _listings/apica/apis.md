@@ -49,7 +49,7 @@ apis:
   - API Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/apica/api-version-checks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/apica/api-version-checks-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://apica.api.gallery.streamdata.io
