@@ -7,25 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
   Shot 2017-12-26 at 9.45.58 PM.png
 x-kinRank: "8"
 x-alexaRank: "0"
-tags: StreamRank
+tags:
+- Profiles
+- API Provider
+- "311"
 created: "2018-09-10"
 modified: "2018-09-10"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/bloomington-indiana-311/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/bloomington-indiana-311/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: "\tBloomington Indiana Open311 GeoReport API - Requests"
-  x-api-slug: requests-response-format-get
-  description: Query the current status of multiple requests.
+- name: Bloomington Indiana 311
+  description: The City of Bloomington ITS Department has developed and deployed a
+    suite of lightweight tools for Open311
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-12-26 at 9.45.58 PM.png
-  humanURL: https://bloomington.in.gov/open311
+  humanURL: ""
   baseURL: https://bloomington.in.gov//crm/open311/v2/
-  tags: 311, API Provider, Profiles
+  tags:
+  - Profiles
+  - API Provider
+  - "311"
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/bloomington-indiana-311/requests-response-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/bloomington-indiana-311/requests-response-format-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/bloomington-indiana-311/requests-response-format-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://baltimore.open311.api.gallery.streamdata.io
