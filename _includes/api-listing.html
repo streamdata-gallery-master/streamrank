@@ -1,7 +1,7 @@
 <div class="taggedLinkCards__cards" id="listing">
   {% for item in listing_object %}
     {% if item.swagger %}
-      {% if item.swagger == "2.0" and item.x-complete != 1 %}
+      {% if item.swagger == "2.0" %}
 	        {% assign api_name = "" %}
 	        {% assign api_description = "" %}
 	        {% assign api_image = "" %}
