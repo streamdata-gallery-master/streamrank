@@ -7,12 +7,49 @@ description: Buy and sell electronics, cars, fashion apparel, collectibles, spor
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
 x-kinRank: "8"
 x-alexaRank: "42"
-tags: StreamRank
+tags:
+- Technology
+- Stack
+- Service API
+- Relative Data
+- Profiles
+- Pedestal
+- Marketplace
+- internet
+- Historical Data API
+- General Data
+- Commerce
+- Auctions
+- API Provider
 created: "2018-09-10"
 modified: "2018-09-10"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/ebay/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/ebay/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Ebay Finding API
+  description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
+    goods, digital cameras, baby items, coupons, and everything else on eBay, the
+    worlds online marketplace
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
+  humanURL: ""
+  baseURL: https://svcs.ebay.com//services/search/FindingService/v1
+  tags:
+  - Technology
+  - Stack
+  - Service API
+  - Relative Data
+  - Profiles
+  - Pedestal
+  - Marketplace
+  - internet
+  - Historical Data API
+  - General Data
+  - Commerce
+  - Auctions
+  - API Provider
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/ebay/operation-name-finditemsadvanced-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://easycron.api.gallery.streamdata.io
