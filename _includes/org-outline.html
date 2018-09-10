@@ -16,7 +16,43 @@
         {% endif %}
       {% endfor %}
 
-      <br />- <!--<a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/" style="color:#000;">--><strong>{{ api_name }}</strong><!--</a>--> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}" style="color:#000; text-decoration: underline;">View Webhook Implementation</a>){% endif %}
+      {% include x-common.html %}
 
+      <br />- <!--<a href="http://{{ api_slug | replace: '-','.' }}.api.gallery.streamdata.io/" style="color:#000;">--><strong>{{ api_name }}</strong><!--</a>--> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}" style="color:#000; text-decoration: underline;">View Webhook Implementation</a>){% endif %}
+      <ul>
+
+        {% if website_url != '' %}
+          <li><a href="{{ website_url }}" target="_blank">Website</a></li>
+        {% endif %}
+
+        {% if portal_url != '' %}
+          <li><a href="{{ portal_url }}" target="_blank">Portal</a></li>
+        {% endif %}
+
+        {% if getting_started_url != '' %}
+          <li><a href="{{ getting_started_url }}" target="_blank">Getting Started</a></li>
+        {% endif %}
+
+        {% if documentation_url != '' %}
+          <li><a href="{{ documentation_url }}" target="_blank">Documentation</a></li>
+        {% endif %}
+
+        {% if blog_url != '' %}
+          <li><a href="{{ blog_url }}" target="_blank">Blog</a></li>
+        {% endif %}
+
+        {% if blogrss_url != '' %}
+          <li><a href="{{ blogrss_url }}" target="_blank">Blog RSS</a></li>
+        {% endif %}
+
+        {% if twitter_url != '' %}
+          <li><a href="{{ twitter_url }}" target="_blank">Twitter</a></li>
+        {% endif %}
+
+        {% if gitub_url != '' %}
+          <li><a href="{{ gitub_url }}" target="_blank">Github</a></li>
+        {% endif %}
+
+      </ul>
   {% endif %}
 {% endfor %}
