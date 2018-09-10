@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
+x-collection-name: Blockchain
+x-complete: 0
 info:
-  title: Blockchain Info
-  description: Use Blockchain's APIs at no cost to help you start building bitcoin
-    apps.
+  title: Blockchain Info Stats
+  description: This method can be used to get the data behind Blockchain.info's stats.
   version: 1.0.0
 host: blockchain.info
 schemes:
@@ -13,10 +14,29 @@ produces:
 consumes:
 - application/json
 paths:
+  /latestblock:
+    get:
+      summary: Latest Block
+      description: Gets the latest block.
+      operationId: getLatestBlock
+      x-api-path-slug: latestblock-get
+      parameters:
+      - in: query
+        name: format
+        description: The format to return (json,html)
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Blockchain
+      - Latest
   /stats:
     get:
       summary: Stats
-      description: This method can be used to get the data behind Blockchain
+      description: This method can be used to get the data behind Blockchain.info's
+        stats.
       operationId: getStats
       x-api-path-slug: stats-get
       parameters:
@@ -29,10 +49,8 @@ paths:
         200:
           description: OK
       tags:
-      - blockchain
-      - statistics
-definitions: []
-x-collection-name: Blockchain
+      - Blockchain
+      - Statistics
 x-streamrank:
   polling_total_time_average: "0.17"
   polling_size_download_average: "705.04"

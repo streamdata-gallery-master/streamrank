@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
+x-collection-name: Blockchain
+x-complete: 0
 info:
-  title: Blockchain Info
-  description: Use Blockchain's APIs at no cost to help you start building bitcoin
-    apps.
+  title: Blockchain Info Latest Block
+  description: Gets the latest block.
   version: 1.0.0
 host: blockchain.info
 schemes:
@@ -16,7 +17,7 @@ paths:
   /latestblock:
     get:
       summary: Latest Block
-      description: Gets the latest block
+      description: Gets the latest block.
       operationId: getLatestBlock
       x-api-path-slug: latestblock-get
       parameters:
@@ -29,10 +30,8 @@ paths:
         200:
           description: OK
       tags:
-      - blockchain
-      - latest
-definitions: []
-x-collection-name: Blockchain
+      - Blockchain
+      - Latest
 x-streamrank:
   polling_total_time_average: "0.23"
   polling_size_download_average: "11839.08"
