@@ -1,256 +1,70 @@
 ---
 name: Stack Exchange
 x-slug: stack-exchange
-description: After someone asks a question, members of the community propose answers.
-  Others vote on those answers. Very quickly, the answers with the most votes rise
-  to the top. You dont have to read through a lot of discussion to find the best answer.    Like
-  to...
+description: Stack Exchange is a network of question and answer websites on diverse
+  topics in many different fields, each site covering a specific topic, where questions,
+  answers, and users are subject to a reputation award process. The sites are modeled
+  after Stack Overflow, a forum for computer programming questions that was the original
+  site in this network. The reputation system is designed to allow the sites to be
+  self-moderating.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
 x-kinRank: "8"
 x-alexaRank: "126"
-tags: StreamRank
-created: "2018-08-20"
-modified: "2018-08-20"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/apis.md
+tags:
+- Streams
+- Streams
+- Stack
+- Service API
+- Relative StreamRank
+- Relative Data
+- Questions
+- Plugins
+- Pedestal
+- My API Stack
+- Media
+- Imports
+- Historical Data API
+- General Data
+- Forums
+- Content
+- Code
+- Citations
+- Answers
+created: "2018-09-09"
+modified: "2018-09-09"
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stack-exchange/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
+  description: Stack Exchange is a network of question and answer websites on diverse
+    topics in many different fields, each site covering a specific topic, where questions,
+    answers, and users are subject to a reputation award process
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
+  humanURL: ""
   baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/questions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/questions-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/questions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/questions-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/search-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/search-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: stack-exchange-is-a-network-of-130-qa-communities-including-stack-overflow-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
-    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/answers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/badges-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/comments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/events-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/posts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/questions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/questions-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/search-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/search-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/tags-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/tags-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: After someone asks a question, members of the community propose answers.
-    Others vote on those answers. Very quickly, the answers with the most votes rise
-    to the top. You dont have to read through a lot of discussion to find the best
-    answer.    Like to...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: StreamRank
+  tags:
+  - Streams
+  - Streams
+  - Stack
+  - Service API
+  - Relative StreamRank
+  - Relative Data
+  - Questions
+  - Plugins
+  - Pedestal
+  - My API Stack
+  - Media
+  - Imports
+  - Historical Data API
+  - General Data
+  - Forums
+  - Content
+  - Code
+  - Citations
+  - Answers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/stack-exchange/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/stack-exchange/tags-get.md
 x-common:
 - type: x-api-gallery
   url: http://square.api.gallery.streamdata.io
