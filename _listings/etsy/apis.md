@@ -5,61 +5,91 @@ description: Find handmade, vintage, and unique goods that express who you are.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
 x-kinRank: "9"
 x-alexaRank: "187"
-tags: StreamRank
+tags:
+- Woodworking
+- Weddings
+- Vintage
+- Toys
+- Technology
+- Supplies
+- Stack Network
+- Stack
+- Relative Data
+- Quilts
+- Profiles
+- Products
+- Plants and Edibles
+- Pets
+- Pedestal
+- Patterns
+- Paper Goods
+- Needlecraft
+- Marketplace
+- Knitting
+- Jewelry
+- internet
+- Housewares
+- Holidays
+- Glass
+- General Data
+- Geekery
+- Furniture
+- Dolls and Miniatures
+- Crochet
+- Crafts
+- Clothing
+- Children
+- API Provider
+- API LIfeyclessss
 created: "2018-09-10"
 modified: "2018-09-10"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/etsy/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Etsy - Get Listings Active
-  x-api-slug: listingsactive-get
-  description: Finds all active Listing
+- name: Etsy
+  description: Find handmade, vintage, and unique goods that express who you are
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
+  humanURL: ""
   baseURL: https://openapi.etsy.com//v2/private/
-  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
-    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
-    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
-    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
-    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  tags:
+  - Woodworking
+  - Weddings
+  - Vintage
+  - Toys
+  - Technology
+  - Supplies
+  - Stack Network
+  - Stack
+  - Relative Data
+  - Quilts
+  - Profiles
+  - Products
+  - Plants and Edibles
+  - Pets
+  - Pedestal
+  - Patterns
+  - Paper Goods
+  - Needlecraft
+  - Marketplace
+  - Knitting
+  - Jewelry
+  - internet
+  - Housewares
+  - Holidays
+  - Glass
+  - General Data
+  - Geekery
+  - Furniture
+  - Dolls and Miniatures
+  - Crochet
+  - Crafts
+  - Clothing
+  - Children
+  - API Provider
+  - API LIfeyclessss
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/listingsactive-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/listingsactive-get-openapi.md
-- name: Etsy - Get Interesting Listings
-  x-api-slug: listingsinteresting-get
-  description: Collects the list of interesting listings
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private/
-  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
-    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
-    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
-    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
-    Provider, Products, Profiles, General Data, Relative Data, Pedestal
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/listingsinteresting-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/listingsinteresting-get-openapi.md
-- name: Etsy - Get Trending Listings
-  x-api-slug: listingstrending-get
-  description: Collects the list of listings used to generate the trending listing
-    page.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private/
-  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
-    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
-    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
-    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
-    Provider, Products, Profiles, General Data, Relative Data, Pedestal
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/listingstrending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streamrank/master/_listings/etsy/listingstrending-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-master/streamrank/master/_listings/etsy/listings-trending-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
