@@ -9,7 +9,18 @@
       {% assign api_json_kin_rank = entry.x-kinRank %}
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-      <h3>{{ api_name }}</h3>
+      {% assign number_of_apis = 0 %}
+      {% for item in listing_object %}
+        {% if item.swagger %}
+          {% if item.swagger == "2.0" %}
+              {% if api_name == item.x-collection-name %}
+                {% assign number_of_apis = number_of_apis | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <h3>{{ number_of_apis }} From {{ api_name }} That Have A High StreamRank</h3>
       <p align="right"><img src="{{ api_image }}" width="25%" align="right" style="padding: 15px;" /></p>
       <p>Each of the APIs we profile as part of <a href="http://api.gallery.streamdata.io/">the API Gallery</a> has <a href="https://www.openapis.org/">an OpenAPI definition</a> created for it when we are learn more about what they offer. This is what builds out the listing and detail pages for the gallery, allows us to better understand what each API offers, and help others discover the different APIs that exist across the landscape. Once we have an OpenAPI definition for an API, we load the definition into Postman and begin making calls to each API. When we come across an API that looks like it has a high potential for rapid change, we benchmark the API for a 24-48 hour period, and establish what we call a StreamRank for each individual API path.</p>
 
