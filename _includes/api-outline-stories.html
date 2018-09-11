@@ -10,7 +10,7 @@
       {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
       <h3>{{ api_name }}</h3>
-      <p align="right"><img src="{{ api_image }}" width="40%" align="right" style="padding: 15px;" /></p>
+      <p align="right"><img src="{{ api_image }}" width="25%" align="right" style="padding: 15px;" /></p>
       <p>Each of the APIs we profile as part of the API Gallery has an OpenAPI definition created for it when we are learn more about what they offer. This is what builds out the listing and detail pages for the gallery, allows us to better understand what each API offers, and help others discover the different APIs that exist across the landscape. Once we have an OpenAPI definition for an API, we load the definition into Postman and begin making calls to each API. When we come across an API that looks like it has a high potential for rapid change, we benchmark the API for a 24-48 hour period, and establish what we call a StreamRank for each individual API path.</p>
 
       <p>After profile each API we like to publish what we've found here on the blog, sharing more insight about what they offer, and the potential for streaming data from each API path that has a high (enough) StreamRank. Today's API that we'd like to showcase is [name], who [description]. [name] has XX APIs featured in our StreamRank gallery currently:</p>
@@ -51,7 +51,7 @@
 
 
               {% endif %}
-              
+
           {% endif %}
         {% endif %}
       {% endfor %}
