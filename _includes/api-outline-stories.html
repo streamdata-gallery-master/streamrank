@@ -98,7 +98,7 @@
         {% endif %}
       {% endfor %}
 
-      {% assign gallery_domain = 'http://' | append: api_slug | replace: '-','.' | append: 'api.gallery.streamdata.io' %}
+      {% assign gallery_domain = 'http://' | append: api_slug | replace: '-','.' | append: '.api.gallery.streamdata.io' %}
 
       <p>These APIs have shown to have a significant potential for streaming, and would make sense as having not just as basic request and response APIs, which is valuable, but would also benefit from having an event-driven layer on top of it, including web hook subscriptions, and streaming endpoints. Which highlights the layer of the API space that Streamdata.io serves, and demonstrates why we are interested in highlighting these APIs: 1) Getting the attention of the {{ api_name }}, so that they'll see the potential of using Streamdata.io to proxy their APIs, or 2) Getting the attention of {{ api_name }} API consumers so that they'll see the potential of using Streamdata.io to proxy {{ api_name }} APIs and use in their web or mobile applications, as well as for training machine learning models.</p>
 
